@@ -103,14 +103,14 @@
             panel1.Dock = DockStyle.Top;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1360, 43);
+            panel1.Size = new Size(1347, 43);
             panel1.TabIndex = 0;
             // 
             // pictureBox5
             // 
             pictureBox5.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
-            pictureBox5.Location = new Point(1320, 10);
+            pictureBox5.Location = new Point(1307, 10);
             pictureBox5.Name = "pictureBox5";
             pictureBox5.Size = new Size(25, 25);
             pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -125,7 +125,7 @@
             panel2.Controls.Add(pictureBox2);
             panel2.Location = new Point(527, 5);
             panel2.Name = "panel2";
-            panel2.Size = new Size(482, 35);
+            panel2.Size = new Size(469, 35);
             panel2.TabIndex = 4;
             // 
             // tb_timkiem
@@ -148,12 +148,13 @@
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 4;
             pictureBox2.TabStop = false;
+            pictureBox2.Click += pictureBox2_Click;
             // 
             // pictureBox4
             // 
             pictureBox4.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
-            pictureBox4.Location = new Point(1280, 10);
+            pictureBox4.Location = new Point(1267, 10);
             pictureBox4.Name = "pictureBox4";
             pictureBox4.Size = new Size(25, 25);
             pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -174,7 +175,7 @@
             // 
             pictureBox3.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
-            pictureBox3.Location = new Point(1239, 10);
+            pictureBox3.Location = new Point(1226, 10);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(25, 25);
             pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -222,7 +223,7 @@
             panel3.Controls.Add(label3);
             panel3.Location = new Point(5, 49);
             panel3.Name = "panel3";
-            panel3.Size = new Size(314, 1089);
+            panel3.Size = new Size(314, 1240);
             panel3.TabIndex = 1;
             // 
             // tableLayoutPanel1
@@ -656,9 +657,10 @@
             listView1.Location = new Point(325, 95);
             listView1.Margin = new Padding(3, 2, 3, 2);
             listView1.Name = "listView1";
-            listView1.Size = new Size(1026, 896);
+            listView1.Size = new Size(1014, 1047);
             listView1.TabIndex = 5;
             listView1.UseCompatibleStateImageBehavior = false;
+            listView1.SelectedIndexChanged += listView1_SelectedIndexChanged;
             // 
             // Form1
             // 
@@ -666,13 +668,13 @@
             AutoScaleMode = AutoScaleMode.Font;
             AutoValidate = AutoValidate.EnableAllowFocusChange;
             BackColor = Color.White;
-            ClientSize = new Size(1360, 872);
+            ClientSize = new Size(1347, 781);
             Controls.Add(listView1);
             Controls.Add(panel4);
             Controls.Add(panel3);
             Controls.Add(panel1);
             Icon = (Icon)resources.GetObject("$this.Icon");
-            Margin = new Padding(2);
+            Margin = new Padding(2, 2, 2, 2);
             Name = "Form1";
             ShowIcon = false;
             StartPosition = FormStartPosition.CenterScreen;

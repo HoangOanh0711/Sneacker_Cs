@@ -1,8 +1,8 @@
 namespace thuchanh1
 {
-    public partial class Form1 : Form
+    public partial class LichSuMuaHang : Form
     {
-        public Form1()
+        public LichSuMuaHang()
         {
             InitializeComponent();
             LoadListView();
@@ -66,7 +66,7 @@ namespace thuchanh1
 
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void LichSuMuaHang_Load(object sender, EventArgs e)
         {
             listView1.View = View.LargeIcon;
 
