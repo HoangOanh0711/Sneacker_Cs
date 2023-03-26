@@ -154,6 +154,7 @@
             label92 = new Label();
             label93 = new Label();
             panel36 = new Panel();
+            button14 = new Button();
             button3 = new Button();
             button2 = new Button();
             tableLayoutPanel21 = new TableLayoutPanel();
@@ -188,6 +189,12 @@
             comboBox4 = new ComboBox();
             label47 = new Label();
             tableLayoutPanel11 = new TableLayoutPanel();
+            panel24 = new Panel();
+            button15 = new Button();
+            button16 = new Button();
+            button1 = new Button();
+            button4 = new Button();
+            button5 = new Button();
             tableLayoutPanel12 = new TableLayoutPanel();
             panel21 = new Panel();
             label48 = new Label();
@@ -231,6 +238,8 @@
             label115 = new Label();
             label116 = new Label();
             panel43 = new Panel();
+            button9 = new Button();
+            button17 = new Button();
             button6 = new Button();
             button7 = new Button();
             button8 = new Button();
@@ -279,6 +288,8 @@
             label147 = new Label();
             label148 = new Label();
             panel53 = new Panel();
+            button18 = new Button();
+            button19 = new Button();
             button10 = new Button();
             button11 = new Button();
             tableLayoutPanel26 = new TableLayoutPanel();
@@ -313,6 +324,8 @@
             label168 = new Label();
             label169 = new Label();
             panel60 = new Panel();
+            button20 = new Button();
+            button21 = new Button();
             button12 = new Button();
             button13 = new Button();
             tableLayoutPanel29 = new TableLayoutPanel();
@@ -335,19 +348,6 @@
             label182 = new Label();
             label183 = new Label();
             label184 = new Label();
-            button14 = new Button();
-            panel24 = new Panel();
-            button1 = new Button();
-            button4 = new Button();
-            button5 = new Button();
-            button15 = new Button();
-            button16 = new Button();
-            button9 = new Button();
-            button17 = new Button();
-            button18 = new Button();
-            button19 = new Button();
-            button20 = new Button();
-            button21 = new Button();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             panel2.SuspendLayout();
@@ -406,6 +406,7 @@
             tableLayoutPanel1.SuspendLayout();
             panel20.SuspendLayout();
             tableLayoutPanel11.SuspendLayout();
+            panel24.SuspendLayout();
             tableLayoutPanel12.SuspendLayout();
             panel21.SuspendLayout();
             panel22.SuspendLayout();
@@ -450,7 +451,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox15).BeginInit();
             panel62.SuspendLayout();
             panel63.SuspendLayout();
-            panel24.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
@@ -464,17 +464,19 @@
             panel1.Controls.Add(label1);
             panel1.Dock = DockStyle.Top;
             panel1.Location = new Point(0, 0);
+            panel1.Margin = new Padding(4, 5, 4, 5);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1315, 43);
+            panel1.Size = new Size(1877, 72);
             panel1.TabIndex = 0;
             // 
             // pictureBox5
             // 
             pictureBox5.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
-            pictureBox5.Location = new Point(1275, 10);
+            pictureBox5.Location = new Point(1819, 17);
+            pictureBox5.Margin = new Padding(4, 5, 4, 5);
             pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(25, 25);
+            pictureBox5.Size = new Size(36, 42);
             pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox5.TabIndex = 7;
             pictureBox5.TabStop = false;
@@ -485,28 +487,31 @@
             panel2.AutoScroll = true;
             panel2.Controls.Add(tb_timkiem);
             panel2.Controls.Add(pictureBox2);
-            panel2.Location = new Point(527, 5);
+            panel2.Location = new Point(753, 8);
+            panel2.Margin = new Padding(4, 5, 4, 5);
             panel2.Name = "panel2";
-            panel2.Size = new Size(437, 35);
+            panel2.Size = new Size(622, 58);
             panel2.TabIndex = 4;
             // 
             // tb_timkiem
             // 
             tb_timkiem.BorderStyle = BorderStyle.FixedSingle;
             tb_timkiem.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            tb_timkiem.Location = new Point(18, 4);
+            tb_timkiem.Location = new Point(26, 7);
+            tb_timkiem.Margin = new Padding(4, 5, 4, 5);
             tb_timkiem.Name = "tb_timkiem";
             tb_timkiem.PlaceholderText = " Tìm kiếm";
-            tb_timkiem.Size = new Size(279, 26);
+            tb_timkiem.Size = new Size(398, 35);
             tb_timkiem.TabIndex = 0;
             // 
             // pictureBox2
             // 
             pictureBox2.BackColor = Color.Transparent;
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(303, 4);
+            pictureBox2.Location = new Point(433, 7);
+            pictureBox2.Margin = new Padding(4, 5, 4, 5);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(25, 25);
+            pictureBox2.Size = new Size(36, 42);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 4;
             pictureBox2.TabStop = false;
@@ -516,9 +521,10 @@
             // 
             pictureBox4.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
-            pictureBox4.Location = new Point(1235, 10);
+            pictureBox4.Location = new Point(1762, 17);
+            pictureBox4.Margin = new Padding(4, 5, 4, 5);
             pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(25, 25);
+            pictureBox4.Size = new Size(36, 42);
             pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox4.TabIndex = 6;
             pictureBox4.TabStop = false;
@@ -526,9 +532,10 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(21, -9);
+            pictureBox1.Location = new Point(30, -15);
+            pictureBox1.Margin = new Padding(4, 5, 4, 5);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(65, 65);
+            pictureBox1.Size = new Size(93, 108);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 3;
             pictureBox1.TabStop = false;
@@ -537,9 +544,10 @@
             // 
             pictureBox3.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
-            pictureBox3.Location = new Point(1194, 10);
+            pictureBox3.Location = new Point(1704, 17);
+            pictureBox3.Margin = new Padding(4, 5, 4, 5);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(25, 25);
+            pictureBox3.Size = new Size(36, 42);
             pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox3.TabIndex = 5;
             pictureBox3.TabStop = false;
@@ -548,9 +556,10 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Arial", 20F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(90, 6);
+            label1.Location = new Point(129, 10);
+            label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(129, 32);
+            label1.Size = new Size(186, 45);
             label1.TabIndex = 2;
             label1.Text = "Sneakers";
             // 
@@ -560,9 +569,10 @@
             panel4.Controls.Add(comboBox2);
             panel4.Controls.Add(comboBox1);
             panel4.Controls.Add(label2);
-            panel4.Location = new Point(325, -152);
+            panel4.Location = new Point(464, -253);
+            panel4.Margin = new Padding(4, 5, 4, 5);
             panel4.Name = "panel4";
-            panel4.Size = new Size(686, 63);
+            panel4.Size = new Size(954, 105);
             panel4.TabIndex = 4;
             panel4.Paint += panel4_Paint;
             // 
@@ -572,10 +582,10 @@
             comboBox2.Font = new Font("Arial", 15F, FontStyle.Regular, GraphicsUnit.Point);
             comboBox2.FormattingEnabled = true;
             comboBox2.Items.AddRange(new object[] { "Tất cả trạng thái", "Chờ thanh toán", "Vận chuyển", "Đang giao", "Hoàn thành", "Đã hủy", "Trả hàng/Hoàn tiền" });
-            comboBox2.Location = new Point(163, 14);
-            comboBox2.Margin = new Padding(3, 2, 3, 2);
+            comboBox2.Location = new Point(207, 23);
+            comboBox2.Margin = new Padding(4, 3, 4, 3);
             comboBox2.Name = "comboBox2";
-            comboBox2.Size = new Size(201, 31);
+            comboBox2.Size = new Size(285, 43);
             comboBox2.TabIndex = 6;
             comboBox2.Text = "Tất cả trạng thái";
             // 
@@ -585,10 +595,10 @@
             comboBox1.Font = new Font("Arial", 15F, FontStyle.Regular, GraphicsUnit.Point);
             comboBox1.FormattingEnabled = true;
             comboBox1.Items.AddRange(new object[] { "6/2022", "7/2022", "8/2022", "9/2022", "10/2022", "11/2022", "12/2022", "1/2023", "2/2023", "3/2023", "" });
-            comboBox1.Location = new Point(413, 14);
-            comboBox1.Margin = new Padding(3, 2, 3, 2);
+            comboBox1.Location = new Point(564, 23);
+            comboBox1.Margin = new Padding(4, 3, 4, 3);
             comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(201, 31);
+            comboBox1.Size = new Size(285, 43);
             comboBox1.TabIndex = 5;
             comboBox1.Text = "Ngày";
             // 
@@ -596,9 +606,10 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Arial", 15F, FontStyle.Bold, GraphicsUnit.Point);
-            label2.Location = new Point(15, 20);
+            label2.Location = new Point(21, 33);
+            label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
-            label2.Size = new Size(205, 24);
+            label2.Size = new Size(311, 35);
             label2.TabIndex = 0;
             label2.Text = "ĐƠN HÀNG CỦA TÔI";
             label2.Click += label2_Click;
@@ -929,7 +940,7 @@
             label17.AutoSize = true;
             label17.Location = new Point(148, 71);
             label17.Name = "label17";
-            label17.Size = new Size(44, 15);
+            label17.Size = new Size(69, 25);
             label17.TabIndex = 3;
             label17.Text = "label17";
             // 
@@ -938,7 +949,7 @@
             label16.AutoSize = true;
             label16.Location = new Point(66, 108);
             label16.Name = "label16";
-            label16.Size = new Size(44, 15);
+            label16.Size = new Size(69, 25);
             label16.TabIndex = 2;
             label16.Text = "label16";
             // 
@@ -947,7 +958,7 @@
             label14.AutoSize = true;
             label14.Location = new Point(46, 63);
             label14.Name = "label14";
-            label14.Size = new Size(44, 15);
+            label14.Size = new Size(69, 25);
             label14.TabIndex = 1;
             label14.Text = "label14";
             // 
@@ -956,7 +967,7 @@
             label13.AutoSize = true;
             label13.Location = new Point(40, 34);
             label13.Name = "label13";
-            label13.Size = new Size(44, 15);
+            label13.Size = new Size(69, 25);
             label13.TabIndex = 0;
             label13.Text = "label13";
             // 
@@ -1277,7 +1288,7 @@
             label43.AutoSize = true;
             label43.Location = new Point(148, 71);
             label43.Name = "label43";
-            label43.Size = new Size(44, 15);
+            label43.Size = new Size(69, 25);
             label43.TabIndex = 3;
             label43.Text = "label43";
             // 
@@ -1286,7 +1297,7 @@
             label44.AutoSize = true;
             label44.Location = new Point(66, 108);
             label44.Name = "label44";
-            label44.Size = new Size(44, 15);
+            label44.Size = new Size(69, 25);
             label44.TabIndex = 2;
             label44.Text = "label44";
             // 
@@ -1295,7 +1306,7 @@
             label45.AutoSize = true;
             label45.Location = new Point(46, 63);
             label45.Name = "label45";
-            label45.Size = new Size(44, 15);
+            label45.Size = new Size(69, 25);
             label45.TabIndex = 1;
             label45.Text = "label45";
             // 
@@ -1304,7 +1315,7 @@
             label46.AutoSize = true;
             label46.Location = new Point(40, 34);
             label46.Name = "label46";
-            label46.Size = new Size(44, 15);
+            label46.Size = new Size(69, 25);
             label46.TabIndex = 0;
             label46.Text = "label46";
             // 
@@ -1625,7 +1636,7 @@
             label83.AutoSize = true;
             label83.Location = new Point(148, 71);
             label83.Name = "label83";
-            label83.Size = new Size(44, 15);
+            label83.Size = new Size(69, 25);
             label83.TabIndex = 3;
             label83.Text = "label83";
             // 
@@ -1634,7 +1645,7 @@
             label84.AutoSize = true;
             label84.Location = new Point(66, 108);
             label84.Name = "label84";
-            label84.Size = new Size(44, 15);
+            label84.Size = new Size(69, 25);
             label84.TabIndex = 2;
             label84.Text = "label84";
             // 
@@ -1643,7 +1654,7 @@
             label85.AutoSize = true;
             label85.Location = new Point(46, 63);
             label85.Name = "label85";
-            label85.Size = new Size(44, 15);
+            label85.Size = new Size(69, 25);
             label85.TabIndex = 1;
             label85.Text = "label85";
             // 
@@ -1652,7 +1663,7 @@
             label86.AutoSize = true;
             label86.Location = new Point(40, 34);
             label86.Name = "label86";
-            label86.Size = new Size(44, 15);
+            label86.Size = new Size(69, 25);
             label86.TabIndex = 0;
             label86.Text = "label86";
             // 
@@ -1674,13 +1685,14 @@
             tableLayoutPanel19.Controls.Add(panel36, 0, 2);
             tableLayoutPanel19.Controls.Add(tableLayoutPanel21, 0, 1);
             tableLayoutPanel19.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            tableLayoutPanel19.Location = new Point(326, 127);
+            tableLayoutPanel19.Location = new Point(466, 212);
+            tableLayoutPanel19.Margin = new Padding(4, 5, 4, 5);
             tableLayoutPanel19.Name = "tableLayoutPanel19";
             tableLayoutPanel19.RowCount = 3;
             tableLayoutPanel19.RowStyles.Add(new RowStyle(SizeType.Percent, 15F));
             tableLayoutPanel19.RowStyles.Add(new RowStyle(SizeType.Percent, 70F));
             tableLayoutPanel19.RowStyles.Add(new RowStyle(SizeType.Percent, 15F));
-            tableLayoutPanel19.Size = new Size(977, 464);
+            tableLayoutPanel19.Size = new Size(1370, 773);
             tableLayoutPanel19.TabIndex = 10;
             // 
             // tableLayoutPanel20
@@ -1693,12 +1705,13 @@
             tableLayoutPanel20.Controls.Add(panel45, 0, 0);
             tableLayoutPanel20.Controls.Add(panel46, 1, 0);
             tableLayoutPanel20.Controls.Add(panel47, 2, 0);
-            tableLayoutPanel20.Location = new Point(4, 4);
+            tableLayoutPanel20.Location = new Point(5, 6);
+            tableLayoutPanel20.Margin = new Padding(4, 5, 4, 5);
             tableLayoutPanel20.Name = "tableLayoutPanel20";
             tableLayoutPanel20.RowCount = 1;
             tableLayoutPanel20.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel20.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            tableLayoutPanel20.Size = new Size(969, 63);
+            tableLayoutPanel20.RowStyles.Add(new RowStyle(SizeType.Absolute, 105F));
+            tableLayoutPanel20.Size = new Size(1360, 105);
             tableLayoutPanel20.TabIndex = 11;
             // 
             // panel45
@@ -1706,17 +1719,19 @@
             panel45.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             panel45.Controls.Add(label88);
             panel45.Controls.Add(label89);
-            panel45.Location = new Point(3, 3);
+            panel45.Location = new Point(4, 5);
+            panel45.Margin = new Padding(4, 5, 4, 5);
             panel45.Name = "panel45";
-            panel45.Size = new Size(478, 57);
+            panel45.Size = new Size(672, 95);
             panel45.TabIndex = 0;
             // 
             // label88
             // 
             label88.AutoSize = true;
-            label88.Location = new Point(8, 31);
+            label88.Location = new Point(11, 52);
+            label88.Margin = new Padding(4, 0, 4, 0);
             label88.Name = "label88";
-            label88.Size = new Size(178, 18);
+            label88.Size = new Size(276, 27);
             label88.TabIndex = 4;
             label88.Text = "Ngày đặt hàng: 3/3/2023";
             label88.TextAlign = ContentAlignment.MiddleCenter;
@@ -1725,9 +1740,10 @@
             // 
             label89.AutoSize = true;
             label89.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label89.Location = new Point(8, 9);
+            label89.Location = new Point(11, 15);
+            label89.Margin = new Padding(4, 0, 4, 0);
             label89.Name = "label89";
-            label89.Size = new Size(174, 19);
+            label89.Size = new Size(261, 29);
             label89.TabIndex = 3;
             label89.Text = "Mã đơn hàng: A10000";
             label89.TextAlign = ContentAlignment.MiddleCenter;
@@ -1737,18 +1753,20 @@
             panel46.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             panel46.Controls.Add(label90);
             panel46.Controls.Add(label91);
-            panel46.Location = new Point(487, 3);
+            panel46.Location = new Point(684, 5);
+            panel46.Margin = new Padding(4, 5, 4, 5);
             panel46.Name = "panel46";
-            panel46.Size = new Size(236, 57);
+            panel46.Size = new Size(332, 95);
             panel46.TabIndex = 1;
             // 
             // label90
             // 
             label90.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label90.AutoSize = true;
-            label90.Location = new Point(6, 31);
+            label90.Location = new Point(9, 52);
+            label90.Margin = new Padding(4, 0, 4, 0);
             label90.Name = "label90";
-            label90.Size = new Size(106, 18);
+            label90.Size = new Size(163, 27);
             label90.TabIndex = 6;
             label90.Text = " Đã giao hàng";
             label90.TextAlign = ContentAlignment.MiddleLeft;
@@ -1758,9 +1776,10 @@
             label91.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label91.AutoSize = true;
             label91.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label91.Location = new Point(6, 9);
+            label91.Location = new Point(9, 15);
+            label91.Margin = new Padding(4, 0, 4, 0);
             label91.Name = "label91";
-            label91.Size = new Size(163, 19);
+            label91.Size = new Size(248, 29);
             label91.TabIndex = 5;
             label91.Text = "Trạng thái đơn hàng";
             label91.TextAlign = ContentAlignment.MiddleLeft;
@@ -1770,18 +1789,20 @@
             panel47.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             panel47.Controls.Add(label92);
             panel47.Controls.Add(label93);
-            panel47.Location = new Point(729, 3);
+            panel47.Location = new Point(1024, 5);
+            panel47.Margin = new Padding(4, 5, 4, 5);
             panel47.Name = "panel47";
-            panel47.Size = new Size(237, 57);
+            panel47.Size = new Size(332, 95);
             panel47.TabIndex = 2;
             // 
             // label92
             // 
             label92.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label92.AutoSize = true;
-            label92.Location = new Point(11, 31);
+            label92.Location = new Point(16, 52);
+            label92.Margin = new Padding(4, 0, 4, 0);
             label92.Name = "label92";
-            label92.Size = new Size(88, 18);
+            label92.Size = new Size(130, 27);
             label92.TabIndex = 8;
             label92.Text = "2.600.000đ";
             label92.TextAlign = ContentAlignment.MiddleLeft;
@@ -1791,9 +1812,10 @@
             label93.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label93.AutoSize = true;
             label93.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label93.Location = new Point(7, 9);
+            label93.Location = new Point(10, 15);
+            label93.Margin = new Padding(4, 0, 4, 0);
             label93.Name = "label93";
-            label93.Size = new Size(81, 19);
+            label93.Size = new Size(123, 29);
             label93.TabIndex = 7;
             label93.Text = "Tổng tiền";
             label93.TextAlign = ContentAlignment.MiddleLeft;
@@ -1804,10 +1826,26 @@
             panel36.Controls.Add(button14);
             panel36.Controls.Add(button3);
             panel36.Controls.Add(button2);
-            panel36.Location = new Point(4, 397);
+            panel36.Location = new Point(5, 661);
+            panel36.Margin = new Padding(4, 5, 4, 5);
             panel36.Name = "panel36";
-            panel36.Size = new Size(969, 63);
+            panel36.Size = new Size(1360, 106);
             panel36.TabIndex = 2;
+            // 
+            // button14
+            // 
+            button14.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
+            button14.FlatAppearance.BorderColor = Color.FromArgb(92, 147, 184);
+            button14.FlatStyle = FlatStyle.Flat;
+            button14.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            button14.ForeColor = Color.FromArgb(92, 147, 184);
+            button14.Location = new Point(963, 18);
+            button14.Margin = new Padding(4, 5, 4, 5);
+            button14.Name = "button14";
+            button14.Size = new Size(159, 69);
+            button14.TabIndex = 2;
+            button14.Text = "ĐÁNH GIÁ";
+            button14.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
@@ -1817,9 +1855,10 @@
             button3.FlatStyle = FlatStyle.Flat;
             button3.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
             button3.ForeColor = Color.White;
-            button3.Location = new Point(838, 11);
+            button3.Location = new Point(1173, 18);
+            button3.Margin = new Padding(4, 5, 4, 5);
             button3.Name = "button3";
-            button3.Size = new Size(111, 41);
+            button3.Size = new Size(159, 69);
             button3.TabIndex = 1;
             button3.Text = "ĐẶT LẠI";
             button3.UseVisualStyleBackColor = false;
@@ -1831,9 +1870,10 @@
             button2.FlatStyle = FlatStyle.Flat;
             button2.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
             button2.ForeColor = Color.FromArgb(92, 147, 184);
-            button2.Location = new Point(1619, 10);
+            button2.Location = new Point(2289, 17);
+            button2.Margin = new Padding(4, 5, 4, 5);
             button2.Name = "button2";
-            button2.Size = new Size(111, 12);
+            button2.Size = new Size(159, 21);
             button2.TabIndex = 0;
             button2.Text = "ĐẶT LẠI";
             button2.UseVisualStyleBackColor = true;
@@ -1848,11 +1888,12 @@
             tableLayoutPanel21.Controls.Add(panel37, 0, 0);
             tableLayoutPanel21.Controls.Add(panel38, 1, 0);
             tableLayoutPanel21.Controls.Add(panel39, 2, 0);
-            tableLayoutPanel21.Location = new Point(4, 74);
+            tableLayoutPanel21.Location = new Point(5, 122);
+            tableLayoutPanel21.Margin = new Padding(4, 5, 4, 5);
             tableLayoutPanel21.Name = "tableLayoutPanel21";
             tableLayoutPanel21.RowCount = 1;
             tableLayoutPanel21.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel21.Size = new Size(969, 316);
+            tableLayoutPanel21.Size = new Size(1360, 528);
             tableLayoutPanel21.TabIndex = 3;
             // 
             // panel37
@@ -1864,9 +1905,10 @@
             panel37.Controls.Add(label107);
             panel37.Controls.Add(label108);
             panel37.Controls.Add(pictureBox10);
-            panel37.Location = new Point(3, 3);
+            panel37.Location = new Point(4, 5);
+            panel37.Margin = new Padding(4, 5, 4, 5);
             panel37.Name = "panel37";
-            panel37.Size = new Size(478, 310);
+            panel37.Size = new Size(672, 518);
             panel37.TabIndex = 0;
             // 
             // label104
@@ -1874,27 +1916,30 @@
             label104.AutoSize = true;
             label104.Font = new Font("Arial", 14F, FontStyle.Bold, GraphicsUnit.Point);
             label104.ForeColor = Color.FromArgb(92, 147, 184);
-            label104.Location = new Point(214, 33);
+            label104.Location = new Point(306, 55);
+            label104.Margin = new Padding(4, 0, 4, 0);
             label104.Name = "label104";
-            label104.Size = new Size(109, 22);
+            label104.Size = new Size(160, 33);
             label104.TabIndex = 9;
             label104.Text = "2.600.000đ";
             // 
             // label105
             // 
             label105.AutoSize = true;
-            label105.Location = new Point(214, 88);
+            label105.Location = new Point(306, 147);
+            label105.Margin = new Padding(4, 0, 4, 0);
             label105.Name = "label105";
-            label105.Size = new Size(131, 18);
+            label105.Size = new Size(200, 27);
             label105.TabIndex = 8;
             label105.Text = "KÍCH CỠ: 6.5 UK";
             // 
             // label106
             // 
             label106.AutoSize = true;
-            label106.Location = new Point(214, 114);
+            label106.Location = new Point(306, 190);
+            label106.Margin = new Padding(4, 0, 4, 0);
             label106.Name = "label106";
-            label106.Size = new Size(91, 18);
+            label106.Size = new Size(141, 27);
             label106.TabIndex = 7;
             label106.Text = "Số lượng: 1";
             // 
@@ -1903,9 +1948,10 @@
             label107.AllowDrop = true;
             label107.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label107.AutoSize = true;
-            label107.Location = new Point(214, 61);
+            label107.Location = new Point(306, 102);
+            label107.Margin = new Padding(4, 0, 4, 0);
             label107.Name = "label107";
-            label107.Size = new Size(358, 18);
+            label107.Size = new Size(541, 27);
             label107.TabIndex = 6;
             label107.Text = "CLOUD WHITE / CLEAR PINK / PULSE MAGETA";
             // 
@@ -1913,18 +1959,20 @@
             // 
             label108.AutoSize = true;
             label108.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label108.Location = new Point(214, 11);
+            label108.Location = new Point(306, 18);
+            label108.Margin = new Padding(4, 0, 4, 0);
             label108.Name = "label108";
-            label108.Size = new Size(143, 18);
+            label108.Size = new Size(217, 27);
             label108.TabIndex = 5;
             label108.Text = "GIÀY SUPERSTAR";
             // 
             // pictureBox10
             // 
             pictureBox10.Image = (Image)resources.GetObject("pictureBox10.Image");
-            pictureBox10.Location = new Point(8, 6);
+            pictureBox10.Location = new Point(11, 10);
+            pictureBox10.Margin = new Padding(4, 5, 4, 5);
             pictureBox10.Name = "pictureBox10";
-            pictureBox10.Size = new Size(200, 200);
+            pictureBox10.Size = new Size(286, 333);
             pictureBox10.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox10.TabIndex = 1;
             pictureBox10.TabStop = false;
@@ -1936,18 +1984,20 @@
             panel38.Controls.Add(label97);
             panel38.Controls.Add(label94);
             panel38.Controls.Add(label95);
-            panel38.Location = new Point(487, 3);
+            panel38.Location = new Point(684, 5);
+            panel38.Margin = new Padding(4, 5, 4, 5);
             panel38.Name = "panel38";
-            panel38.Size = new Size(236, 310);
+            panel38.Size = new Size(332, 518);
             panel38.TabIndex = 1;
             // 
             // label96
             // 
             label96.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label96.AutoSize = true;
-            label96.Location = new Point(6, 127);
+            label96.Location = new Point(9, 212);
+            label96.Margin = new Padding(4, 0, 4, 0);
             label96.Name = "label96";
-            label96.Size = new Size(179, 18);
+            label96.Size = new Size(277, 27);
             label96.TabIndex = 5;
             label96.Text = "100 Cách Mạng Tháng 8";
             label96.TextAlign = ContentAlignment.MiddleLeft;
@@ -1957,9 +2007,10 @@
             label97.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label97.AutoSize = true;
             label97.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label97.Location = new Point(6, 102);
+            label97.Location = new Point(9, 170);
+            label97.Margin = new Padding(4, 0, 4, 0);
             label97.Name = "label97";
-            label97.Size = new Size(141, 19);
+            label97.Size = new Size(214, 29);
             label97.TabIndex = 4;
             label97.Text = "Địa chỉ giao hàng";
             label97.TextAlign = ContentAlignment.MiddleLeft;
@@ -1968,9 +2019,10 @@
             // 
             label94.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label94.AutoSize = true;
-            label94.Location = new Point(6, 43);
+            label94.Location = new Point(9, 72);
+            label94.Margin = new Padding(4, 0, 4, 0);
             label94.Name = "label94";
-            label94.Size = new Size(70, 18);
+            label94.Size = new Size(104, 27);
             label94.TabIndex = 3;
             label94.Text = "Ví MoMo";
             label94.TextAlign = ContentAlignment.MiddleLeft;
@@ -1980,9 +2032,10 @@
             label95.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label95.AutoSize = true;
             label95.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label95.Location = new Point(6, 20);
+            label95.Location = new Point(9, 33);
+            label95.Margin = new Padding(4, 0, 4, 0);
             label95.Name = "label95";
-            label95.Size = new Size(199, 19);
+            label95.Size = new Size(299, 29);
             label95.TabIndex = 2;
             label95.Text = "Phương thức thanh toán";
             label95.TextAlign = ContentAlignment.MiddleLeft;
@@ -1996,18 +2049,20 @@
             panel39.Controls.Add(label101);
             panel39.Controls.Add(label98);
             panel39.Controls.Add(label99);
-            panel39.Location = new Point(729, 3);
+            panel39.Location = new Point(1024, 5);
+            panel39.Margin = new Padding(4, 5, 4, 5);
             panel39.Name = "panel39";
-            panel39.Size = new Size(237, 310);
+            panel39.Size = new Size(332, 518);
             panel39.TabIndex = 2;
             // 
             // label102
             // 
             label102.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label102.AutoSize = true;
-            label102.Location = new Point(7, 214);
+            label102.Location = new Point(10, 357);
+            label102.Margin = new Padding(4, 0, 4, 0);
             label102.Name = "label102";
-            label102.Size = new Size(66, 18);
+            label102.Size = new Size(104, 27);
             label102.TabIndex = 7;
             label102.Text = "Miễn phí";
             label102.TextAlign = ContentAlignment.MiddleLeft;
@@ -2017,9 +2072,10 @@
             label103.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label103.AutoSize = true;
             label103.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label103.Location = new Point(7, 187);
+            label103.Location = new Point(10, 312);
+            label103.Margin = new Padding(4, 0, 4, 0);
             label103.Name = "label103";
-            label103.Size = new Size(114, 19);
+            label103.Size = new Size(173, 29);
             label103.TabIndex = 6;
             label103.Text = "Phí giao hàng";
             label103.TextAlign = ContentAlignment.MiddleLeft;
@@ -2028,9 +2084,10 @@
             // 
             label100.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label100.AutoSize = true;
-            label100.Location = new Point(11, 127);
+            label100.Location = new Point(16, 212);
+            label100.Margin = new Padding(4, 0, 4, 0);
             label100.Name = "label100";
-            label100.Size = new Size(30, 18);
+            label100.Size = new Size(45, 27);
             label100.TabIndex = 5;
             label100.Text = "0 đ";
             label100.TextAlign = ContentAlignment.MiddleLeft;
@@ -2040,9 +2097,10 @@
             label101.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label101.AutoSize = true;
             label101.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label101.Location = new Point(7, 102);
+            label101.Location = new Point(10, 170);
+            label101.Margin = new Padding(4, 0, 4, 0);
             label101.Name = "label101";
-            label101.Size = new Size(77, 19);
+            label101.Size = new Size(117, 29);
             label101.TabIndex = 4;
             label101.Text = "Tiết kiệm";
             label101.TextAlign = ContentAlignment.MiddleLeft;
@@ -2051,9 +2109,10 @@
             // 
             label98.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label98.AutoSize = true;
-            label98.Location = new Point(11, 43);
+            label98.Location = new Point(16, 72);
+            label98.Margin = new Padding(4, 0, 4, 0);
             label98.Name = "label98";
-            label98.Size = new Size(92, 18);
+            label98.Size = new Size(137, 27);
             label98.TabIndex = 3;
             label98.Text = "2.600.000 đ";
             label98.TextAlign = ContentAlignment.MiddleLeft;
@@ -2063,9 +2122,10 @@
             label99.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label99.AutoSize = true;
             label99.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label99.Location = new Point(7, 20);
+            label99.Location = new Point(10, 33);
+            label99.Margin = new Padding(4, 0, 4, 0);
             label99.Name = "label99";
-            label99.Size = new Size(75, 19);
+            label99.Size = new Size(114, 29);
             label99.TabIndex = 2;
             label99.Text = "Tạm tính";
             label99.TextAlign = ContentAlignment.MiddleLeft;
@@ -2079,14 +2139,15 @@
             tableLayoutPanel1.Controls.Add(label4, 0, 2);
             tableLayoutPanel1.Controls.Add(label6, 0, 0);
             tableLayoutPanel1.Controls.Add(label5, 0, 1);
-            tableLayoutPanel1.Location = new Point(12, 55);
+            tableLayoutPanel1.Location = new Point(17, 92);
+            tableLayoutPanel1.Margin = new Padding(4, 5, 4, 5);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 4;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 25F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 25F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 25F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 25F));
-            tableLayoutPanel1.Size = new Size(291, 254);
+            tableLayoutPanel1.Size = new Size(416, 423);
             tableLayoutPanel1.TabIndex = 11;
             // 
             // label3
@@ -2094,10 +2155,9 @@
             label3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label3.AutoSize = true;
             label3.Font = new Font("Arial", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(3, 190);
-            label3.Margin = new Padding(2, 0, 2, 0);
+            label3.Location = new Point(4, 316);
             label3.Name = "label3";
-            label3.Size = new Size(285, 63);
+            label3.Size = new Size(408, 106);
             label3.TabIndex = 4;
             label3.Text = "Wishlist";
             label3.TextAlign = ContentAlignment.MiddleCenter;
@@ -2107,10 +2167,9 @@
             label4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label4.AutoSize = true;
             label4.Font = new Font("Arial", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            label4.Location = new Point(3, 127);
-            label4.Margin = new Padding(2, 0, 2, 0);
+            label4.Location = new Point(4, 211);
             label4.Name = "label4";
-            label4.Size = new Size(285, 62);
+            label4.Size = new Size(408, 104);
             label4.TabIndex = 1;
             label4.Text = "Hạng thành viên";
             label4.TextAlign = ContentAlignment.MiddleCenter;
@@ -2120,10 +2179,9 @@
             label6.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label6.AutoSize = true;
             label6.Font = new Font("Arial", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            label6.Location = new Point(3, 1);
-            label6.Margin = new Padding(2, 0, 2, 0);
+            label6.Location = new Point(4, 1);
             label6.Name = "label6";
-            label6.Size = new Size(285, 62);
+            label6.Size = new Size(408, 104);
             label6.TabIndex = 3;
             label6.Text = "Tài khoản của tôi";
             label6.TextAlign = ContentAlignment.MiddleCenter;
@@ -2133,10 +2191,9 @@
             label5.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label5.AutoSize = true;
             label5.Font = new Font("Arial", 15F, FontStyle.Bold, GraphicsUnit.Point);
-            label5.Location = new Point(3, 64);
-            label5.Margin = new Padding(2, 0, 2, 0);
+            label5.Location = new Point(4, 106);
             label5.Name = "label5";
-            label5.Size = new Size(285, 62);
+            label5.Size = new Size(408, 104);
             label5.TabIndex = 2;
             label5.Text = "Đơn mua";
             label5.TextAlign = ContentAlignment.MiddleCenter;
@@ -2149,9 +2206,10 @@
             panel20.Controls.Add(comboBox3);
             panel20.Controls.Add(comboBox4);
             panel20.Controls.Add(label47);
-            panel20.Location = new Point(326, 55);
+            panel20.Location = new Point(466, 92);
+            panel20.Margin = new Padding(4, 5, 4, 5);
             panel20.Name = "panel20";
-            panel20.Size = new Size(977, 63);
+            panel20.Size = new Size(1370, 105);
             panel20.TabIndex = 12;
             // 
             // comboBox5
@@ -2160,10 +2218,10 @@
             comboBox5.Font = new Font("Arial", 15F, FontStyle.Regular, GraphicsUnit.Point);
             comboBox5.FormattingEnabled = true;
             comboBox5.Items.AddRange(new object[] { "Tất cả trạng thái", "Chờ thanh toán", "Vận chuyển", "Đang giao", "Hoàn thành", "Đã hủy", "Trả hàng/Hoàn tiền" });
-            comboBox5.Location = new Point(502, 15);
-            comboBox5.Margin = new Padding(3, 2, 3, 2);
+            comboBox5.Location = new Point(691, 25);
+            comboBox5.Margin = new Padding(4, 3, 4, 3);
             comboBox5.Name = "comboBox5";
-            comboBox5.Size = new Size(201, 31);
+            comboBox5.Size = new Size(285, 43);
             comboBox5.TabIndex = 8;
             comboBox5.Text = "Tất cả trạng thái";
             // 
@@ -2173,10 +2231,10 @@
             comboBox6.Font = new Font("Arial", 15F, FontStyle.Regular, GraphicsUnit.Point);
             comboBox6.FormattingEnabled = true;
             comboBox6.Items.AddRange(new object[] { "6/2022", "7/2022", "8/2022", "9/2022", "10/2022", "11/2022", "12/2022", "1/2023", "2/2023", "3/2023", "" });
-            comboBox6.Location = new Point(752, 15);
-            comboBox6.Margin = new Padding(3, 2, 3, 2);
+            comboBox6.Location = new Point(1048, 25);
+            comboBox6.Margin = new Padding(4, 3, 4, 3);
             comboBox6.Name = "comboBox6";
-            comboBox6.Size = new Size(201, 31);
+            comboBox6.Size = new Size(285, 43);
             comboBox6.TabIndex = 7;
             comboBox6.Text = "Ngày";
             // 
@@ -2186,10 +2244,10 @@
             comboBox3.Font = new Font("Arial", 15F, FontStyle.Regular, GraphicsUnit.Point);
             comboBox3.FormattingEnabled = true;
             comboBox3.Items.AddRange(new object[] { "Tất cả trạng thái", "Chờ thanh toán", "Vận chuyển", "Đang giao", "Hoàn thành", "Đã hủy", "Trả hàng/Hoàn tiền" });
-            comboBox3.Location = new Point(1227, 14);
-            comboBox3.Margin = new Padding(3, 2, 3, 2);
+            comboBox3.Location = new Point(1727, 23);
+            comboBox3.Margin = new Padding(4, 3, 4, 3);
             comboBox3.Name = "comboBox3";
-            comboBox3.Size = new Size(201, 31);
+            comboBox3.Size = new Size(285, 43);
             comboBox3.TabIndex = 6;
             comboBox3.Text = "Tất cả trạng thái";
             // 
@@ -2199,10 +2257,10 @@
             comboBox4.Font = new Font("Arial", 15F, FontStyle.Regular, GraphicsUnit.Point);
             comboBox4.FormattingEnabled = true;
             comboBox4.Items.AddRange(new object[] { "6/2022", "7/2022", "8/2022", "9/2022", "10/2022", "11/2022", "12/2022", "1/2023", "2/2023", "3/2023", "" });
-            comboBox4.Location = new Point(1477, 14);
-            comboBox4.Margin = new Padding(3, 2, 3, 2);
+            comboBox4.Location = new Point(2084, 23);
+            comboBox4.Margin = new Padding(4, 3, 4, 3);
             comboBox4.Name = "comboBox4";
-            comboBox4.Size = new Size(201, 31);
+            comboBox4.Size = new Size(285, 43);
             comboBox4.TabIndex = 5;
             comboBox4.Text = "Ngày";
             // 
@@ -2210,9 +2268,10 @@
             // 
             label47.AutoSize = true;
             label47.Font = new Font("Arial", 15F, FontStyle.Bold, GraphicsUnit.Point);
-            label47.Location = new Point(15, 20);
+            label47.Location = new Point(21, 33);
+            label47.Margin = new Padding(4, 0, 4, 0);
             label47.Name = "label47";
-            label47.Size = new Size(205, 24);
+            label47.Size = new Size(311, 35);
             label47.TabIndex = 0;
             label47.Text = "ĐƠN HÀNG CỦA TÔI";
             // 
@@ -2226,14 +2285,106 @@
             tableLayoutPanel11.Controls.Add(tableLayoutPanel12, 0, 0);
             tableLayoutPanel11.Controls.Add(tableLayoutPanel13, 0, 1);
             tableLayoutPanel11.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            tableLayoutPanel11.Location = new Point(326, 607);
+            tableLayoutPanel11.Location = new Point(466, 1012);
+            tableLayoutPanel11.Margin = new Padding(4, 5, 4, 5);
             tableLayoutPanel11.Name = "tableLayoutPanel11";
             tableLayoutPanel11.RowCount = 3;
             tableLayoutPanel11.RowStyles.Add(new RowStyle(SizeType.Percent, 15F));
             tableLayoutPanel11.RowStyles.Add(new RowStyle(SizeType.Percent, 70F));
             tableLayoutPanel11.RowStyles.Add(new RowStyle(SizeType.Percent, 15F));
-            tableLayoutPanel11.Size = new Size(977, 464);
+            tableLayoutPanel11.Size = new Size(1370, 773);
             tableLayoutPanel11.TabIndex = 13;
+            // 
+            // panel24
+            // 
+            panel24.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            panel24.Controls.Add(button15);
+            panel24.Controls.Add(button16);
+            panel24.Controls.Add(button1);
+            panel24.Controls.Add(button4);
+            panel24.Controls.Add(button5);
+            panel24.Location = new Point(5, 661);
+            panel24.Margin = new Padding(4, 5, 4, 5);
+            panel24.Name = "panel24";
+            panel24.Size = new Size(1360, 106);
+            panel24.TabIndex = 12;
+            // 
+            // button15
+            // 
+            button15.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
+            button15.FlatAppearance.BorderColor = Color.FromArgb(92, 147, 184);
+            button15.FlatStyle = FlatStyle.Flat;
+            button15.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            button15.ForeColor = Color.FromArgb(92, 147, 184);
+            button15.Location = new Point(963, 17);
+            button15.Margin = new Padding(4, 5, 4, 5);
+            button15.Name = "button15";
+            button15.Size = new Size(159, 69);
+            button15.TabIndex = 4;
+            button15.Text = "ĐÁNH GIÁ";
+            button15.UseVisualStyleBackColor = true;
+            // 
+            // button16
+            // 
+            button16.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
+            button16.BackColor = Color.FromArgb(92, 147, 184);
+            button16.FlatAppearance.BorderColor = Color.FromArgb(92, 147, 184);
+            button16.FlatStyle = FlatStyle.Flat;
+            button16.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            button16.ForeColor = Color.White;
+            button16.Location = new Point(1173, 17);
+            button16.Margin = new Padding(4, 5, 4, 5);
+            button16.Name = "button16";
+            button16.Size = new Size(159, 69);
+            button16.TabIndex = 3;
+            button16.Text = "ĐẶT LẠI";
+            button16.UseVisualStyleBackColor = false;
+            // 
+            // button1
+            // 
+            button1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
+            button1.FlatAppearance.BorderColor = Color.FromArgb(92, 147, 184);
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            button1.ForeColor = Color.FromArgb(92, 147, 184);
+            button1.Location = new Point(2062, 18);
+            button1.Margin = new Padding(4, 5, 4, 5);
+            button1.Name = "button1";
+            button1.Size = new Size(159, 8);
+            button1.TabIndex = 2;
+            button1.Text = "ĐÁNH GIÁ";
+            button1.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            button4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
+            button4.BackColor = Color.FromArgb(92, 147, 184);
+            button4.FlatAppearance.BorderColor = Color.FromArgb(92, 147, 184);
+            button4.FlatStyle = FlatStyle.Flat;
+            button4.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            button4.ForeColor = Color.White;
+            button4.Location = new Point(2272, 18);
+            button4.Margin = new Padding(4, 5, 4, 5);
+            button4.Name = "button4";
+            button4.Size = new Size(159, 8);
+            button4.TabIndex = 1;
+            button4.Text = "ĐẶT LẠI";
+            button4.UseVisualStyleBackColor = false;
+            // 
+            // button5
+            // 
+            button5.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
+            button5.FlatAppearance.BorderColor = Color.FromArgb(92, 147, 184);
+            button5.FlatStyle = FlatStyle.Flat;
+            button5.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            button5.ForeColor = Color.FromArgb(92, 147, 184);
+            button5.Location = new Point(3387, 17);
+            button5.Margin = new Padding(4, 5, 4, 5);
+            button5.Name = "button5";
+            button5.Size = new Size(159, 1);
+            button5.TabIndex = 0;
+            button5.Text = "ĐẶT LẠI";
+            button5.UseVisualStyleBackColor = true;
             // 
             // tableLayoutPanel12
             // 
@@ -2245,12 +2396,13 @@
             tableLayoutPanel12.Controls.Add(panel21, 0, 0);
             tableLayoutPanel12.Controls.Add(panel22, 1, 0);
             tableLayoutPanel12.Controls.Add(panel23, 2, 0);
-            tableLayoutPanel12.Location = new Point(4, 4);
+            tableLayoutPanel12.Location = new Point(5, 6);
+            tableLayoutPanel12.Margin = new Padding(4, 5, 4, 5);
             tableLayoutPanel12.Name = "tableLayoutPanel12";
             tableLayoutPanel12.RowCount = 1;
             tableLayoutPanel12.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel12.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            tableLayoutPanel12.Size = new Size(969, 63);
+            tableLayoutPanel12.RowStyles.Add(new RowStyle(SizeType.Absolute, 105F));
+            tableLayoutPanel12.Size = new Size(1360, 105);
             tableLayoutPanel12.TabIndex = 11;
             // 
             // panel21
@@ -2258,17 +2410,19 @@
             panel21.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             panel21.Controls.Add(label48);
             panel21.Controls.Add(label49);
-            panel21.Location = new Point(3, 3);
+            panel21.Location = new Point(4, 5);
+            panel21.Margin = new Padding(4, 5, 4, 5);
             panel21.Name = "panel21";
-            panel21.Size = new Size(478, 57);
+            panel21.Size = new Size(672, 95);
             panel21.TabIndex = 0;
             // 
             // label48
             // 
             label48.AutoSize = true;
-            label48.Location = new Point(8, 31);
+            label48.Location = new Point(11, 52);
+            label48.Margin = new Padding(4, 0, 4, 0);
             label48.Name = "label48";
-            label48.Size = new Size(178, 18);
+            label48.Size = new Size(276, 27);
             label48.TabIndex = 4;
             label48.Text = "Ngày đặt hàng: 3/3/2023";
             label48.TextAlign = ContentAlignment.MiddleCenter;
@@ -2277,9 +2431,10 @@
             // 
             label49.AutoSize = true;
             label49.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label49.Location = new Point(8, 9);
+            label49.Location = new Point(11, 15);
+            label49.Margin = new Padding(4, 0, 4, 0);
             label49.Name = "label49";
-            label49.Size = new Size(174, 19);
+            label49.Size = new Size(261, 29);
             label49.TabIndex = 3;
             label49.Text = "Mã đơn hàng: A10000";
             label49.TextAlign = ContentAlignment.MiddleCenter;
@@ -2289,18 +2444,20 @@
             panel22.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             panel22.Controls.Add(label50);
             panel22.Controls.Add(label51);
-            panel22.Location = new Point(487, 3);
+            panel22.Location = new Point(684, 5);
+            panel22.Margin = new Padding(4, 5, 4, 5);
             panel22.Name = "panel22";
-            panel22.Size = new Size(236, 57);
+            panel22.Size = new Size(332, 95);
             panel22.TabIndex = 1;
             // 
             // label50
             // 
             label50.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label50.AutoSize = true;
-            label50.Location = new Point(6, 31);
+            label50.Location = new Point(9, 52);
+            label50.Margin = new Padding(4, 0, 4, 0);
             label50.Name = "label50";
-            label50.Size = new Size(106, 18);
+            label50.Size = new Size(163, 27);
             label50.TabIndex = 6;
             label50.Text = " Đã giao hàng";
             label50.TextAlign = ContentAlignment.MiddleLeft;
@@ -2310,9 +2467,10 @@
             label51.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label51.AutoSize = true;
             label51.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label51.Location = new Point(6, 9);
+            label51.Location = new Point(9, 15);
+            label51.Margin = new Padding(4, 0, 4, 0);
             label51.Name = "label51";
-            label51.Size = new Size(163, 19);
+            label51.Size = new Size(248, 29);
             label51.TabIndex = 5;
             label51.Text = "Trạng thái đơn hàng";
             label51.TextAlign = ContentAlignment.MiddleLeft;
@@ -2322,18 +2480,20 @@
             panel23.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             panel23.Controls.Add(label52);
             panel23.Controls.Add(label53);
-            panel23.Location = new Point(729, 3);
+            panel23.Location = new Point(1024, 5);
+            panel23.Margin = new Padding(4, 5, 4, 5);
             panel23.Name = "panel23";
-            panel23.Size = new Size(237, 57);
+            panel23.Size = new Size(332, 95);
             panel23.TabIndex = 2;
             // 
             // label52
             // 
             label52.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label52.AutoSize = true;
-            label52.Location = new Point(11, 31);
+            label52.Location = new Point(16, 52);
+            label52.Margin = new Padding(4, 0, 4, 0);
             label52.Name = "label52";
-            label52.Size = new Size(88, 18);
+            label52.Size = new Size(130, 27);
             label52.TabIndex = 8;
             label52.Text = "2.600.000đ";
             label52.TextAlign = ContentAlignment.MiddleLeft;
@@ -2343,9 +2503,10 @@
             label53.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label53.AutoSize = true;
             label53.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label53.Location = new Point(7, 9);
+            label53.Location = new Point(10, 15);
+            label53.Margin = new Padding(4, 0, 4, 0);
             label53.Name = "label53";
-            label53.Size = new Size(81, 19);
+            label53.Size = new Size(123, 29);
             label53.TabIndex = 7;
             label53.Text = "Tổng tiền";
             label53.TextAlign = ContentAlignment.MiddleLeft;
@@ -2360,11 +2521,12 @@
             tableLayoutPanel13.Controls.Add(panel25, 0, 0);
             tableLayoutPanel13.Controls.Add(panel26, 1, 0);
             tableLayoutPanel13.Controls.Add(panel27, 2, 0);
-            tableLayoutPanel13.Location = new Point(4, 74);
+            tableLayoutPanel13.Location = new Point(5, 122);
+            tableLayoutPanel13.Margin = new Padding(4, 5, 4, 5);
             tableLayoutPanel13.Name = "tableLayoutPanel13";
             tableLayoutPanel13.RowCount = 1;
             tableLayoutPanel13.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel13.Size = new Size(969, 316);
+            tableLayoutPanel13.Size = new Size(1360, 528);
             tableLayoutPanel13.TabIndex = 3;
             // 
             // panel25
@@ -2377,9 +2539,10 @@
             panel25.Controls.Add(label57);
             panel25.Controls.Add(label58);
             panel25.Controls.Add(pictureBox8);
-            panel25.Location = new Point(3, 3);
+            panel25.Location = new Point(4, 5);
+            panel25.Margin = new Padding(4, 5, 4, 5);
             panel25.Name = "panel25";
-            panel25.Size = new Size(478, 310);
+            panel25.Size = new Size(672, 518);
             panel25.TabIndex = 0;
             // 
             // label110
@@ -2387,9 +2550,10 @@
             label110.AutoSize = true;
             label110.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
             label110.ForeColor = Color.FromArgb(92, 147, 184);
-            label110.Location = new Point(9, 269);
+            label110.Location = new Point(13, 448);
+            label110.Margin = new Padding(4, 0, 4, 0);
             label110.Name = "label110";
-            label110.Size = new Size(177, 19);
+            label110.Size = new Size(266, 29);
             label110.TabIndex = 10;
             label110.Text = "Xem thêm 2 sản phẩm";
             // 
@@ -2398,27 +2562,30 @@
             label54.AutoSize = true;
             label54.Font = new Font("Arial", 14F, FontStyle.Bold, GraphicsUnit.Point);
             label54.ForeColor = Color.FromArgb(92, 147, 184);
-            label54.Location = new Point(214, 33);
+            label54.Location = new Point(306, 55);
+            label54.Margin = new Padding(4, 0, 4, 0);
             label54.Name = "label54";
-            label54.Size = new Size(109, 22);
+            label54.Size = new Size(160, 33);
             label54.TabIndex = 9;
             label54.Text = "2.600.000đ";
             // 
             // label55
             // 
             label55.AutoSize = true;
-            label55.Location = new Point(214, 88);
+            label55.Location = new Point(306, 147);
+            label55.Margin = new Padding(4, 0, 4, 0);
             label55.Name = "label55";
-            label55.Size = new Size(131, 18);
+            label55.Size = new Size(200, 27);
             label55.TabIndex = 8;
             label55.Text = "KÍCH CỠ: 6.5 UK";
             // 
             // label56
             // 
             label56.AutoSize = true;
-            label56.Location = new Point(214, 114);
+            label56.Location = new Point(306, 190);
+            label56.Margin = new Padding(4, 0, 4, 0);
             label56.Name = "label56";
-            label56.Size = new Size(91, 18);
+            label56.Size = new Size(141, 27);
             label56.TabIndex = 7;
             label56.Text = "Số lượng: 1";
             // 
@@ -2427,9 +2594,10 @@
             label57.AllowDrop = true;
             label57.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label57.AutoSize = true;
-            label57.Location = new Point(214, 61);
+            label57.Location = new Point(306, 102);
+            label57.Margin = new Padding(4, 0, 4, 0);
             label57.Name = "label57";
-            label57.Size = new Size(358, 18);
+            label57.Size = new Size(541, 27);
             label57.TabIndex = 6;
             label57.Text = "CLOUD WHITE / CLEAR PINK / PULSE MAGETA";
             // 
@@ -2437,18 +2605,20 @@
             // 
             label58.AutoSize = true;
             label58.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label58.Location = new Point(214, 11);
+            label58.Location = new Point(306, 18);
+            label58.Margin = new Padding(4, 0, 4, 0);
             label58.Name = "label58";
-            label58.Size = new Size(143, 18);
+            label58.Size = new Size(217, 27);
             label58.TabIndex = 5;
             label58.Text = "GIÀY SUPERSTAR";
             // 
             // pictureBox8
             // 
             pictureBox8.Image = (Image)resources.GetObject("pictureBox8.Image");
-            pictureBox8.Location = new Point(8, 6);
+            pictureBox8.Location = new Point(11, 10);
+            pictureBox8.Margin = new Padding(4, 5, 4, 5);
             pictureBox8.Name = "pictureBox8";
-            pictureBox8.Size = new Size(200, 200);
+            pictureBox8.Size = new Size(286, 333);
             pictureBox8.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox8.TabIndex = 1;
             pictureBox8.TabStop = false;
@@ -2460,18 +2630,20 @@
             panel26.Controls.Add(label60);
             panel26.Controls.Add(label61);
             panel26.Controls.Add(label62);
-            panel26.Location = new Point(487, 3);
+            panel26.Location = new Point(684, 5);
+            panel26.Margin = new Padding(4, 5, 4, 5);
             panel26.Name = "panel26";
-            panel26.Size = new Size(236, 310);
+            panel26.Size = new Size(332, 518);
             panel26.TabIndex = 1;
             // 
             // label59
             // 
             label59.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label59.AutoSize = true;
-            label59.Location = new Point(6, 127);
+            label59.Location = new Point(9, 212);
+            label59.Margin = new Padding(4, 0, 4, 0);
             label59.Name = "label59";
-            label59.Size = new Size(179, 18);
+            label59.Size = new Size(277, 27);
             label59.TabIndex = 5;
             label59.Text = "100 Cách Mạng Tháng 8";
             label59.TextAlign = ContentAlignment.MiddleLeft;
@@ -2481,9 +2653,10 @@
             label60.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label60.AutoSize = true;
             label60.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label60.Location = new Point(6, 102);
+            label60.Location = new Point(9, 170);
+            label60.Margin = new Padding(4, 0, 4, 0);
             label60.Name = "label60";
-            label60.Size = new Size(141, 19);
+            label60.Size = new Size(214, 29);
             label60.TabIndex = 4;
             label60.Text = "Địa chỉ giao hàng";
             label60.TextAlign = ContentAlignment.MiddleLeft;
@@ -2492,9 +2665,10 @@
             // 
             label61.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label61.AutoSize = true;
-            label61.Location = new Point(6, 43);
+            label61.Location = new Point(9, 72);
+            label61.Margin = new Padding(4, 0, 4, 0);
             label61.Name = "label61";
-            label61.Size = new Size(70, 18);
+            label61.Size = new Size(104, 27);
             label61.TabIndex = 3;
             label61.Text = "Ví MoMo";
             label61.TextAlign = ContentAlignment.MiddleLeft;
@@ -2504,9 +2678,10 @@
             label62.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label62.AutoSize = true;
             label62.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label62.Location = new Point(6, 20);
+            label62.Location = new Point(9, 33);
+            label62.Margin = new Padding(4, 0, 4, 0);
             label62.Name = "label62";
-            label62.Size = new Size(199, 19);
+            label62.Size = new Size(299, 29);
             label62.TabIndex = 2;
             label62.Text = "Phương thức thanh toán";
             label62.TextAlign = ContentAlignment.MiddleLeft;
@@ -2520,18 +2695,20 @@
             panel27.Controls.Add(label66);
             panel27.Controls.Add(label87);
             panel27.Controls.Add(label109);
-            panel27.Location = new Point(729, 3);
+            panel27.Location = new Point(1024, 5);
+            panel27.Margin = new Padding(4, 5, 4, 5);
             panel27.Name = "panel27";
-            panel27.Size = new Size(237, 310);
+            panel27.Size = new Size(332, 518);
             panel27.TabIndex = 2;
             // 
             // label63
             // 
             label63.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label63.AutoSize = true;
-            label63.Location = new Point(7, 214);
+            label63.Location = new Point(10, 357);
+            label63.Margin = new Padding(4, 0, 4, 0);
             label63.Name = "label63";
-            label63.Size = new Size(66, 18);
+            label63.Size = new Size(104, 27);
             label63.TabIndex = 7;
             label63.Text = "Miễn phí";
             label63.TextAlign = ContentAlignment.MiddleLeft;
@@ -2541,9 +2718,10 @@
             label64.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label64.AutoSize = true;
             label64.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label64.Location = new Point(7, 187);
+            label64.Location = new Point(10, 312);
+            label64.Margin = new Padding(4, 0, 4, 0);
             label64.Name = "label64";
-            label64.Size = new Size(114, 19);
+            label64.Size = new Size(173, 29);
             label64.TabIndex = 6;
             label64.Text = "Phí giao hàng";
             label64.TextAlign = ContentAlignment.MiddleLeft;
@@ -2552,9 +2730,10 @@
             // 
             label65.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label65.AutoSize = true;
-            label65.Location = new Point(11, 127);
+            label65.Location = new Point(16, 212);
+            label65.Margin = new Padding(4, 0, 4, 0);
             label65.Name = "label65";
-            label65.Size = new Size(30, 18);
+            label65.Size = new Size(45, 27);
             label65.TabIndex = 5;
             label65.Text = "0 đ";
             label65.TextAlign = ContentAlignment.MiddleLeft;
@@ -2564,9 +2743,10 @@
             label66.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label66.AutoSize = true;
             label66.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label66.Location = new Point(7, 102);
+            label66.Location = new Point(10, 170);
+            label66.Margin = new Padding(4, 0, 4, 0);
             label66.Name = "label66";
-            label66.Size = new Size(77, 19);
+            label66.Size = new Size(117, 29);
             label66.TabIndex = 4;
             label66.Text = "Tiết kiệm";
             label66.TextAlign = ContentAlignment.MiddleLeft;
@@ -2575,9 +2755,10 @@
             // 
             label87.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label87.AutoSize = true;
-            label87.Location = new Point(11, 43);
+            label87.Location = new Point(16, 72);
+            label87.Margin = new Padding(4, 0, 4, 0);
             label87.Name = "label87";
-            label87.Size = new Size(92, 18);
+            label87.Size = new Size(137, 27);
             label87.TabIndex = 3;
             label87.Text = "2.600.000 đ";
             label87.TextAlign = ContentAlignment.MiddleLeft;
@@ -2587,9 +2768,10 @@
             label109.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label109.AutoSize = true;
             label109.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label109.Location = new Point(7, 20);
+            label109.Location = new Point(10, 33);
+            label109.Margin = new Padding(4, 0, 4, 0);
             label109.Name = "label109";
-            label109.Size = new Size(75, 19);
+            label109.Size = new Size(114, 29);
             label109.TabIndex = 2;
             label109.Text = "Tạm tính";
             label109.TextAlign = ContentAlignment.MiddleLeft;
@@ -2604,13 +2786,14 @@
             tableLayoutPanel14.Controls.Add(panel43, 0, 2);
             tableLayoutPanel14.Controls.Add(tableLayoutPanel23, 0, 1);
             tableLayoutPanel14.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            tableLayoutPanel14.Location = new Point(326, 1083);
+            tableLayoutPanel14.Location = new Point(466, 1805);
+            tableLayoutPanel14.Margin = new Padding(4, 5, 4, 5);
             tableLayoutPanel14.Name = "tableLayoutPanel14";
             tableLayoutPanel14.RowCount = 3;
             tableLayoutPanel14.RowStyles.Add(new RowStyle(SizeType.Percent, 7.746479F));
             tableLayoutPanel14.RowStyles.Add(new RowStyle(SizeType.Percent, 83.80282F));
             tableLayoutPanel14.RowStyles.Add(new RowStyle(SizeType.Percent, 8.190709F));
-            tableLayoutPanel14.Size = new Size(977, 853);
+            tableLayoutPanel14.Size = new Size(1370, 1422);
             tableLayoutPanel14.TabIndex = 14;
             // 
             // tableLayoutPanel22
@@ -2623,12 +2806,13 @@
             tableLayoutPanel22.Controls.Add(panel40, 0, 0);
             tableLayoutPanel22.Controls.Add(panel41, 1, 0);
             tableLayoutPanel22.Controls.Add(panel42, 2, 0);
-            tableLayoutPanel22.Location = new Point(4, 4);
+            tableLayoutPanel22.Location = new Point(5, 6);
+            tableLayoutPanel22.Margin = new Padding(4, 5, 4, 5);
             tableLayoutPanel22.Name = "tableLayoutPanel22";
             tableLayoutPanel22.RowCount = 1;
             tableLayoutPanel22.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel22.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            tableLayoutPanel22.Size = new Size(969, 59);
+            tableLayoutPanel22.RowStyles.Add(new RowStyle(SizeType.Absolute, 98F));
+            tableLayoutPanel22.Size = new Size(1360, 100);
             tableLayoutPanel22.TabIndex = 11;
             // 
             // panel40
@@ -2636,17 +2820,19 @@
             panel40.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             panel40.Controls.Add(label111);
             panel40.Controls.Add(label112);
-            panel40.Location = new Point(3, 3);
+            panel40.Location = new Point(4, 5);
+            panel40.Margin = new Padding(4, 5, 4, 5);
             panel40.Name = "panel40";
-            panel40.Size = new Size(478, 53);
+            panel40.Size = new Size(672, 90);
             panel40.TabIndex = 0;
             // 
             // label111
             // 
             label111.AutoSize = true;
-            label111.Location = new Point(8, 31);
+            label111.Location = new Point(11, 52);
+            label111.Margin = new Padding(4, 0, 4, 0);
             label111.Name = "label111";
-            label111.Size = new Size(178, 18);
+            label111.Size = new Size(276, 27);
             label111.TabIndex = 4;
             label111.Text = "Ngày đặt hàng: 3/3/2023";
             label111.TextAlign = ContentAlignment.MiddleCenter;
@@ -2655,9 +2841,10 @@
             // 
             label112.AutoSize = true;
             label112.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label112.Location = new Point(8, 9);
+            label112.Location = new Point(11, 15);
+            label112.Margin = new Padding(4, 0, 4, 0);
             label112.Name = "label112";
-            label112.Size = new Size(174, 19);
+            label112.Size = new Size(261, 29);
             label112.TabIndex = 3;
             label112.Text = "Mã đơn hàng: A10000";
             label112.TextAlign = ContentAlignment.MiddleCenter;
@@ -2667,18 +2854,20 @@
             panel41.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             panel41.Controls.Add(label113);
             panel41.Controls.Add(label114);
-            panel41.Location = new Point(487, 3);
+            panel41.Location = new Point(684, 5);
+            panel41.Margin = new Padding(4, 5, 4, 5);
             panel41.Name = "panel41";
-            panel41.Size = new Size(236, 53);
+            panel41.Size = new Size(332, 90);
             panel41.TabIndex = 1;
             // 
             // label113
             // 
             label113.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label113.AutoSize = true;
-            label113.Location = new Point(6, 31);
+            label113.Location = new Point(9, 52);
+            label113.Margin = new Padding(4, 0, 4, 0);
             label113.Name = "label113";
-            label113.Size = new Size(106, 18);
+            label113.Size = new Size(163, 27);
             label113.TabIndex = 6;
             label113.Text = " Đã giao hàng";
             label113.TextAlign = ContentAlignment.MiddleLeft;
@@ -2688,9 +2877,10 @@
             label114.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label114.AutoSize = true;
             label114.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label114.Location = new Point(6, 9);
+            label114.Location = new Point(9, 15);
+            label114.Margin = new Padding(4, 0, 4, 0);
             label114.Name = "label114";
-            label114.Size = new Size(163, 19);
+            label114.Size = new Size(248, 29);
             label114.TabIndex = 5;
             label114.Text = "Trạng thái đơn hàng";
             label114.TextAlign = ContentAlignment.MiddleLeft;
@@ -2700,18 +2890,20 @@
             panel42.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             panel42.Controls.Add(label115);
             panel42.Controls.Add(label116);
-            panel42.Location = new Point(729, 3);
+            panel42.Location = new Point(1024, 5);
+            panel42.Margin = new Padding(4, 5, 4, 5);
             panel42.Name = "panel42";
-            panel42.Size = new Size(237, 53);
+            panel42.Size = new Size(332, 90);
             panel42.TabIndex = 2;
             // 
             // label115
             // 
             label115.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label115.AutoSize = true;
-            label115.Location = new Point(11, 31);
+            label115.Location = new Point(16, 52);
+            label115.Margin = new Padding(4, 0, 4, 0);
             label115.Name = "label115";
-            label115.Size = new Size(88, 18);
+            label115.Size = new Size(130, 27);
             label115.TabIndex = 8;
             label115.Text = "2.600.000đ";
             label115.TextAlign = ContentAlignment.MiddleLeft;
@@ -2721,9 +2913,10 @@
             label116.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label116.AutoSize = true;
             label116.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label116.Location = new Point(7, 9);
+            label116.Location = new Point(10, 15);
+            label116.Margin = new Padding(4, 0, 4, 0);
             label116.Name = "label116";
-            label116.Size = new Size(81, 19);
+            label116.Size = new Size(123, 29);
             label116.TabIndex = 7;
             label116.Text = "Tổng tiền";
             label116.TextAlign = ContentAlignment.MiddleLeft;
@@ -2736,10 +2929,42 @@
             panel43.Controls.Add(button6);
             panel43.Controls.Add(button7);
             panel43.Controls.Add(button8);
-            panel43.Location = new Point(4, 784);
+            panel43.Location = new Point(5, 1309);
+            panel43.Margin = new Padding(4, 5, 4, 5);
             panel43.Name = "panel43";
-            panel43.Size = new Size(969, 65);
+            panel43.Size = new Size(1360, 107);
             panel43.TabIndex = 2;
+            // 
+            // button9
+            // 
+            button9.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
+            button9.FlatAppearance.BorderColor = Color.FromArgb(92, 147, 184);
+            button9.FlatStyle = FlatStyle.Flat;
+            button9.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            button9.ForeColor = Color.FromArgb(92, 147, 184);
+            button9.Location = new Point(963, 20);
+            button9.Margin = new Padding(4, 5, 4, 5);
+            button9.Name = "button9";
+            button9.Size = new Size(159, 67);
+            button9.TabIndex = 4;
+            button9.Text = "ĐÁNH GIÁ";
+            button9.UseVisualStyleBackColor = true;
+            // 
+            // button17
+            // 
+            button17.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
+            button17.BackColor = Color.FromArgb(92, 147, 184);
+            button17.FlatAppearance.BorderColor = Color.FromArgb(92, 147, 184);
+            button17.FlatStyle = FlatStyle.Flat;
+            button17.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            button17.ForeColor = Color.White;
+            button17.Location = new Point(1173, 20);
+            button17.Margin = new Padding(4, 5, 4, 5);
+            button17.Name = "button17";
+            button17.Size = new Size(159, 67);
+            button17.TabIndex = 3;
+            button17.Text = "ĐẶT LẠI";
+            button17.UseVisualStyleBackColor = false;
             // 
             // button6
             // 
@@ -2748,9 +2973,10 @@
             button6.FlatStyle = FlatStyle.Flat;
             button6.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
             button6.ForeColor = Color.FromArgb(92, 147, 184);
-            button6.Location = new Point(1618, 12);
+            button6.Location = new Point(2287, 20);
+            button6.Margin = new Padding(4, 5, 4, 5);
             button6.Name = "button6";
-            button6.Size = new Size(111, 44);
+            button6.Size = new Size(159, 72);
             button6.TabIndex = 2;
             button6.Text = "ĐẶT LẠI";
             button6.UseVisualStyleBackColor = true;
@@ -2762,9 +2988,10 @@
             button7.FlatStyle = FlatStyle.Flat;
             button7.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
             button7.ForeColor = Color.FromArgb(92, 147, 184);
-            button7.Location = new Point(2416, 12);
+            button7.Location = new Point(3427, 20);
+            button7.Margin = new Padding(4, 5, 4, 5);
             button7.Name = "button7";
-            button7.Size = new Size(111, 16);
+            button7.Size = new Size(159, 26);
             button7.TabIndex = 1;
             button7.Text = "ĐẶT LẠI";
             button7.UseVisualStyleBackColor = true;
@@ -2776,9 +3003,10 @@
             button8.FlatStyle = FlatStyle.Flat;
             button8.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
             button8.ForeColor = Color.FromArgb(92, 147, 184);
-            button8.Location = new Point(3198, 10);
+            button8.Location = new Point(4545, 17);
+            button8.Margin = new Padding(4, 5, 4, 5);
             button8.Name = "button8";
-            button8.Size = new Size(111, 16);
+            button8.Size = new Size(159, 26);
             button8.TabIndex = 0;
             button8.Text = "ĐẶT LẠI";
             button8.UseVisualStyleBackColor = true;
@@ -2793,11 +3021,12 @@
             tableLayoutPanel23.Controls.Add(panel44, 0, 0);
             tableLayoutPanel23.Controls.Add(panel48, 1, 0);
             tableLayoutPanel23.Controls.Add(panel49, 2, 0);
-            tableLayoutPanel23.Location = new Point(4, 70);
+            tableLayoutPanel23.Location = new Point(5, 117);
+            tableLayoutPanel23.Margin = new Padding(4, 5, 4, 5);
             tableLayoutPanel23.Name = "tableLayoutPanel23";
             tableLayoutPanel23.RowCount = 1;
             tableLayoutPanel23.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel23.Size = new Size(969, 707);
+            tableLayoutPanel23.Size = new Size(1360, 1181);
             tableLayoutPanel23.TabIndex = 3;
             // 
             // panel44
@@ -2822,9 +3051,10 @@
             panel44.Controls.Add(label121);
             panel44.Controls.Add(label122);
             panel44.Controls.Add(pictureBox11);
-            panel44.Location = new Point(3, 3);
+            panel44.Location = new Point(4, 5);
+            panel44.Margin = new Padding(4, 5, 4, 5);
             panel44.Name = "panel44";
-            panel44.Size = new Size(478, 701);
+            panel44.Size = new Size(672, 1171);
             panel44.TabIndex = 0;
             // 
             // label142
@@ -2832,9 +3062,10 @@
             label142.AutoSize = true;
             label142.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
             label142.ForeColor = Color.FromArgb(92, 147, 184);
-            label142.Location = new Point(7, 656);
+            label142.Location = new Point(10, 1093);
+            label142.Margin = new Padding(4, 0, 4, 0);
             label142.Name = "label142";
-            label142.Size = new Size(122, 19);
+            label142.Size = new Size(184, 29);
             label142.TabIndex = 22;
             label142.Text = "Ẩn 2 sản phẩm";
             // 
@@ -2843,27 +3074,30 @@
             label137.AutoSize = true;
             label137.Font = new Font("Arial", 14F, FontStyle.Bold, GraphicsUnit.Point);
             label137.ForeColor = Color.FromArgb(92, 147, 184);
-            label137.Location = new Point(214, 465);
+            label137.Location = new Point(306, 775);
+            label137.Margin = new Padding(4, 0, 4, 0);
             label137.Name = "label137";
-            label137.Size = new Size(109, 22);
+            label137.Size = new Size(160, 33);
             label137.TabIndex = 21;
             label137.Text = "2.600.000đ";
             // 
             // label138
             // 
             label138.AutoSize = true;
-            label138.Location = new Point(214, 520);
+            label138.Location = new Point(306, 867);
+            label138.Margin = new Padding(4, 0, 4, 0);
             label138.Name = "label138";
-            label138.Size = new Size(131, 18);
+            label138.Size = new Size(200, 27);
             label138.TabIndex = 20;
             label138.Text = "KÍCH CỠ: 6.5 UK";
             // 
             // label139
             // 
             label139.AutoSize = true;
-            label139.Location = new Point(214, 546);
+            label139.Location = new Point(306, 910);
+            label139.Margin = new Padding(4, 0, 4, 0);
             label139.Name = "label139";
-            label139.Size = new Size(91, 18);
+            label139.Size = new Size(141, 27);
             label139.TabIndex = 19;
             label139.Text = "Số lượng: 1";
             // 
@@ -2872,9 +3106,10 @@
             label140.AllowDrop = true;
             label140.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label140.AutoSize = true;
-            label140.Location = new Point(214, 493);
+            label140.Location = new Point(306, 822);
+            label140.Margin = new Padding(4, 0, 4, 0);
             label140.Name = "label140";
-            label140.Size = new Size(358, 18);
+            label140.Size = new Size(541, 27);
             label140.TabIndex = 18;
             label140.Text = "CLOUD WHITE / CLEAR PINK / PULSE MAGETA";
             // 
@@ -2882,18 +3117,20 @@
             // 
             label141.AutoSize = true;
             label141.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label141.Location = new Point(214, 443);
+            label141.Location = new Point(306, 738);
+            label141.Margin = new Padding(4, 0, 4, 0);
             label141.Name = "label141";
-            label141.Size = new Size(143, 18);
+            label141.Size = new Size(217, 27);
             label141.TabIndex = 17;
             label141.Text = "GIÀY SUPERSTAR";
             // 
             // pictureBox13
             // 
             pictureBox13.Image = (Image)resources.GetObject("pictureBox13.Image");
-            pictureBox13.Location = new Point(7, 435);
+            pictureBox13.Location = new Point(10, 725);
+            pictureBox13.Margin = new Padding(4, 5, 4, 5);
             pictureBox13.Name = "pictureBox13";
-            pictureBox13.Size = new Size(200, 200);
+            pictureBox13.Size = new Size(286, 333);
             pictureBox13.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox13.TabIndex = 16;
             pictureBox13.TabStop = false;
@@ -2903,27 +3140,30 @@
             label117.AutoSize = true;
             label117.Font = new Font("Arial", 14F, FontStyle.Bold, GraphicsUnit.Point);
             label117.ForeColor = Color.FromArgb(92, 147, 184);
-            label117.Location = new Point(214, 255);
+            label117.Location = new Point(306, 425);
+            label117.Margin = new Padding(4, 0, 4, 0);
             label117.Name = "label117";
-            label117.Size = new Size(109, 22);
+            label117.Size = new Size(160, 33);
             label117.TabIndex = 15;
             label117.Text = "2.600.000đ";
             // 
             // label133
             // 
             label133.AutoSize = true;
-            label133.Location = new Point(214, 310);
+            label133.Location = new Point(306, 517);
+            label133.Margin = new Padding(4, 0, 4, 0);
             label133.Name = "label133";
-            label133.Size = new Size(131, 18);
+            label133.Size = new Size(200, 27);
             label133.TabIndex = 14;
             label133.Text = "KÍCH CỠ: 6.5 UK";
             // 
             // label134
             // 
             label134.AutoSize = true;
-            label134.Location = new Point(214, 336);
+            label134.Location = new Point(306, 560);
+            label134.Margin = new Padding(4, 0, 4, 0);
             label134.Name = "label134";
-            label134.Size = new Size(91, 18);
+            label134.Size = new Size(141, 27);
             label134.TabIndex = 13;
             label134.Text = "Số lượng: 1";
             // 
@@ -2932,9 +3172,10 @@
             label135.AllowDrop = true;
             label135.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label135.AutoSize = true;
-            label135.Location = new Point(214, 283);
+            label135.Location = new Point(306, 472);
+            label135.Margin = new Padding(4, 0, 4, 0);
             label135.Name = "label135";
-            label135.Size = new Size(358, 18);
+            label135.Size = new Size(541, 27);
             label135.TabIndex = 12;
             label135.Text = "CLOUD WHITE / CLEAR PINK / PULSE MAGETA";
             // 
@@ -2942,18 +3183,20 @@
             // 
             label136.AutoSize = true;
             label136.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label136.Location = new Point(214, 233);
+            label136.Location = new Point(306, 388);
+            label136.Margin = new Padding(4, 0, 4, 0);
             label136.Name = "label136";
-            label136.Size = new Size(143, 18);
+            label136.Size = new Size(217, 27);
             label136.TabIndex = 11;
             label136.Text = "GIÀY SUPERSTAR";
             // 
             // pictureBox12
             // 
             pictureBox12.Image = (Image)resources.GetObject("pictureBox12.Image");
-            pictureBox12.Location = new Point(8, 220);
+            pictureBox12.Location = new Point(11, 367);
+            pictureBox12.Margin = new Padding(4, 5, 4, 5);
             pictureBox12.Name = "pictureBox12";
-            pictureBox12.Size = new Size(200, 200);
+            pictureBox12.Size = new Size(286, 333);
             pictureBox12.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox12.TabIndex = 10;
             pictureBox12.TabStop = false;
@@ -2963,27 +3206,30 @@
             label118.AutoSize = true;
             label118.Font = new Font("Arial", 14F, FontStyle.Bold, GraphicsUnit.Point);
             label118.ForeColor = Color.FromArgb(92, 147, 184);
-            label118.Location = new Point(214, 33);
+            label118.Location = new Point(306, 55);
+            label118.Margin = new Padding(4, 0, 4, 0);
             label118.Name = "label118";
-            label118.Size = new Size(109, 22);
+            label118.Size = new Size(160, 33);
             label118.TabIndex = 9;
             label118.Text = "2.600.000đ";
             // 
             // label119
             // 
             label119.AutoSize = true;
-            label119.Location = new Point(214, 88);
+            label119.Location = new Point(306, 147);
+            label119.Margin = new Padding(4, 0, 4, 0);
             label119.Name = "label119";
-            label119.Size = new Size(131, 18);
+            label119.Size = new Size(200, 27);
             label119.TabIndex = 8;
             label119.Text = "KÍCH CỠ: 6.5 UK";
             // 
             // label120
             // 
             label120.AutoSize = true;
-            label120.Location = new Point(214, 114);
+            label120.Location = new Point(306, 190);
+            label120.Margin = new Padding(4, 0, 4, 0);
             label120.Name = "label120";
-            label120.Size = new Size(91, 18);
+            label120.Size = new Size(141, 27);
             label120.TabIndex = 7;
             label120.Text = "Số lượng: 1";
             // 
@@ -2992,9 +3238,10 @@
             label121.AllowDrop = true;
             label121.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label121.AutoSize = true;
-            label121.Location = new Point(214, 61);
+            label121.Location = new Point(306, 102);
+            label121.Margin = new Padding(4, 0, 4, 0);
             label121.Name = "label121";
-            label121.Size = new Size(358, 18);
+            label121.Size = new Size(541, 27);
             label121.TabIndex = 6;
             label121.Text = "CLOUD WHITE / CLEAR PINK / PULSE MAGETA";
             // 
@@ -3002,18 +3249,20 @@
             // 
             label122.AutoSize = true;
             label122.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label122.Location = new Point(214, 11);
+            label122.Location = new Point(306, 18);
+            label122.Margin = new Padding(4, 0, 4, 0);
             label122.Name = "label122";
-            label122.Size = new Size(143, 18);
+            label122.Size = new Size(217, 27);
             label122.TabIndex = 5;
             label122.Text = "GIÀY SUPERSTAR";
             // 
             // pictureBox11
             // 
             pictureBox11.Image = (Image)resources.GetObject("pictureBox11.Image");
-            pictureBox11.Location = new Point(8, 6);
+            pictureBox11.Location = new Point(11, 10);
+            pictureBox11.Margin = new Padding(4, 5, 4, 5);
             pictureBox11.Name = "pictureBox11";
-            pictureBox11.Size = new Size(200, 200);
+            pictureBox11.Size = new Size(286, 333);
             pictureBox11.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox11.TabIndex = 1;
             pictureBox11.TabStop = false;
@@ -3025,18 +3274,20 @@
             panel48.Controls.Add(label124);
             panel48.Controls.Add(label125);
             panel48.Controls.Add(label126);
-            panel48.Location = new Point(487, 3);
+            panel48.Location = new Point(684, 5);
+            panel48.Margin = new Padding(4, 5, 4, 5);
             panel48.Name = "panel48";
-            panel48.Size = new Size(236, 701);
+            panel48.Size = new Size(332, 1171);
             panel48.TabIndex = 1;
             // 
             // label123
             // 
             label123.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label123.AutoSize = true;
-            label123.Location = new Point(6, 127);
+            label123.Location = new Point(9, 212);
+            label123.Margin = new Padding(4, 0, 4, 0);
             label123.Name = "label123";
-            label123.Size = new Size(179, 18);
+            label123.Size = new Size(277, 27);
             label123.TabIndex = 5;
             label123.Text = "100 Cách Mạng Tháng 8";
             label123.TextAlign = ContentAlignment.MiddleLeft;
@@ -3046,9 +3297,10 @@
             label124.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label124.AutoSize = true;
             label124.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label124.Location = new Point(6, 102);
+            label124.Location = new Point(9, 170);
+            label124.Margin = new Padding(4, 0, 4, 0);
             label124.Name = "label124";
-            label124.Size = new Size(141, 19);
+            label124.Size = new Size(214, 29);
             label124.TabIndex = 4;
             label124.Text = "Địa chỉ giao hàng";
             label124.TextAlign = ContentAlignment.MiddleLeft;
@@ -3057,9 +3309,10 @@
             // 
             label125.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label125.AutoSize = true;
-            label125.Location = new Point(6, 43);
+            label125.Location = new Point(9, 72);
+            label125.Margin = new Padding(4, 0, 4, 0);
             label125.Name = "label125";
-            label125.Size = new Size(70, 18);
+            label125.Size = new Size(104, 27);
             label125.TabIndex = 3;
             label125.Text = "Ví MoMo";
             label125.TextAlign = ContentAlignment.MiddleLeft;
@@ -3069,9 +3322,10 @@
             label126.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label126.AutoSize = true;
             label126.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label126.Location = new Point(6, 20);
+            label126.Location = new Point(9, 33);
+            label126.Margin = new Padding(4, 0, 4, 0);
             label126.Name = "label126";
-            label126.Size = new Size(199, 19);
+            label126.Size = new Size(299, 29);
             label126.TabIndex = 2;
             label126.Text = "Phương thức thanh toán";
             label126.TextAlign = ContentAlignment.MiddleLeft;
@@ -3085,18 +3339,20 @@
             panel49.Controls.Add(label130);
             panel49.Controls.Add(label131);
             panel49.Controls.Add(label132);
-            panel49.Location = new Point(729, 3);
+            panel49.Location = new Point(1024, 5);
+            panel49.Margin = new Padding(4, 5, 4, 5);
             panel49.Name = "panel49";
-            panel49.Size = new Size(237, 701);
+            panel49.Size = new Size(332, 1171);
             panel49.TabIndex = 2;
             // 
             // label127
             // 
             label127.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label127.AutoSize = true;
-            label127.Location = new Point(7, 214);
+            label127.Location = new Point(10, 357);
+            label127.Margin = new Padding(4, 0, 4, 0);
             label127.Name = "label127";
-            label127.Size = new Size(66, 18);
+            label127.Size = new Size(104, 27);
             label127.TabIndex = 7;
             label127.Text = "Miễn phí";
             label127.TextAlign = ContentAlignment.MiddleLeft;
@@ -3106,9 +3362,10 @@
             label128.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label128.AutoSize = true;
             label128.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label128.Location = new Point(7, 187);
+            label128.Location = new Point(10, 312);
+            label128.Margin = new Padding(4, 0, 4, 0);
             label128.Name = "label128";
-            label128.Size = new Size(114, 19);
+            label128.Size = new Size(173, 29);
             label128.TabIndex = 6;
             label128.Text = "Phí giao hàng";
             label128.TextAlign = ContentAlignment.MiddleLeft;
@@ -3117,9 +3374,10 @@
             // 
             label129.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label129.AutoSize = true;
-            label129.Location = new Point(11, 127);
+            label129.Location = new Point(16, 212);
+            label129.Margin = new Padding(4, 0, 4, 0);
             label129.Name = "label129";
-            label129.Size = new Size(30, 18);
+            label129.Size = new Size(45, 27);
             label129.TabIndex = 5;
             label129.Text = "0 đ";
             label129.TextAlign = ContentAlignment.MiddleLeft;
@@ -3129,9 +3387,10 @@
             label130.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label130.AutoSize = true;
             label130.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label130.Location = new Point(7, 102);
+            label130.Location = new Point(10, 170);
+            label130.Margin = new Padding(4, 0, 4, 0);
             label130.Name = "label130";
-            label130.Size = new Size(77, 19);
+            label130.Size = new Size(117, 29);
             label130.TabIndex = 4;
             label130.Text = "Tiết kiệm";
             label130.TextAlign = ContentAlignment.MiddleLeft;
@@ -3140,9 +3399,10 @@
             // 
             label131.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label131.AutoSize = true;
-            label131.Location = new Point(11, 43);
+            label131.Location = new Point(16, 72);
+            label131.Margin = new Padding(4, 0, 4, 0);
             label131.Name = "label131";
-            label131.Size = new Size(92, 18);
+            label131.Size = new Size(137, 27);
             label131.TabIndex = 3;
             label131.Text = "2.600.000 đ";
             label131.TextAlign = ContentAlignment.MiddleLeft;
@@ -3152,9 +3412,10 @@
             label132.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label132.AutoSize = true;
             label132.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label132.Location = new Point(7, 20);
+            label132.Location = new Point(10, 33);
+            label132.Margin = new Padding(4, 0, 4, 0);
             label132.Name = "label132";
-            label132.Size = new Size(75, 19);
+            label132.Size = new Size(114, 29);
             label132.TabIndex = 2;
             label132.Text = "Tạm tính";
             label132.TextAlign = ContentAlignment.MiddleLeft;
@@ -3169,13 +3430,14 @@
             tableLayoutPanel24.Controls.Add(panel53, 0, 2);
             tableLayoutPanel24.Controls.Add(tableLayoutPanel26, 0, 1);
             tableLayoutPanel24.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            tableLayoutPanel24.Location = new Point(326, 1952);
+            tableLayoutPanel24.Location = new Point(466, 3253);
+            tableLayoutPanel24.Margin = new Padding(4, 5, 4, 5);
             tableLayoutPanel24.Name = "tableLayoutPanel24";
             tableLayoutPanel24.RowCount = 3;
             tableLayoutPanel24.RowStyles.Add(new RowStyle(SizeType.Percent, 15F));
             tableLayoutPanel24.RowStyles.Add(new RowStyle(SizeType.Percent, 70F));
             tableLayoutPanel24.RowStyles.Add(new RowStyle(SizeType.Percent, 15F));
-            tableLayoutPanel24.Size = new Size(977, 464);
+            tableLayoutPanel24.Size = new Size(1370, 773);
             tableLayoutPanel24.TabIndex = 15;
             // 
             // tableLayoutPanel25
@@ -3188,12 +3450,13 @@
             tableLayoutPanel25.Controls.Add(panel50, 0, 0);
             tableLayoutPanel25.Controls.Add(panel51, 1, 0);
             tableLayoutPanel25.Controls.Add(panel52, 2, 0);
-            tableLayoutPanel25.Location = new Point(4, 4);
+            tableLayoutPanel25.Location = new Point(5, 6);
+            tableLayoutPanel25.Margin = new Padding(4, 5, 4, 5);
             tableLayoutPanel25.Name = "tableLayoutPanel25";
             tableLayoutPanel25.RowCount = 1;
             tableLayoutPanel25.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel25.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            tableLayoutPanel25.Size = new Size(969, 63);
+            tableLayoutPanel25.RowStyles.Add(new RowStyle(SizeType.Absolute, 105F));
+            tableLayoutPanel25.Size = new Size(1360, 105);
             tableLayoutPanel25.TabIndex = 11;
             // 
             // panel50
@@ -3201,17 +3464,19 @@
             panel50.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             panel50.Controls.Add(label143);
             panel50.Controls.Add(label144);
-            panel50.Location = new Point(3, 3);
+            panel50.Location = new Point(4, 5);
+            panel50.Margin = new Padding(4, 5, 4, 5);
             panel50.Name = "panel50";
-            panel50.Size = new Size(478, 57);
+            panel50.Size = new Size(672, 95);
             panel50.TabIndex = 0;
             // 
             // label143
             // 
             label143.AutoSize = true;
-            label143.Location = new Point(8, 31);
+            label143.Location = new Point(11, 52);
+            label143.Margin = new Padding(4, 0, 4, 0);
             label143.Name = "label143";
-            label143.Size = new Size(178, 18);
+            label143.Size = new Size(276, 27);
             label143.TabIndex = 4;
             label143.Text = "Ngày đặt hàng: 3/3/2023";
             label143.TextAlign = ContentAlignment.MiddleCenter;
@@ -3220,9 +3485,10 @@
             // 
             label144.AutoSize = true;
             label144.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label144.Location = new Point(8, 9);
+            label144.Location = new Point(11, 15);
+            label144.Margin = new Padding(4, 0, 4, 0);
             label144.Name = "label144";
-            label144.Size = new Size(174, 19);
+            label144.Size = new Size(261, 29);
             label144.TabIndex = 3;
             label144.Text = "Mã đơn hàng: A10000";
             label144.TextAlign = ContentAlignment.MiddleCenter;
@@ -3232,18 +3498,20 @@
             panel51.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             panel51.Controls.Add(label145);
             panel51.Controls.Add(label146);
-            panel51.Location = new Point(487, 3);
+            panel51.Location = new Point(684, 5);
+            panel51.Margin = new Padding(4, 5, 4, 5);
             panel51.Name = "panel51";
-            panel51.Size = new Size(236, 57);
+            panel51.Size = new Size(332, 95);
             panel51.TabIndex = 1;
             // 
             // label145
             // 
             label145.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label145.AutoSize = true;
-            label145.Location = new Point(6, 31);
+            label145.Location = new Point(9, 52);
+            label145.Margin = new Padding(4, 0, 4, 0);
             label145.Name = "label145";
-            label145.Size = new Size(106, 18);
+            label145.Size = new Size(163, 27);
             label145.TabIndex = 6;
             label145.Text = " Đã giao hàng";
             label145.TextAlign = ContentAlignment.MiddleLeft;
@@ -3253,9 +3521,10 @@
             label146.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label146.AutoSize = true;
             label146.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label146.Location = new Point(6, 9);
+            label146.Location = new Point(9, 15);
+            label146.Margin = new Padding(4, 0, 4, 0);
             label146.Name = "label146";
-            label146.Size = new Size(163, 19);
+            label146.Size = new Size(248, 29);
             label146.TabIndex = 5;
             label146.Text = "Trạng thái đơn hàng";
             label146.TextAlign = ContentAlignment.MiddleLeft;
@@ -3265,18 +3534,20 @@
             panel52.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             panel52.Controls.Add(label147);
             panel52.Controls.Add(label148);
-            panel52.Location = new Point(729, 3);
+            panel52.Location = new Point(1024, 5);
+            panel52.Margin = new Padding(4, 5, 4, 5);
             panel52.Name = "panel52";
-            panel52.Size = new Size(237, 57);
+            panel52.Size = new Size(332, 95);
             panel52.TabIndex = 2;
             // 
             // label147
             // 
             label147.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label147.AutoSize = true;
-            label147.Location = new Point(11, 31);
+            label147.Location = new Point(16, 52);
+            label147.Margin = new Padding(4, 0, 4, 0);
             label147.Name = "label147";
-            label147.Size = new Size(88, 18);
+            label147.Size = new Size(130, 27);
             label147.TabIndex = 8;
             label147.Text = "2.600.000đ";
             label147.TextAlign = ContentAlignment.MiddleLeft;
@@ -3286,9 +3557,10 @@
             label148.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label148.AutoSize = true;
             label148.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label148.Location = new Point(7, 9);
+            label148.Location = new Point(10, 15);
+            label148.Margin = new Padding(4, 0, 4, 0);
             label148.Name = "label148";
-            label148.Size = new Size(81, 19);
+            label148.Size = new Size(123, 29);
             label148.TabIndex = 7;
             label148.Text = "Tổng tiền";
             label148.TextAlign = ContentAlignment.MiddleLeft;
@@ -3300,10 +3572,42 @@
             panel53.Controls.Add(button19);
             panel53.Controls.Add(button10);
             panel53.Controls.Add(button11);
-            panel53.Location = new Point(4, 397);
+            panel53.Location = new Point(5, 661);
+            panel53.Margin = new Padding(4, 5, 4, 5);
             panel53.Name = "panel53";
-            panel53.Size = new Size(969, 63);
+            panel53.Size = new Size(1360, 106);
             panel53.TabIndex = 2;
+            // 
+            // button18
+            // 
+            button18.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
+            button18.FlatAppearance.BorderColor = Color.FromArgb(92, 147, 184);
+            button18.FlatStyle = FlatStyle.Flat;
+            button18.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            button18.ForeColor = Color.FromArgb(92, 147, 184);
+            button18.Location = new Point(963, 20);
+            button18.Margin = new Padding(4, 5, 4, 5);
+            button18.Name = "button18";
+            button18.Size = new Size(159, 69);
+            button18.TabIndex = 4;
+            button18.Text = "ĐÁNH GIÁ";
+            button18.UseVisualStyleBackColor = true;
+            // 
+            // button19
+            // 
+            button19.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
+            button19.BackColor = Color.FromArgb(92, 147, 184);
+            button19.FlatAppearance.BorderColor = Color.FromArgb(92, 147, 184);
+            button19.FlatStyle = FlatStyle.Flat;
+            button19.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            button19.ForeColor = Color.White;
+            button19.Location = new Point(1173, 20);
+            button19.Margin = new Padding(4, 5, 4, 5);
+            button19.Name = "button19";
+            button19.Size = new Size(159, 69);
+            button19.TabIndex = 3;
+            button19.Text = "ĐẶT LẠI";
+            button19.UseVisualStyleBackColor = false;
             // 
             // button10
             // 
@@ -3312,9 +3616,10 @@
             button10.FlatStyle = FlatStyle.Flat;
             button10.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
             button10.ForeColor = Color.FromArgb(92, 147, 184);
-            button10.Location = new Point(1567, 12);
+            button10.Location = new Point(2215, 20);
+            button10.Margin = new Padding(4, 5, 4, 5);
             button10.Name = "button10";
-            button10.Size = new Size(111, 4);
+            button10.Size = new Size(159, 8);
             button10.TabIndex = 1;
             button10.Text = "ĐẶT LẠI";
             button10.UseVisualStyleBackColor = true;
@@ -3326,9 +3631,10 @@
             button11.FlatStyle = FlatStyle.Flat;
             button11.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
             button11.ForeColor = Color.FromArgb(92, 147, 184);
-            button11.Location = new Point(2349, 10);
+            button11.Location = new Point(3332, 17);
+            button11.Margin = new Padding(4, 5, 4, 5);
             button11.Name = "button11";
-            button11.Size = new Size(111, 0);
+            button11.Size = new Size(159, 1);
             button11.TabIndex = 0;
             button11.Text = "ĐẶT LẠI";
             button11.UseVisualStyleBackColor = true;
@@ -3343,11 +3649,12 @@
             tableLayoutPanel26.Controls.Add(panel54, 0, 0);
             tableLayoutPanel26.Controls.Add(panel55, 1, 0);
             tableLayoutPanel26.Controls.Add(panel56, 2, 0);
-            tableLayoutPanel26.Location = new Point(4, 74);
+            tableLayoutPanel26.Location = new Point(5, 122);
+            tableLayoutPanel26.Margin = new Padding(4, 5, 4, 5);
             tableLayoutPanel26.Name = "tableLayoutPanel26";
             tableLayoutPanel26.RowCount = 1;
             tableLayoutPanel26.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel26.Size = new Size(969, 316);
+            tableLayoutPanel26.Size = new Size(1360, 528);
             tableLayoutPanel26.TabIndex = 3;
             // 
             // panel54
@@ -3359,9 +3666,10 @@
             panel54.Controls.Add(label152);
             panel54.Controls.Add(label153);
             panel54.Controls.Add(pictureBox14);
-            panel54.Location = new Point(3, 3);
+            panel54.Location = new Point(4, 5);
+            panel54.Margin = new Padding(4, 5, 4, 5);
             panel54.Name = "panel54";
-            panel54.Size = new Size(478, 310);
+            panel54.Size = new Size(672, 518);
             panel54.TabIndex = 0;
             // 
             // label149
@@ -3369,27 +3677,30 @@
             label149.AutoSize = true;
             label149.Font = new Font("Arial", 14F, FontStyle.Bold, GraphicsUnit.Point);
             label149.ForeColor = Color.FromArgb(92, 147, 184);
-            label149.Location = new Point(214, 33);
+            label149.Location = new Point(306, 55);
+            label149.Margin = new Padding(4, 0, 4, 0);
             label149.Name = "label149";
-            label149.Size = new Size(109, 22);
+            label149.Size = new Size(160, 33);
             label149.TabIndex = 9;
             label149.Text = "2.600.000đ";
             // 
             // label150
             // 
             label150.AutoSize = true;
-            label150.Location = new Point(214, 88);
+            label150.Location = new Point(306, 147);
+            label150.Margin = new Padding(4, 0, 4, 0);
             label150.Name = "label150";
-            label150.Size = new Size(131, 18);
+            label150.Size = new Size(200, 27);
             label150.TabIndex = 8;
             label150.Text = "KÍCH CỠ: 6.5 UK";
             // 
             // label151
             // 
             label151.AutoSize = true;
-            label151.Location = new Point(214, 114);
+            label151.Location = new Point(306, 190);
+            label151.Margin = new Padding(4, 0, 4, 0);
             label151.Name = "label151";
-            label151.Size = new Size(91, 18);
+            label151.Size = new Size(141, 27);
             label151.TabIndex = 7;
             label151.Text = "Số lượng: 1";
             // 
@@ -3398,9 +3709,10 @@
             label152.AllowDrop = true;
             label152.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label152.AutoSize = true;
-            label152.Location = new Point(214, 61);
+            label152.Location = new Point(306, 102);
+            label152.Margin = new Padding(4, 0, 4, 0);
             label152.Name = "label152";
-            label152.Size = new Size(358, 18);
+            label152.Size = new Size(541, 27);
             label152.TabIndex = 6;
             label152.Text = "CLOUD WHITE / CLEAR PINK / PULSE MAGETA";
             // 
@@ -3408,18 +3720,20 @@
             // 
             label153.AutoSize = true;
             label153.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label153.Location = new Point(214, 11);
+            label153.Location = new Point(306, 18);
+            label153.Margin = new Padding(4, 0, 4, 0);
             label153.Name = "label153";
-            label153.Size = new Size(143, 18);
+            label153.Size = new Size(217, 27);
             label153.TabIndex = 5;
             label153.Text = "GIÀY SUPERSTAR";
             // 
             // pictureBox14
             // 
             pictureBox14.Image = (Image)resources.GetObject("pictureBox14.Image");
-            pictureBox14.Location = new Point(8, 6);
+            pictureBox14.Location = new Point(11, 10);
+            pictureBox14.Margin = new Padding(4, 5, 4, 5);
             pictureBox14.Name = "pictureBox14";
-            pictureBox14.Size = new Size(200, 200);
+            pictureBox14.Size = new Size(286, 333);
             pictureBox14.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox14.TabIndex = 1;
             pictureBox14.TabStop = false;
@@ -3431,18 +3745,20 @@
             panel55.Controls.Add(label155);
             panel55.Controls.Add(label156);
             panel55.Controls.Add(label157);
-            panel55.Location = new Point(487, 3);
+            panel55.Location = new Point(684, 5);
+            panel55.Margin = new Padding(4, 5, 4, 5);
             panel55.Name = "panel55";
-            panel55.Size = new Size(236, 310);
+            panel55.Size = new Size(332, 518);
             panel55.TabIndex = 1;
             // 
             // label154
             // 
             label154.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label154.AutoSize = true;
-            label154.Location = new Point(6, 127);
+            label154.Location = new Point(9, 212);
+            label154.Margin = new Padding(4, 0, 4, 0);
             label154.Name = "label154";
-            label154.Size = new Size(179, 18);
+            label154.Size = new Size(277, 27);
             label154.TabIndex = 5;
             label154.Text = "100 Cách Mạng Tháng 8";
             label154.TextAlign = ContentAlignment.MiddleLeft;
@@ -3452,9 +3768,10 @@
             label155.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label155.AutoSize = true;
             label155.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label155.Location = new Point(6, 102);
+            label155.Location = new Point(9, 170);
+            label155.Margin = new Padding(4, 0, 4, 0);
             label155.Name = "label155";
-            label155.Size = new Size(141, 19);
+            label155.Size = new Size(214, 29);
             label155.TabIndex = 4;
             label155.Text = "Địa chỉ giao hàng";
             label155.TextAlign = ContentAlignment.MiddleLeft;
@@ -3463,9 +3780,10 @@
             // 
             label156.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label156.AutoSize = true;
-            label156.Location = new Point(6, 43);
+            label156.Location = new Point(9, 72);
+            label156.Margin = new Padding(4, 0, 4, 0);
             label156.Name = "label156";
-            label156.Size = new Size(70, 18);
+            label156.Size = new Size(104, 27);
             label156.TabIndex = 3;
             label156.Text = "Ví MoMo";
             label156.TextAlign = ContentAlignment.MiddleLeft;
@@ -3475,9 +3793,10 @@
             label157.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label157.AutoSize = true;
             label157.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label157.Location = new Point(6, 20);
+            label157.Location = new Point(9, 33);
+            label157.Margin = new Padding(4, 0, 4, 0);
             label157.Name = "label157";
-            label157.Size = new Size(199, 19);
+            label157.Size = new Size(299, 29);
             label157.TabIndex = 2;
             label157.Text = "Phương thức thanh toán";
             label157.TextAlign = ContentAlignment.MiddleLeft;
@@ -3491,18 +3810,20 @@
             panel56.Controls.Add(label161);
             panel56.Controls.Add(label162);
             panel56.Controls.Add(label163);
-            panel56.Location = new Point(729, 3);
+            panel56.Location = new Point(1024, 5);
+            panel56.Margin = new Padding(4, 5, 4, 5);
             panel56.Name = "panel56";
-            panel56.Size = new Size(237, 310);
+            panel56.Size = new Size(332, 518);
             panel56.TabIndex = 2;
             // 
             // label158
             // 
             label158.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label158.AutoSize = true;
-            label158.Location = new Point(7, 214);
+            label158.Location = new Point(10, 357);
+            label158.Margin = new Padding(4, 0, 4, 0);
             label158.Name = "label158";
-            label158.Size = new Size(66, 18);
+            label158.Size = new Size(104, 27);
             label158.TabIndex = 7;
             label158.Text = "Miễn phí";
             label158.TextAlign = ContentAlignment.MiddleLeft;
@@ -3512,9 +3833,10 @@
             label159.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label159.AutoSize = true;
             label159.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label159.Location = new Point(7, 187);
+            label159.Location = new Point(10, 312);
+            label159.Margin = new Padding(4, 0, 4, 0);
             label159.Name = "label159";
-            label159.Size = new Size(114, 19);
+            label159.Size = new Size(173, 29);
             label159.TabIndex = 6;
             label159.Text = "Phí giao hàng";
             label159.TextAlign = ContentAlignment.MiddleLeft;
@@ -3523,9 +3845,10 @@
             // 
             label160.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label160.AutoSize = true;
-            label160.Location = new Point(11, 127);
+            label160.Location = new Point(16, 212);
+            label160.Margin = new Padding(4, 0, 4, 0);
             label160.Name = "label160";
-            label160.Size = new Size(30, 18);
+            label160.Size = new Size(45, 27);
             label160.TabIndex = 5;
             label160.Text = "0 đ";
             label160.TextAlign = ContentAlignment.MiddleLeft;
@@ -3535,9 +3858,10 @@
             label161.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label161.AutoSize = true;
             label161.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label161.Location = new Point(7, 102);
+            label161.Location = new Point(10, 170);
+            label161.Margin = new Padding(4, 0, 4, 0);
             label161.Name = "label161";
-            label161.Size = new Size(77, 19);
+            label161.Size = new Size(117, 29);
             label161.TabIndex = 4;
             label161.Text = "Tiết kiệm";
             label161.TextAlign = ContentAlignment.MiddleLeft;
@@ -3546,9 +3870,10 @@
             // 
             label162.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label162.AutoSize = true;
-            label162.Location = new Point(11, 43);
+            label162.Location = new Point(16, 72);
+            label162.Margin = new Padding(4, 0, 4, 0);
             label162.Name = "label162";
-            label162.Size = new Size(92, 18);
+            label162.Size = new Size(137, 27);
             label162.TabIndex = 3;
             label162.Text = "2.600.000 đ";
             label162.TextAlign = ContentAlignment.MiddleLeft;
@@ -3558,9 +3883,10 @@
             label163.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label163.AutoSize = true;
             label163.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label163.Location = new Point(7, 20);
+            label163.Location = new Point(10, 33);
+            label163.Margin = new Padding(4, 0, 4, 0);
             label163.Name = "label163";
-            label163.Size = new Size(75, 19);
+            label163.Size = new Size(114, 29);
             label163.TabIndex = 2;
             label163.Text = "Tạm tính";
             label163.TextAlign = ContentAlignment.MiddleLeft;
@@ -3575,13 +3901,14 @@
             tableLayoutPanel27.Controls.Add(panel60, 0, 2);
             tableLayoutPanel27.Controls.Add(tableLayoutPanel29, 0, 1);
             tableLayoutPanel27.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            tableLayoutPanel27.Location = new Point(326, 2438);
+            tableLayoutPanel27.Location = new Point(466, 4063);
+            tableLayoutPanel27.Margin = new Padding(4, 5, 4, 5);
             tableLayoutPanel27.Name = "tableLayoutPanel27";
             tableLayoutPanel27.RowCount = 3;
             tableLayoutPanel27.RowStyles.Add(new RowStyle(SizeType.Percent, 15F));
             tableLayoutPanel27.RowStyles.Add(new RowStyle(SizeType.Percent, 70F));
             tableLayoutPanel27.RowStyles.Add(new RowStyle(SizeType.Percent, 15F));
-            tableLayoutPanel27.Size = new Size(977, 464);
+            tableLayoutPanel27.Size = new Size(1370, 773);
             tableLayoutPanel27.TabIndex = 16;
             // 
             // tableLayoutPanel28
@@ -3594,12 +3921,13 @@
             tableLayoutPanel28.Controls.Add(panel57, 0, 0);
             tableLayoutPanel28.Controls.Add(panel58, 1, 0);
             tableLayoutPanel28.Controls.Add(panel59, 2, 0);
-            tableLayoutPanel28.Location = new Point(4, 4);
+            tableLayoutPanel28.Location = new Point(5, 6);
+            tableLayoutPanel28.Margin = new Padding(4, 5, 4, 5);
             tableLayoutPanel28.Name = "tableLayoutPanel28";
             tableLayoutPanel28.RowCount = 1;
             tableLayoutPanel28.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel28.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            tableLayoutPanel28.Size = new Size(969, 63);
+            tableLayoutPanel28.RowStyles.Add(new RowStyle(SizeType.Absolute, 105F));
+            tableLayoutPanel28.Size = new Size(1360, 105);
             tableLayoutPanel28.TabIndex = 11;
             // 
             // panel57
@@ -3607,17 +3935,19 @@
             panel57.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             panel57.Controls.Add(label164);
             panel57.Controls.Add(label165);
-            panel57.Location = new Point(3, 3);
+            panel57.Location = new Point(4, 5);
+            panel57.Margin = new Padding(4, 5, 4, 5);
             panel57.Name = "panel57";
-            panel57.Size = new Size(478, 57);
+            panel57.Size = new Size(672, 95);
             panel57.TabIndex = 0;
             // 
             // label164
             // 
             label164.AutoSize = true;
-            label164.Location = new Point(8, 31);
+            label164.Location = new Point(11, 52);
+            label164.Margin = new Padding(4, 0, 4, 0);
             label164.Name = "label164";
-            label164.Size = new Size(178, 18);
+            label164.Size = new Size(276, 27);
             label164.TabIndex = 4;
             label164.Text = "Ngày đặt hàng: 3/3/2023";
             label164.TextAlign = ContentAlignment.MiddleCenter;
@@ -3626,9 +3956,10 @@
             // 
             label165.AutoSize = true;
             label165.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label165.Location = new Point(8, 9);
+            label165.Location = new Point(11, 15);
+            label165.Margin = new Padding(4, 0, 4, 0);
             label165.Name = "label165";
-            label165.Size = new Size(174, 19);
+            label165.Size = new Size(261, 29);
             label165.TabIndex = 3;
             label165.Text = "Mã đơn hàng: A10000";
             label165.TextAlign = ContentAlignment.MiddleCenter;
@@ -3638,18 +3969,20 @@
             panel58.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             panel58.Controls.Add(label166);
             panel58.Controls.Add(label167);
-            panel58.Location = new Point(487, 3);
+            panel58.Location = new Point(684, 5);
+            panel58.Margin = new Padding(4, 5, 4, 5);
             panel58.Name = "panel58";
-            panel58.Size = new Size(236, 57);
+            panel58.Size = new Size(332, 95);
             panel58.TabIndex = 1;
             // 
             // label166
             // 
             label166.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label166.AutoSize = true;
-            label166.Location = new Point(6, 31);
+            label166.Location = new Point(9, 52);
+            label166.Margin = new Padding(4, 0, 4, 0);
             label166.Name = "label166";
-            label166.Size = new Size(106, 18);
+            label166.Size = new Size(163, 27);
             label166.TabIndex = 6;
             label166.Text = " Đã giao hàng";
             label166.TextAlign = ContentAlignment.MiddleLeft;
@@ -3659,9 +3992,10 @@
             label167.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label167.AutoSize = true;
             label167.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label167.Location = new Point(6, 9);
+            label167.Location = new Point(9, 15);
+            label167.Margin = new Padding(4, 0, 4, 0);
             label167.Name = "label167";
-            label167.Size = new Size(163, 19);
+            label167.Size = new Size(248, 29);
             label167.TabIndex = 5;
             label167.Text = "Trạng thái đơn hàng";
             label167.TextAlign = ContentAlignment.MiddleLeft;
@@ -3671,18 +4005,20 @@
             panel59.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             panel59.Controls.Add(label168);
             panel59.Controls.Add(label169);
-            panel59.Location = new Point(729, 3);
+            panel59.Location = new Point(1024, 5);
+            panel59.Margin = new Padding(4, 5, 4, 5);
             panel59.Name = "panel59";
-            panel59.Size = new Size(237, 57);
+            panel59.Size = new Size(332, 95);
             panel59.TabIndex = 2;
             // 
             // label168
             // 
             label168.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label168.AutoSize = true;
-            label168.Location = new Point(11, 31);
+            label168.Location = new Point(16, 52);
+            label168.Margin = new Padding(4, 0, 4, 0);
             label168.Name = "label168";
-            label168.Size = new Size(88, 18);
+            label168.Size = new Size(130, 27);
             label168.TabIndex = 8;
             label168.Text = "2.600.000đ";
             label168.TextAlign = ContentAlignment.MiddleLeft;
@@ -3692,9 +4028,10 @@
             label169.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label169.AutoSize = true;
             label169.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label169.Location = new Point(7, 9);
+            label169.Location = new Point(10, 15);
+            label169.Margin = new Padding(4, 0, 4, 0);
             label169.Name = "label169";
-            label169.Size = new Size(81, 19);
+            label169.Size = new Size(123, 29);
             label169.TabIndex = 7;
             label169.Text = "Tổng tiền";
             label169.TextAlign = ContentAlignment.MiddleLeft;
@@ -3706,10 +4043,42 @@
             panel60.Controls.Add(button21);
             panel60.Controls.Add(button12);
             panel60.Controls.Add(button13);
-            panel60.Location = new Point(4, 397);
+            panel60.Location = new Point(5, 661);
+            panel60.Margin = new Padding(4, 5, 4, 5);
             panel60.Name = "panel60";
-            panel60.Size = new Size(969, 63);
+            panel60.Size = new Size(1360, 106);
             panel60.TabIndex = 2;
+            // 
+            // button20
+            // 
+            button20.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
+            button20.FlatAppearance.BorderColor = Color.FromArgb(92, 147, 184);
+            button20.FlatStyle = FlatStyle.Flat;
+            button20.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            button20.ForeColor = Color.FromArgb(92, 147, 184);
+            button20.Location = new Point(963, 18);
+            button20.Margin = new Padding(4, 5, 4, 5);
+            button20.Name = "button20";
+            button20.Size = new Size(159, 69);
+            button20.TabIndex = 4;
+            button20.Text = "ĐÁNH GIÁ";
+            button20.UseVisualStyleBackColor = true;
+            // 
+            // button21
+            // 
+            button21.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
+            button21.BackColor = Color.FromArgb(92, 147, 184);
+            button21.FlatAppearance.BorderColor = Color.FromArgb(92, 147, 184);
+            button21.FlatStyle = FlatStyle.Flat;
+            button21.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            button21.ForeColor = Color.White;
+            button21.Location = new Point(1173, 18);
+            button21.Margin = new Padding(4, 5, 4, 5);
+            button21.Name = "button21";
+            button21.Size = new Size(159, 69);
+            button21.TabIndex = 3;
+            button21.Text = "ĐẶT LẠI";
+            button21.UseVisualStyleBackColor = false;
             // 
             // button12
             // 
@@ -3718,9 +4087,10 @@
             button12.FlatStyle = FlatStyle.Flat;
             button12.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
             button12.ForeColor = Color.FromArgb(92, 147, 184);
-            button12.Location = new Point(1567, 12);
+            button12.Location = new Point(2215, 20);
+            button12.Margin = new Padding(4, 5, 4, 5);
             button12.Name = "button12";
-            button12.Size = new Size(111, 4);
+            button12.Size = new Size(159, 8);
             button12.TabIndex = 1;
             button12.Text = "ĐẶT LẠI";
             button12.UseVisualStyleBackColor = true;
@@ -3732,9 +4102,10 @@
             button13.FlatStyle = FlatStyle.Flat;
             button13.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
             button13.ForeColor = Color.FromArgb(92, 147, 184);
-            button13.Location = new Point(2349, 10);
+            button13.Location = new Point(3332, 17);
+            button13.Margin = new Padding(4, 5, 4, 5);
             button13.Name = "button13";
-            button13.Size = new Size(111, 0);
+            button13.Size = new Size(159, 1);
             button13.TabIndex = 0;
             button13.Text = "ĐẶT LẠI";
             button13.UseVisualStyleBackColor = true;
@@ -3749,11 +4120,12 @@
             tableLayoutPanel29.Controls.Add(panel61, 0, 0);
             tableLayoutPanel29.Controls.Add(panel62, 1, 0);
             tableLayoutPanel29.Controls.Add(panel63, 2, 0);
-            tableLayoutPanel29.Location = new Point(4, 74);
+            tableLayoutPanel29.Location = new Point(5, 122);
+            tableLayoutPanel29.Margin = new Padding(4, 5, 4, 5);
             tableLayoutPanel29.Name = "tableLayoutPanel29";
             tableLayoutPanel29.RowCount = 1;
             tableLayoutPanel29.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel29.Size = new Size(969, 316);
+            tableLayoutPanel29.Size = new Size(1360, 528);
             tableLayoutPanel29.TabIndex = 3;
             // 
             // panel61
@@ -3765,9 +4137,10 @@
             panel61.Controls.Add(label173);
             panel61.Controls.Add(label174);
             panel61.Controls.Add(pictureBox15);
-            panel61.Location = new Point(3, 3);
+            panel61.Location = new Point(4, 5);
+            panel61.Margin = new Padding(4, 5, 4, 5);
             panel61.Name = "panel61";
-            panel61.Size = new Size(478, 310);
+            panel61.Size = new Size(672, 518);
             panel61.TabIndex = 0;
             // 
             // label170
@@ -3775,27 +4148,30 @@
             label170.AutoSize = true;
             label170.Font = new Font("Arial", 14F, FontStyle.Bold, GraphicsUnit.Point);
             label170.ForeColor = Color.FromArgb(92, 147, 184);
-            label170.Location = new Point(214, 33);
+            label170.Location = new Point(306, 55);
+            label170.Margin = new Padding(4, 0, 4, 0);
             label170.Name = "label170";
-            label170.Size = new Size(109, 22);
+            label170.Size = new Size(160, 33);
             label170.TabIndex = 9;
             label170.Text = "2.600.000đ";
             // 
             // label171
             // 
             label171.AutoSize = true;
-            label171.Location = new Point(214, 88);
+            label171.Location = new Point(306, 147);
+            label171.Margin = new Padding(4, 0, 4, 0);
             label171.Name = "label171";
-            label171.Size = new Size(131, 18);
+            label171.Size = new Size(200, 27);
             label171.TabIndex = 8;
             label171.Text = "KÍCH CỠ: 6.5 UK";
             // 
             // label172
             // 
             label172.AutoSize = true;
-            label172.Location = new Point(214, 114);
+            label172.Location = new Point(306, 190);
+            label172.Margin = new Padding(4, 0, 4, 0);
             label172.Name = "label172";
-            label172.Size = new Size(91, 18);
+            label172.Size = new Size(141, 27);
             label172.TabIndex = 7;
             label172.Text = "Số lượng: 1";
             // 
@@ -3804,9 +4180,10 @@
             label173.AllowDrop = true;
             label173.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label173.AutoSize = true;
-            label173.Location = new Point(214, 61);
+            label173.Location = new Point(306, 102);
+            label173.Margin = new Padding(4, 0, 4, 0);
             label173.Name = "label173";
-            label173.Size = new Size(358, 18);
+            label173.Size = new Size(541, 27);
             label173.TabIndex = 6;
             label173.Text = "CLOUD WHITE / CLEAR PINK / PULSE MAGETA";
             // 
@@ -3814,18 +4191,20 @@
             // 
             label174.AutoSize = true;
             label174.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label174.Location = new Point(214, 11);
+            label174.Location = new Point(306, 18);
+            label174.Margin = new Padding(4, 0, 4, 0);
             label174.Name = "label174";
-            label174.Size = new Size(143, 18);
+            label174.Size = new Size(217, 27);
             label174.TabIndex = 5;
             label174.Text = "GIÀY SUPERSTAR";
             // 
             // pictureBox15
             // 
             pictureBox15.Image = (Image)resources.GetObject("pictureBox15.Image");
-            pictureBox15.Location = new Point(8, 6);
+            pictureBox15.Location = new Point(11, 10);
+            pictureBox15.Margin = new Padding(4, 5, 4, 5);
             pictureBox15.Name = "pictureBox15";
-            pictureBox15.Size = new Size(200, 200);
+            pictureBox15.Size = new Size(286, 333);
             pictureBox15.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox15.TabIndex = 1;
             pictureBox15.TabStop = false;
@@ -3837,18 +4216,20 @@
             panel62.Controls.Add(label176);
             panel62.Controls.Add(label177);
             panel62.Controls.Add(label178);
-            panel62.Location = new Point(487, 3);
+            panel62.Location = new Point(684, 5);
+            panel62.Margin = new Padding(4, 5, 4, 5);
             panel62.Name = "panel62";
-            panel62.Size = new Size(236, 310);
+            panel62.Size = new Size(332, 518);
             panel62.TabIndex = 1;
             // 
             // label175
             // 
             label175.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label175.AutoSize = true;
-            label175.Location = new Point(6, 127);
+            label175.Location = new Point(9, 212);
+            label175.Margin = new Padding(4, 0, 4, 0);
             label175.Name = "label175";
-            label175.Size = new Size(179, 18);
+            label175.Size = new Size(277, 27);
             label175.TabIndex = 5;
             label175.Text = "100 Cách Mạng Tháng 8";
             label175.TextAlign = ContentAlignment.MiddleLeft;
@@ -3858,9 +4239,10 @@
             label176.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label176.AutoSize = true;
             label176.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label176.Location = new Point(6, 102);
+            label176.Location = new Point(9, 170);
+            label176.Margin = new Padding(4, 0, 4, 0);
             label176.Name = "label176";
-            label176.Size = new Size(141, 19);
+            label176.Size = new Size(214, 29);
             label176.TabIndex = 4;
             label176.Text = "Địa chỉ giao hàng";
             label176.TextAlign = ContentAlignment.MiddleLeft;
@@ -3869,9 +4251,10 @@
             // 
             label177.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label177.AutoSize = true;
-            label177.Location = new Point(6, 43);
+            label177.Location = new Point(9, 72);
+            label177.Margin = new Padding(4, 0, 4, 0);
             label177.Name = "label177";
-            label177.Size = new Size(70, 18);
+            label177.Size = new Size(104, 27);
             label177.TabIndex = 3;
             label177.Text = "Ví MoMo";
             label177.TextAlign = ContentAlignment.MiddleLeft;
@@ -3881,9 +4264,10 @@
             label178.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label178.AutoSize = true;
             label178.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label178.Location = new Point(6, 20);
+            label178.Location = new Point(9, 33);
+            label178.Margin = new Padding(4, 0, 4, 0);
             label178.Name = "label178";
-            label178.Size = new Size(199, 19);
+            label178.Size = new Size(299, 29);
             label178.TabIndex = 2;
             label178.Text = "Phương thức thanh toán";
             label178.TextAlign = ContentAlignment.MiddleLeft;
@@ -3897,18 +4281,20 @@
             panel63.Controls.Add(label182);
             panel63.Controls.Add(label183);
             panel63.Controls.Add(label184);
-            panel63.Location = new Point(729, 3);
+            panel63.Location = new Point(1024, 5);
+            panel63.Margin = new Padding(4, 5, 4, 5);
             panel63.Name = "panel63";
-            panel63.Size = new Size(237, 310);
+            panel63.Size = new Size(332, 518);
             panel63.TabIndex = 2;
             // 
             // label179
             // 
             label179.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label179.AutoSize = true;
-            label179.Location = new Point(7, 214);
+            label179.Location = new Point(10, 357);
+            label179.Margin = new Padding(4, 0, 4, 0);
             label179.Name = "label179";
-            label179.Size = new Size(66, 18);
+            label179.Size = new Size(104, 27);
             label179.TabIndex = 7;
             label179.Text = "Miễn phí";
             label179.TextAlign = ContentAlignment.MiddleLeft;
@@ -3918,9 +4304,10 @@
             label180.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label180.AutoSize = true;
             label180.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label180.Location = new Point(7, 187);
+            label180.Location = new Point(10, 312);
+            label180.Margin = new Padding(4, 0, 4, 0);
             label180.Name = "label180";
-            label180.Size = new Size(114, 19);
+            label180.Size = new Size(173, 29);
             label180.TabIndex = 6;
             label180.Text = "Phí giao hàng";
             label180.TextAlign = ContentAlignment.MiddleLeft;
@@ -3929,9 +4316,10 @@
             // 
             label181.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label181.AutoSize = true;
-            label181.Location = new Point(11, 127);
+            label181.Location = new Point(16, 212);
+            label181.Margin = new Padding(4, 0, 4, 0);
             label181.Name = "label181";
-            label181.Size = new Size(30, 18);
+            label181.Size = new Size(45, 27);
             label181.TabIndex = 5;
             label181.Text = "0 đ";
             label181.TextAlign = ContentAlignment.MiddleLeft;
@@ -3941,9 +4329,10 @@
             label182.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label182.AutoSize = true;
             label182.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label182.Location = new Point(7, 102);
+            label182.Location = new Point(10, 170);
+            label182.Margin = new Padding(4, 0, 4, 0);
             label182.Name = "label182";
-            label182.Size = new Size(77, 19);
+            label182.Size = new Size(117, 29);
             label182.TabIndex = 4;
             label182.Text = "Tiết kiệm";
             label182.TextAlign = ContentAlignment.MiddleLeft;
@@ -3952,9 +4341,10 @@
             // 
             label183.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label183.AutoSize = true;
-            label183.Location = new Point(11, 43);
+            label183.Location = new Point(16, 72);
+            label183.Margin = new Padding(4, 0, 4, 0);
             label183.Name = "label183";
-            label183.Size = new Size(92, 18);
+            label183.Size = new Size(137, 27);
             label183.TabIndex = 3;
             label183.Text = "2.600.000 đ";
             label183.TextAlign = ContentAlignment.MiddleLeft;
@@ -3964,207 +4354,22 @@
             label184.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label184.AutoSize = true;
             label184.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label184.Location = new Point(7, 20);
+            label184.Location = new Point(10, 33);
+            label184.Margin = new Padding(4, 0, 4, 0);
             label184.Name = "label184";
-            label184.Size = new Size(75, 19);
+            label184.Size = new Size(114, 29);
             label184.TabIndex = 2;
             label184.Text = "Tạm tính";
             label184.TextAlign = ContentAlignment.MiddleLeft;
             // 
-            // button14
-            // 
-            button14.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
-            button14.FlatAppearance.BorderColor = Color.FromArgb(92, 147, 184);
-            button14.FlatStyle = FlatStyle.Flat;
-            button14.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            button14.ForeColor = Color.FromArgb(92, 147, 184);
-            button14.Location = new Point(691, 11);
-            button14.Name = "button14";
-            button14.Size = new Size(111, 41);
-            button14.TabIndex = 2;
-            button14.Text = "ĐÁNH GIÁ";
-            button14.UseVisualStyleBackColor = true;
-            // 
-            // panel24
-            // 
-            panel24.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            panel24.Controls.Add(button15);
-            panel24.Controls.Add(button16);
-            panel24.Controls.Add(button1);
-            panel24.Controls.Add(button4);
-            panel24.Controls.Add(button5);
-            panel24.Location = new Point(4, 397);
-            panel24.Name = "panel24";
-            panel24.Size = new Size(969, 63);
-            panel24.TabIndex = 12;
-            // 
-            // button1
-            // 
-            button1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
-            button1.FlatAppearance.BorderColor = Color.FromArgb(92, 147, 184);
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            button1.ForeColor = Color.FromArgb(92, 147, 184);
-            button1.Location = new Point(1460, 11);
-            button1.Name = "button1";
-            button1.Size = new Size(111, 4);
-            button1.TabIndex = 2;
-            button1.Text = "ĐÁNH GIÁ";
-            button1.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            button4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
-            button4.BackColor = Color.FromArgb(92, 147, 184);
-            button4.FlatAppearance.BorderColor = Color.FromArgb(92, 147, 184);
-            button4.FlatStyle = FlatStyle.Flat;
-            button4.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            button4.ForeColor = Color.White;
-            button4.Location = new Point(1607, 11);
-            button4.Name = "button4";
-            button4.Size = new Size(111, 4);
-            button4.TabIndex = 1;
-            button4.Text = "ĐẶT LẠI";
-            button4.UseVisualStyleBackColor = false;
-            // 
-            // button5
-            // 
-            button5.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
-            button5.FlatAppearance.BorderColor = Color.FromArgb(92, 147, 184);
-            button5.FlatStyle = FlatStyle.Flat;
-            button5.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            button5.ForeColor = Color.FromArgb(92, 147, 184);
-            button5.Location = new Point(2388, 10);
-            button5.Name = "button5";
-            button5.Size = new Size(111, 0);
-            button5.TabIndex = 0;
-            button5.Text = "ĐẶT LẠI";
-            button5.UseVisualStyleBackColor = true;
-            // 
-            // button15
-            // 
-            button15.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
-            button15.FlatAppearance.BorderColor = Color.FromArgb(92, 147, 184);
-            button15.FlatStyle = FlatStyle.Flat;
-            button15.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            button15.ForeColor = Color.FromArgb(92, 147, 184);
-            button15.Location = new Point(691, 10);
-            button15.Name = "button15";
-            button15.Size = new Size(111, 41);
-            button15.TabIndex = 4;
-            button15.Text = "ĐÁNH GIÁ";
-            button15.UseVisualStyleBackColor = true;
-            // 
-            // button16
-            // 
-            button16.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
-            button16.BackColor = Color.FromArgb(92, 147, 184);
-            button16.FlatAppearance.BorderColor = Color.FromArgb(92, 147, 184);
-            button16.FlatStyle = FlatStyle.Flat;
-            button16.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            button16.ForeColor = Color.White;
-            button16.Location = new Point(838, 10);
-            button16.Name = "button16";
-            button16.Size = new Size(111, 41);
-            button16.TabIndex = 3;
-            button16.Text = "ĐẶT LẠI";
-            button16.UseVisualStyleBackColor = false;
-            // 
-            // button9
-            // 
-            button9.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
-            button9.FlatAppearance.BorderColor = Color.FromArgb(92, 147, 184);
-            button9.FlatStyle = FlatStyle.Flat;
-            button9.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            button9.ForeColor = Color.FromArgb(92, 147, 184);
-            button9.Location = new Point(691, 12);
-            button9.Name = "button9";
-            button9.Size = new Size(111, 41);
-            button9.TabIndex = 4;
-            button9.Text = "ĐÁNH GIÁ";
-            button9.UseVisualStyleBackColor = true;
-            // 
-            // button17
-            // 
-            button17.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
-            button17.BackColor = Color.FromArgb(92, 147, 184);
-            button17.FlatAppearance.BorderColor = Color.FromArgb(92, 147, 184);
-            button17.FlatStyle = FlatStyle.Flat;
-            button17.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            button17.ForeColor = Color.White;
-            button17.Location = new Point(838, 12);
-            button17.Name = "button17";
-            button17.Size = new Size(111, 41);
-            button17.TabIndex = 3;
-            button17.Text = "ĐẶT LẠI";
-            button17.UseVisualStyleBackColor = false;
-            // 
-            // button18
-            // 
-            button18.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
-            button18.FlatAppearance.BorderColor = Color.FromArgb(92, 147, 184);
-            button18.FlatStyle = FlatStyle.Flat;
-            button18.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            button18.ForeColor = Color.FromArgb(92, 147, 184);
-            button18.Location = new Point(691, 12);
-            button18.Name = "button18";
-            button18.Size = new Size(111, 41);
-            button18.TabIndex = 4;
-            button18.Text = "ĐÁNH GIÁ";
-            button18.UseVisualStyleBackColor = true;
-            // 
-            // button19
-            // 
-            button19.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
-            button19.BackColor = Color.FromArgb(92, 147, 184);
-            button19.FlatAppearance.BorderColor = Color.FromArgb(92, 147, 184);
-            button19.FlatStyle = FlatStyle.Flat;
-            button19.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            button19.ForeColor = Color.White;
-            button19.Location = new Point(838, 12);
-            button19.Name = "button19";
-            button19.Size = new Size(111, 41);
-            button19.TabIndex = 3;
-            button19.Text = "ĐẶT LẠI";
-            button19.UseVisualStyleBackColor = false;
-            // 
-            // button20
-            // 
-            button20.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
-            button20.FlatAppearance.BorderColor = Color.FromArgb(92, 147, 184);
-            button20.FlatStyle = FlatStyle.Flat;
-            button20.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            button20.ForeColor = Color.FromArgb(92, 147, 184);
-            button20.Location = new Point(691, 11);
-            button20.Name = "button20";
-            button20.Size = new Size(111, 41);
-            button20.TabIndex = 4;
-            button20.Text = "ĐÁNH GIÁ";
-            button20.UseVisualStyleBackColor = true;
-            // 
-            // button21
-            // 
-            button21.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
-            button21.BackColor = Color.FromArgb(92, 147, 184);
-            button21.FlatAppearance.BorderColor = Color.FromArgb(92, 147, 184);
-            button21.FlatStyle = FlatStyle.Flat;
-            button21.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            button21.ForeColor = Color.White;
-            button21.Location = new Point(838, 11);
-            button21.Name = "button21";
-            button21.Size = new Size(111, 41);
-            button21.TabIndex = 3;
-            button21.Text = "ĐẶT LẠI";
-            button21.UseVisualStyleBackColor = false;
-            // 
             // TaiKhoan
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoScroll = true;
             AutoValidate = AutoValidate.EnableAllowFocusChange;
             BackColor = Color.White;
-            ClientSize = new Size(1332, 769);
+            ClientSize = new Size(1903, 1050);
             Controls.Add(tableLayoutPanel27);
             Controls.Add(tableLayoutPanel24);
             Controls.Add(tableLayoutPanel14);
@@ -4175,7 +4380,6 @@
             Controls.Add(panel4);
             Controls.Add(panel1);
             Icon = (Icon)resources.GetObject("$this.Icon");
-            Margin = new Padding(2);
             Name = "TaiKhoan";
             ShowIcon = false;
             StartPosition = FormStartPosition.CenterScreen;
@@ -4254,6 +4458,7 @@
             panel20.ResumeLayout(false);
             panel20.PerformLayout();
             tableLayoutPanel11.ResumeLayout(false);
+            panel24.ResumeLayout(false);
             tableLayoutPanel12.ResumeLayout(false);
             panel21.ResumeLayout(false);
             panel21.PerformLayout();
@@ -4322,7 +4527,6 @@
             panel62.PerformLayout();
             panel63.ResumeLayout(false);
             panel63.PerformLayout();
-            panel24.ResumeLayout(false);
             ResumeLayout(false);
         }
 
