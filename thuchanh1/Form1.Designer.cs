@@ -77,7 +77,6 @@
             button2 = new Button();
             button1 = new Button();
             label2 = new Label();
-            listView1 = new ListView();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             panel2.SuspendLayout();
@@ -160,6 +159,7 @@
             pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox4.TabIndex = 6;
             pictureBox4.TabStop = false;
+            pictureBox4.Click += pictureBox4_Click;
             // 
             // pictureBox1
             // 
@@ -648,20 +648,6 @@
             label2.TabIndex = 0;
             label2.Text = "Sắp xếp theo";
             // 
-            // listView1
-            // 
-            listView1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            listView1.BorderStyle = BorderStyle.None;
-            listView1.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            listView1.GridLines = true;
-            listView1.Location = new Point(325, 95);
-            listView1.Margin = new Padding(3, 2, 3, 2);
-            listView1.Name = "listView1";
-            listView1.Size = new Size(1014, 1047);
-            listView1.TabIndex = 5;
-            listView1.UseCompatibleStateImageBehavior = false;
-            listView1.SelectedIndexChanged += listView1_SelectedIndexChanged;
-            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -669,12 +655,11 @@
             AutoValidate = AutoValidate.EnableAllowFocusChange;
             BackColor = Color.White;
             ClientSize = new Size(1347, 781);
-            Controls.Add(listView1);
             Controls.Add(panel4);
             Controls.Add(panel3);
             Controls.Add(panel1);
             Icon = (Icon)resources.GetObject("$this.Icon");
-            Margin = new Padding(2, 2, 2, 2);
+            Margin = new Padding(2);
             Name = "Form1";
             ShowIcon = false;
             StartPosition = FormStartPosition.CenterScreen;
@@ -732,7 +717,6 @@
         private CheckBox checkBox1;
         private PictureBox pictureBox6;
         private ComboBox comboBox1;
-        private ListView listView1;
         private Panel panel8;
         private Panel panel9;
         private Panel panel7;
