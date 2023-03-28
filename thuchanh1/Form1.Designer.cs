@@ -39,15 +39,7 @@
             pictureBox3 = new PictureBox();
             label1 = new Label();
             panel3 = new Panel();
-            tableLayoutPanel1 = new TableLayoutPanel();
-            button7 = new Button();
-            button6 = new Button();
-            button5 = new Button();
-            button4 = new Button();
-            button3 = new Button();
-            button8 = new Button();
-            button9 = new Button();
-            button10 = new Button();
+            size1 = new Component.size();
             label8 = new Label();
             panel8 = new Panel();
             panel9 = new Panel();
@@ -87,7 +79,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             panel3.SuspendLayout();
-            tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             panel4.SuspendLayout();
             panel11.SuspendLayout();
@@ -139,6 +130,8 @@
             tb_timkiem.PlaceholderText = " Tìm kiếm";
             tb_timkiem.Size = new Size(279, 26);
             tb_timkiem.TabIndex = 0;
+            tb_timkiem.TextChanged += tb_timkiem_TextChanged;
+            tb_timkiem.KeyUp += tb_timkiem_KeyUp;
             // 
             // pictureBox2
             // 
@@ -199,7 +192,7 @@
             // 
             panel3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             panel3.BackColor = Color.Transparent;
-            panel3.Controls.Add(tableLayoutPanel1);
+            panel3.Controls.Add(size1);
             panel3.Controls.Add(label8);
             panel3.Controls.Add(panel8);
             panel3.Controls.Add(panel9);
@@ -229,126 +222,12 @@
             panel3.Size = new Size(314, 1331);
             panel3.TabIndex = 1;
             // 
-            // tableLayoutPanel1
+            // size1
             // 
-            tableLayoutPanel1.CellBorderStyle = TableLayoutPanelCellBorderStyle.Single;
-            tableLayoutPanel1.ColumnCount = 4;
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
-            tableLayoutPanel1.Controls.Add(button7, 0, 1);
-            tableLayoutPanel1.Controls.Add(button6, 0, 1);
-            tableLayoutPanel1.Controls.Add(button5, 0, 1);
-            tableLayoutPanel1.Controls.Add(button4, 0, 1);
-            tableLayoutPanel1.Controls.Add(button3, 0, 0);
-            tableLayoutPanel1.Controls.Add(button8, 2, 0);
-            tableLayoutPanel1.Controls.Add(button9, 3, 0);
-            tableLayoutPanel1.Controls.Add(button10, 1, 0);
-            tableLayoutPanel1.Location = new Point(7, 664);
-            tableLayoutPanel1.Name = "tableLayoutPanel1";
-            tableLayoutPanel1.RowCount = 2;
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            tableLayoutPanel1.Size = new Size(293, 100);
-            tableLayoutPanel1.TabIndex = 24;
-            // 
-            // button7
-            // 
-            button7.FlatAppearance.BorderSize = 0;
-            button7.FlatStyle = FlatStyle.Flat;
-            button7.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button7.Location = new Point(4, 53);
-            button7.Name = "button7";
-            button7.Size = new Size(66, 42);
-            button7.TabIndex = 4;
-            button7.Text = "7 UK";
-            button7.UseVisualStyleBackColor = true;
-            // 
-            // button6
-            // 
-            button6.FlatAppearance.BorderSize = 0;
-            button6.FlatStyle = FlatStyle.Flat;
-            button6.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button6.Location = new Point(77, 53);
-            button6.Name = "button6";
-            button6.Size = new Size(66, 42);
-            button6.TabIndex = 3;
-            button6.Text = "7.5 UK";
-            button6.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            button5.FlatAppearance.BorderSize = 0;
-            button5.FlatStyle = FlatStyle.Flat;
-            button5.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button5.Location = new Point(150, 53);
-            button5.Name = "button5";
-            button5.Size = new Size(66, 42);
-            button5.TabIndex = 2;
-            button5.Text = "8 UK";
-            button5.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            button4.FlatAppearance.BorderSize = 0;
-            button4.FlatStyle = FlatStyle.Flat;
-            button4.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button4.Location = new Point(223, 53);
-            button4.Name = "button4";
-            button4.Size = new Size(66, 42);
-            button4.TabIndex = 1;
-            button4.Text = "8.5 UK";
-            button4.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            button3.FlatAppearance.BorderSize = 0;
-            button3.FlatStyle = FlatStyle.Flat;
-            button3.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button3.Location = new Point(4, 4);
-            button3.Name = "button3";
-            button3.Size = new Size(66, 42);
-            button3.TabIndex = 0;
-            button3.Text = "5 UK";
-            button3.UseVisualStyleBackColor = true;
-            // 
-            // button8
-            // 
-            button8.FlatAppearance.BorderSize = 0;
-            button8.FlatStyle = FlatStyle.Flat;
-            button8.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button8.Location = new Point(150, 4);
-            button8.Name = "button8";
-            button8.Size = new Size(66, 42);
-            button8.TabIndex = 5;
-            button8.Text = "6 UK";
-            button8.UseVisualStyleBackColor = true;
-            // 
-            // button9
-            // 
-            button9.FlatAppearance.BorderSize = 0;
-            button9.FlatStyle = FlatStyle.Flat;
-            button9.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button9.Location = new Point(223, 4);
-            button9.Name = "button9";
-            button9.Size = new Size(66, 42);
-            button9.TabIndex = 6;
-            button9.Text = "6.5 UK";
-            button9.UseVisualStyleBackColor = true;
-            // 
-            // button10
-            // 
-            button10.FlatAppearance.BorderSize = 0;
-            button10.FlatStyle = FlatStyle.Flat;
-            button10.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button10.Location = new Point(77, 4);
-            button10.Name = "button10";
-            button10.Size = new Size(66, 42);
-            button10.TabIndex = 7;
-            button10.Text = "5.5 UK";
-            button10.UseVisualStyleBackColor = true;
+            size1.Location = new Point(7, 664);
+            size1.Name = "size1";
+            size1.Size = new Size(298, 106);
+            size1.TabIndex = 25;
             // 
             // label8
             // 
@@ -698,7 +577,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             panel3.ResumeLayout(false);
             panel3.PerformLayout();
-            tableLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
             panel4.ResumeLayout(false);
             panel4.PerformLayout();
@@ -746,18 +624,10 @@
         private Panel panel10;
         private Panel panel6;
         private Panel panel5;
-        private TableLayoutPanel tableLayoutPanel1;
-        private Button button3;
         private Label label8;
-        private Button button7;
-        private Button button6;
-        private Button button5;
-        private Button button4;
-        private Button button8;
-        private Button button9;
-        private Button button10;
         private Panel panel11;
         private FlowLayoutPanel flowLayoutPanel1;
+        private Component.size size1;
 
         public virtual string PlaceholderText { get; set; }
     }

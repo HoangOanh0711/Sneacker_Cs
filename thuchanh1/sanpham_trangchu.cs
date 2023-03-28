@@ -12,7 +12,7 @@ namespace thuchanh1
 {
     public partial class sanpham_trangchu : UserControl
     {
-        public event EventHandler OnSekect = null;
+        
         public sanpham_trangchu()
         {
             InitializeComponent();
@@ -20,13 +20,16 @@ namespace thuchanh1
 
         private void sp_anh_Click(object sender, EventArgs e)
         {
-
+            ChiTiet chitietform = new ChiTiet(sp_ten.Text, sp_giatien.Text, sp_loai.Text, this.tenanh);
+            chitietform.Show();
         }
 
         private void sanpham_trangchu_Click(object sender, EventArgs e)
         {
-            OnSekect?.Invoke(this, e);
+            
         }
+        private string tenanh;
+        public string tenAnh { get => tenanh; set => tenanh = value; }
         public string spTien { get => sp_giatien.Text; set => sp_giatien.Text = value; }
         public string spTen { get => sp_ten.Text; set => sp_ten.Text = value; }
         public string spLoai { get => sp_loai.Text; set => sp_loai.Text = value; }

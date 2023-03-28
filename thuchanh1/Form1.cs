@@ -39,6 +39,7 @@ namespace thuchanh1
             {
                 spTen = ten,
                 spLoai = loai,
+                tenAnh = anh,
                 spAnh = Image.FromFile("Resources/" + anh + "a.jpg"),
                 spMau = mau,
                 spTien = tien,
@@ -68,6 +69,28 @@ namespace thuchanh1
             AddItem("Adidas18", "Ori", "Trang", "10", "18");
             AddItem("Adidas19", "Ori", "Trang", "10", "19");
             AddItem("Adidas20", "Ori", "Trang", "10", "20");
+        }
+
+        private void tb_timkiem_TextChanged(object sender, EventArgs e)
+        {
+            foreach (var item in flowLayoutPanel1.Controls)
+            {
+                var sp = (sanpham_trangchu)item;
+                sp.Visible = sp.sp_ten.Text.ToLower().ToLower().Contains(tb_timkiem.Text.Trim().ToLower());
+            }
+
+        }
+
+        private void tb_timkiem_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter || tb_timkiem.Text.Trim().Length == 0)
+            {
+                foreach (var item in flowLayoutPanel1.Controls)
+                {
+                    var sp = (sanpham_trangchu)item;
+                    sp.Visible = sp.sp_ten.Text.ToLower().ToLower().Contains(tb_timkiem.Text.Trim().ToLower());
+                }
+            }
         }
     }
 }

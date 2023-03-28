@@ -111,6 +111,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             Controls.Add(panel1);
+            Cursor = Cursors.Hand;
             Name = "sanpham_trangchu";
             Size = new Size(248, 338);
             Click += sanpham_trangchu_Click;
