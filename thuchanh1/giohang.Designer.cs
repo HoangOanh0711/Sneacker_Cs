@@ -143,9 +143,9 @@
             label86 = new Label();
             pictureBox9 = new PictureBox();
             splitContainer1 = new SplitContainer();
-            label3 = new Label();
             tableLayoutPanel1 = new TableLayoutPanel();
             tableLayoutPanel11 = new TableLayoutPanel();
+            label3 = new Label();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             panel2.SuspendLayout();
@@ -207,17 +207,19 @@
             panel1.Controls.Add(label1);
             panel1.Dock = DockStyle.Top;
             panel1.Location = new Point(0, 0);
+            panel1.Margin = new Padding(4, 5, 4, 5);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1332, 43);
+            panel1.Size = new Size(1903, 72);
             panel1.TabIndex = 0;
             // 
             // pictureBox5
             // 
             pictureBox5.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
-            pictureBox5.Location = new Point(1291, 10);
+            pictureBox5.Location = new Point(1844, 17);
+            pictureBox5.Margin = new Padding(4, 5, 4, 5);
             pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(25, 25);
+            pictureBox5.Size = new Size(36, 42);
             pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox5.TabIndex = 7;
             pictureBox5.TabStop = false;
@@ -228,28 +230,31 @@
             panel2.AutoScroll = true;
             panel2.Controls.Add(tb_timkiem);
             panel2.Controls.Add(pictureBox2);
-            panel2.Location = new Point(527, 5);
+            panel2.Location = new Point(753, 8);
+            panel2.Margin = new Padding(4, 5, 4, 5);
             panel2.Name = "panel2";
-            panel2.Size = new Size(453, 35);
+            panel2.Size = new Size(647, 58);
             panel2.TabIndex = 4;
             // 
             // tb_timkiem
             // 
             tb_timkiem.BorderStyle = BorderStyle.FixedSingle;
             tb_timkiem.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            tb_timkiem.Location = new Point(18, 4);
+            tb_timkiem.Location = new Point(26, 7);
+            tb_timkiem.Margin = new Padding(4, 5, 4, 5);
             tb_timkiem.Name = "tb_timkiem";
             tb_timkiem.PlaceholderText = " Tìm kiếm";
-            tb_timkiem.Size = new Size(279, 26);
+            tb_timkiem.Size = new Size(398, 35);
             tb_timkiem.TabIndex = 0;
             // 
             // pictureBox2
             // 
             pictureBox2.BackColor = Color.Transparent;
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(303, 4);
+            pictureBox2.Location = new Point(433, 7);
+            pictureBox2.Margin = new Padding(4, 5, 4, 5);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(25, 25);
+            pictureBox2.Size = new Size(36, 42);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 4;
             pictureBox2.TabStop = false;
@@ -259,19 +264,21 @@
             // 
             pictureBox4.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
-            pictureBox4.Location = new Point(1251, 10);
+            pictureBox4.Location = new Point(1787, 17);
+            pictureBox4.Margin = new Padding(4, 5, 4, 5);
             pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(25, 25);
+            pictureBox4.Size = new Size(36, 42);
             pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox4.TabIndex = 6;
             pictureBox4.TabStop = false;
             // 
             // pictureBox1
             // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(21, -9);
+            pictureBox1.Image = Properties.Resources.sneaker;
+            pictureBox1.Location = new Point(30, -15);
+            pictureBox1.Margin = new Padding(4, 5, 4, 5);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(65, 65);
+            pictureBox1.Size = new Size(93, 108);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 3;
             pictureBox1.TabStop = false;
@@ -280,9 +287,10 @@
             // 
             pictureBox3.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
-            pictureBox3.Location = new Point(1211, 10);
+            pictureBox3.Location = new Point(1730, 17);
+            pictureBox3.Margin = new Padding(4, 5, 4, 5);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(25, 25);
+            pictureBox3.Size = new Size(36, 42);
             pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox3.TabIndex = 5;
             pictureBox3.TabStop = false;
@@ -291,9 +299,10 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Arial", 20F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(90, 6);
+            label1.Location = new Point(129, 10);
+            label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(129, 32);
+            label1.Size = new Size(186, 45);
             label1.TabIndex = 2;
             label1.Text = "Sneakers";
             // 
@@ -303,9 +312,10 @@
             panel4.Controls.Add(comboBox2);
             panel4.Controls.Add(comboBox1);
             panel4.Controls.Add(label2);
-            panel4.Location = new Point(325, -152);
+            panel4.Location = new Point(464, -253);
+            panel4.Margin = new Padding(4, 5, 4, 5);
             panel4.Name = "panel4";
-            panel4.Size = new Size(668, 63);
+            panel4.Size = new Size(954, 105);
             panel4.TabIndex = 4;
             panel4.Paint += panel4_Paint;
             // 
@@ -315,10 +325,10 @@
             comboBox2.Font = new Font("Arial", 15F, FontStyle.Regular, GraphicsUnit.Point);
             comboBox2.FormattingEnabled = true;
             comboBox2.Items.AddRange(new object[] { "Tất cả trạng thái", "Chờ thanh toán", "Vận chuyển", "Đang giao", "Hoàn thành", "Đã hủy", "Trả hàng/Hoàn tiền" });
-            comboBox2.Location = new Point(145, 14);
-            comboBox2.Margin = new Padding(3, 2, 3, 2);
+            comboBox2.Location = new Point(207, 23);
+            comboBox2.Margin = new Padding(4, 3, 4, 3);
             comboBox2.Name = "comboBox2";
-            comboBox2.Size = new Size(201, 31);
+            comboBox2.Size = new Size(285, 43);
             comboBox2.TabIndex = 6;
             comboBox2.Text = "Tất cả trạng thái";
             // 
@@ -328,10 +338,10 @@
             comboBox1.Font = new Font("Arial", 15F, FontStyle.Regular, GraphicsUnit.Point);
             comboBox1.FormattingEnabled = true;
             comboBox1.Items.AddRange(new object[] { "6/2022", "7/2022", "8/2022", "9/2022", "10/2022", "11/2022", "12/2022", "1/2023", "2/2023", "3/2023", "" });
-            comboBox1.Location = new Point(395, 14);
-            comboBox1.Margin = new Padding(3, 2, 3, 2);
+            comboBox1.Location = new Point(564, 23);
+            comboBox1.Margin = new Padding(4, 3, 4, 3);
             comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(201, 31);
+            comboBox1.Size = new Size(285, 43);
             comboBox1.TabIndex = 5;
             comboBox1.Text = "Ngày";
             // 
@@ -339,9 +349,10 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Arial", 15F, FontStyle.Bold, GraphicsUnit.Point);
-            label2.Location = new Point(15, 20);
+            label2.Location = new Point(21, 33);
+            label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
-            label2.Size = new Size(205, 24);
+            label2.Size = new Size(311, 35);
             label2.TabIndex = 0;
             label2.Text = "ĐƠN HÀNG CỦA TÔI";
             label2.Click += label2_Click;
@@ -672,7 +683,7 @@
             label17.AutoSize = true;
             label17.Location = new Point(148, 71);
             label17.Name = "label17";
-            label17.Size = new Size(44, 15);
+            label17.Size = new Size(69, 25);
             label17.TabIndex = 3;
             label17.Text = "label17";
             // 
@@ -681,7 +692,7 @@
             label16.AutoSize = true;
             label16.Location = new Point(66, 108);
             label16.Name = "label16";
-            label16.Size = new Size(44, 15);
+            label16.Size = new Size(69, 25);
             label16.TabIndex = 2;
             label16.Text = "label16";
             // 
@@ -690,7 +701,7 @@
             label14.AutoSize = true;
             label14.Location = new Point(46, 63);
             label14.Name = "label14";
-            label14.Size = new Size(44, 15);
+            label14.Size = new Size(69, 25);
             label14.TabIndex = 1;
             label14.Text = "label14";
             // 
@@ -699,7 +710,7 @@
             label13.AutoSize = true;
             label13.Location = new Point(40, 34);
             label13.Name = "label13";
-            label13.Size = new Size(44, 15);
+            label13.Size = new Size(69, 25);
             label13.TabIndex = 0;
             label13.Text = "label13";
             // 
@@ -1020,7 +1031,7 @@
             label43.AutoSize = true;
             label43.Location = new Point(148, 71);
             label43.Name = "label43";
-            label43.Size = new Size(44, 15);
+            label43.Size = new Size(69, 25);
             label43.TabIndex = 3;
             label43.Text = "label43";
             // 
@@ -1029,7 +1040,7 @@
             label44.AutoSize = true;
             label44.Location = new Point(66, 108);
             label44.Name = "label44";
-            label44.Size = new Size(44, 15);
+            label44.Size = new Size(69, 25);
             label44.TabIndex = 2;
             label44.Text = "label44";
             // 
@@ -1038,7 +1049,7 @@
             label45.AutoSize = true;
             label45.Location = new Point(46, 63);
             label45.Name = "label45";
-            label45.Size = new Size(44, 15);
+            label45.Size = new Size(69, 25);
             label45.TabIndex = 1;
             label45.Text = "label45";
             // 
@@ -1047,7 +1058,7 @@
             label46.AutoSize = true;
             label46.Location = new Point(40, 34);
             label46.Name = "label46";
-            label46.Size = new Size(44, 15);
+            label46.Size = new Size(69, 25);
             label46.TabIndex = 0;
             label46.Text = "label46";
             // 
@@ -1368,7 +1379,7 @@
             label83.AutoSize = true;
             label83.Location = new Point(148, 71);
             label83.Name = "label83";
-            label83.Size = new Size(44, 15);
+            label83.Size = new Size(69, 25);
             label83.TabIndex = 3;
             label83.Text = "label83";
             // 
@@ -1377,7 +1388,7 @@
             label84.AutoSize = true;
             label84.Location = new Point(66, 108);
             label84.Name = "label84";
-            label84.Size = new Size(44, 15);
+            label84.Size = new Size(69, 25);
             label84.TabIndex = 2;
             label84.Text = "label84";
             // 
@@ -1386,7 +1397,7 @@
             label85.AutoSize = true;
             label85.Location = new Point(46, 63);
             label85.Name = "label85";
-            label85.Size = new Size(44, 15);
+            label85.Size = new Size(69, 25);
             label85.TabIndex = 1;
             label85.Text = "label85";
             // 
@@ -1395,7 +1406,7 @@
             label86.AutoSize = true;
             label86.Location = new Point(40, 34);
             label86.Name = "label86";
-            label86.Size = new Size(44, 15);
+            label86.Size = new Size(69, 25);
             label86.TabIndex = 0;
             label86.Text = "label86";
             // 
@@ -1410,26 +1421,18 @@
             // splitContainer1
             // 
             splitContainer1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            splitContainer1.Location = new Point(8, 58);
+            splitContainer1.Location = new Point(11, 97);
+            splitContainer1.Margin = new Padding(4, 5, 4, 5);
             splitContainer1.Name = "splitContainer1";
             // 
             // splitContainer1.Panel1
             // 
             splitContainer1.Panel1.Controls.Add(tableLayoutPanel1);
             splitContainer1.Panel1.Controls.Add(label3);
-            splitContainer1.Size = new Size(1312, 567);
-            splitContainer1.SplitterDistance = 1004;
+            splitContainer1.Size = new Size(1874, 945);
+            splitContainer1.SplitterDistance = 1434;
+            splitContainer1.SplitterWidth = 6;
             splitContainer1.TabIndex = 5;
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Arial", 15F, FontStyle.Bold, GraphicsUnit.Point);
-            label3.Location = new Point(9, 10);
-            label3.Name = "label3";
-            label3.Size = new Size(204, 24);
-            label3.TabIndex = 0;
-            label3.Text = "GIỎ HÀNG CỦA BẠN";
             // 
             // tableLayoutPanel1
             // 
@@ -1437,7 +1440,8 @@
             tableLayoutPanel1.ColumnCount = 1;
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
             tableLayoutPanel1.Controls.Add(tableLayoutPanel11, 0, 0);
-            tableLayoutPanel1.Location = new Point(3, 39);
+            tableLayoutPanel1.Location = new Point(4, 65);
+            tableLayoutPanel1.Margin = new Padding(4, 5, 4, 5);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 5;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 20F));
@@ -1445,7 +1449,7 @@
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 20F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 20F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 20F));
-            tableLayoutPanel1.Size = new Size(998, 513);
+            tableLayoutPanel1.Size = new Size(1426, 855);
             tableLayoutPanel1.TabIndex = 1;
             // 
             // tableLayoutPanel11
@@ -1458,27 +1462,38 @@
             tableLayoutPanel11.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 17.7419357F));
             tableLayoutPanel11.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 17.2379036F));
             tableLayoutPanel11.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 9.274194F));
-            tableLayoutPanel11.Location = new Point(3, 3);
+            tableLayoutPanel11.Location = new Point(4, 5);
+            tableLayoutPanel11.Margin = new Padding(4, 5, 4, 5);
             tableLayoutPanel11.Name = "tableLayoutPanel11";
             tableLayoutPanel11.RowCount = 1;
             tableLayoutPanel11.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel11.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            tableLayoutPanel11.Size = new Size(992, 96);
+            tableLayoutPanel11.RowStyles.Add(new RowStyle(SizeType.Absolute, 160F));
+            tableLayoutPanel11.Size = new Size(1418, 161);
             tableLayoutPanel11.TabIndex = 0;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Arial", 15F, FontStyle.Bold, GraphicsUnit.Point);
+            label3.Location = new Point(13, 17);
+            label3.Margin = new Padding(4, 0, 4, 0);
+            label3.Name = "label3";
+            label3.Size = new Size(310, 35);
+            label3.TabIndex = 0;
+            label3.Text = "GIỎ HÀNG CỦA BẠN";
             // 
             // GioHang
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoScroll = true;
             AutoValidate = AutoValidate.EnableAllowFocusChange;
             BackColor = Color.White;
-            ClientSize = new Size(1332, 637);
+            ClientSize = new Size(1903, 1050);
             Controls.Add(splitContainer1);
             Controls.Add(panel4);
             Controls.Add(panel1);
             Icon = (Icon)resources.GetObject("$this.Icon");
-            Margin = new Padding(2, 2, 2, 2);
             Name = "GioHang";
             ShowIcon = false;
             StartPosition = FormStartPosition.CenterScreen;
