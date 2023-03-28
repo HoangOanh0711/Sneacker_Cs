@@ -17,13 +17,6 @@ namespace thuchanh1
 
         }
 
-
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void pictureBox2_Click(object sender, EventArgs e)
         {
 
@@ -38,6 +31,43 @@ namespace thuchanh1
         {
             var newForm = new LichSuMuaHang();
             newForm.Show();
+        }
+
+        public void AddItem(string ten, string loai, string mau, string tien, string anh)
+        {
+            flowLayoutPanel1.Controls.Add(new sanpham_trangchu()
+            {
+                spTen = ten,
+                spLoai = loai,
+                spAnh = Image.FromFile("Resources/" + anh + "a.jpg"),
+                spMau = mau,
+                spTien = tien,
+            });
+
+        }
+        private void Form1_Shown(object sender, EventArgs e)
+        {
+            AddItem("Adidas1", "Ori", "Trang", "10", "1");
+            AddItem("Adidas2", "Ori", "Trang", "10", "2");
+            AddItem("Adidas3", "Ori", "Trang", "10", "3");
+            AddItem("Adidas4", "Ori", "Trang", "10", "4");
+            AddItem("Adidas5", "Ori", "Trang", "10", "5");
+            AddItem("Adidas6", "Ori", "Trang", "10", "6");
+            AddItem("Adidas7", "Ori", "Trang", "10", "7");
+            AddItem("Adidas8", "Ori", "Trang", "10", "8");
+            AddItem("Adida9", "Ori", "Trang", "10", "9");
+            AddItem("Adidas10", "Ori", "Trang", "10", "10");
+
+            AddItem("Adidas11", "Ori", "Trang", "10", "11");
+            AddItem("Adidas12", "Ori", "Trang", "10", "12");
+            AddItem("Adidas13", "Ori", "Trang", "10", "13");
+            AddItem("Adidas14", "Ori", "Trang", "10", "14");
+            AddItem("Adidas15", "Ori", "Trang", "10", "15");
+            AddItem("Adidas16", "Ori", "Trang", "10", "16");
+            AddItem("Adidas17", "Ori", "Trang", "10", "17");
+            AddItem("Adidas18", "Ori", "Trang", "10", "18");
+            AddItem("Adidas19", "Ori", "Trang", "10", "19");
+            AddItem("Adidas20", "Ori", "Trang", "10", "20");
         }
     }
 }

@@ -77,6 +77,8 @@
             button2 = new Button();
             button1 = new Button();
             label2 = new Label();
+            panel11 = new Panel();
+            flowLayoutPanel1 = new FlowLayoutPanel();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             panel2.SuspendLayout();
@@ -88,6 +90,7 @@
             tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             panel4.SuspendLayout();
+            panel11.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
@@ -223,7 +226,7 @@
             panel3.Controls.Add(label3);
             panel3.Location = new Point(5, 49);
             panel3.Name = "panel3";
-            panel3.Size = new Size(314, 1240);
+            panel3.Size = new Size(314, 1331);
             panel3.TabIndex = 1;
             // 
             // tableLayoutPanel1
@@ -648,13 +651,32 @@
             label2.TabIndex = 0;
             label2.Text = "Sắp xếp theo";
             // 
+            // panel11
+            // 
+            panel11.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            panel11.Controls.Add(flowLayoutPanel1);
+            panel11.Location = new Point(325, 103);
+            panel11.Name = "panel11";
+            panel11.Size = new Size(1007, 757);
+            panel11.TabIndex = 5;
+            // 
+            // flowLayoutPanel1
+            // 
+            flowLayoutPanel1.AutoScroll = true;
+            flowLayoutPanel1.Dock = DockStyle.Fill;
+            flowLayoutPanel1.Location = new Point(0, 0);
+            flowLayoutPanel1.Name = "flowLayoutPanel1";
+            flowLayoutPanel1.Size = new Size(1007, 757);
+            flowLayoutPanel1.TabIndex = 0;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoValidate = AutoValidate.EnableAllowFocusChange;
             BackColor = Color.White;
-            ClientSize = new Size(1347, 781);
+            ClientSize = new Size(1347, 872);
+            Controls.Add(panel11);
             Controls.Add(panel4);
             Controls.Add(panel3);
             Controls.Add(panel1);
@@ -664,7 +686,7 @@
             ShowIcon = false;
             StartPosition = FormStartPosition.CenterScreen;
             WindowState = FormWindowState.Maximized;
-            Load += Form1_Load;
+            Shown += Form1_Shown;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
@@ -680,6 +702,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
             panel4.ResumeLayout(false);
             panel4.PerformLayout();
+            panel11.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -733,6 +756,8 @@
         private Button button8;
         private Button button9;
         private Button button10;
+        private Panel panel11;
+        private FlowLayoutPanel flowLayoutPanel1;
 
         public virtual string PlaceholderText { get; set; }
     }
