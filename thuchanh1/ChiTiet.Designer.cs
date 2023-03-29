@@ -58,6 +58,9 @@
             panel16 = new Panel();
             panel17 = new Panel();
             label6 = new Label();
+            panel3 = new Panel();
+            tableLayoutPanel2 = new TableLayoutPanel();
+            label2 = new Label();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             panel2.SuspendLayout();
@@ -75,6 +78,7 @@
             splitContainer1.Panel2.SuspendLayout();
             splitContainer1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox).BeginInit();
+            panel3.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
@@ -89,14 +93,14 @@
             panel1.Dock = DockStyle.Top;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1347, 43);
+            panel1.Size = new Size(1330, 43);
             panel1.TabIndex = 0;
             // 
             // pictureBox5
             // 
             pictureBox5.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
-            pictureBox5.Location = new Point(1121, 10);
+            pictureBox5.Location = new Point(1104, 10);
             pictureBox5.Name = "pictureBox5";
             pictureBox5.Size = new Size(25, 25);
             pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -111,7 +115,7 @@
             panel2.Controls.Add(pictureBox2);
             panel2.Location = new Point(527, 5);
             panel2.Name = "panel2";
-            panel2.Size = new Size(283, 35);
+            panel2.Size = new Size(266, 35);
             panel2.TabIndex = 4;
             // 
             // tb_timkiem
@@ -140,7 +144,7 @@
             // 
             pictureBox4.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
-            pictureBox4.Location = new Point(1081, 10);
+            pictureBox4.Location = new Point(1064, 10);
             pictureBox4.Name = "pictureBox4";
             pictureBox4.Size = new Size(25, 25);
             pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -162,7 +166,7 @@
             // 
             pictureBox3.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
-            pictureBox3.Location = new Point(1040, 10);
+            pictureBox3.Location = new Point(1023, 10);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(25, 25);
             pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -183,9 +187,9 @@
             // 
             img_d.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             img_d.BackgroundImageLayout = ImageLayout.Stretch;
-            img_d.Location = new Point(408, 3);
+            img_d.Location = new Point(696, 3);
             img_d.Name = "img_d";
-            img_d.Size = new Size(131, 246);
+            img_d.Size = new Size(227, 246);
             img_d.TabIndex = 3;
             img_d.TabStop = false;
             // 
@@ -193,9 +197,9 @@
             // 
             img_c.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             img_c.BackgroundImageLayout = ImageLayout.Stretch;
-            img_c.Location = new Point(273, 3);
+            img_c.Location = new Point(465, 3);
             img_c.Name = "img_c";
-            img_c.Size = new Size(129, 246);
+            img_c.Size = new Size(225, 246);
             img_c.TabIndex = 2;
             img_c.TabStop = false;
             // 
@@ -203,9 +207,9 @@
             // 
             img_b.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             img_b.BackgroundImageLayout = ImageLayout.Stretch;
-            img_b.Location = new Point(138, 3);
+            img_b.Location = new Point(234, 3);
             img_b.Name = "img_b";
-            img_b.Size = new Size(129, 246);
+            img_b.Size = new Size(225, 246);
             img_b.TabIndex = 1;
             img_b.TabStop = false;
             // 
@@ -215,7 +219,7 @@
             img_a.BackgroundImageLayout = ImageLayout.Stretch;
             img_a.Location = new Point(3, 3);
             img_a.Name = "img_a";
-            img_a.Size = new Size(129, 246);
+            img_a.Size = new Size(225, 246);
             img_a.TabIndex = 0;
             img_a.TabStop = false;
             // 
@@ -236,13 +240,13 @@
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 1;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel1.Size = new Size(542, 252);
+            tableLayoutPanel1.Size = new Size(926, 252);
             tableLayoutPanel1.TabIndex = 4;
             // 
             // splitContainer1
             // 
-            splitContainer1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            splitContainer1.Location = new Point(0, 62);
+            splitContainer1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            splitContainer1.Location = new Point(12, 62);
             splitContainer1.Name = "splitContainer1";
             // 
             // splitContainer1.Panel1
@@ -265,8 +269,8 @@
             splitContainer1.Panel2.Controls.Add(panel16);
             splitContainer1.Panel2.Controls.Add(panel17);
             splitContainer1.Panel2.Controls.Add(label6);
-            splitContainer1.Size = new Size(1320, 930);
-            splitContainer1.SplitterDistance = 942;
+            splitContainer1.Size = new Size(1306, 1086);
+            splitContainer1.SplitterDistance = 932;
             splitContainer1.TabIndex = 5;
             // 
             // pictureBox
@@ -274,7 +278,7 @@
             pictureBox.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             pictureBox.Location = new Point(129, 13);
             pictureBox.Name = "pictureBox";
-            pictureBox.Size = new Size(310, 700);
+            pictureBox.Size = new Size(700, 700);
             pictureBox.TabIndex = 5;
             pictureBox.TabStop = false;
             // 
@@ -283,7 +287,7 @@
             size2.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             size2.Location = new Point(23, 333);
             size2.Name = "size2";
-            size2.Size = new Size(299, 106);
+            size2.Size = new Size(295, 106);
             size2.TabIndex = 56;
             // 
             // button2
@@ -296,7 +300,7 @@
             button2.ForeColor = SystemColors.Control;
             button2.Location = new Point(41, 541);
             button2.Name = "button2";
-            button2.Size = new Size(294, 61);
+            button2.Size = new Size(290, 61);
             button2.TabIndex = 55;
             button2.Text = "Thêm vào giỏ hàng";
             button2.UseVisualStyleBackColor = false;
@@ -410,13 +414,47 @@
             label6.TabIndex = 44;
             label6.Text = "MÀU";
             // 
+            // panel3
+            // 
+            panel3.Controls.Add(label2);
+            panel3.Controls.Add(tableLayoutPanel2);
+            panel3.Location = new Point(12, 1167);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(1306, 1198);
+            panel3.TabIndex = 6;
+            // 
+            // tableLayoutPanel2
+            // 
+            tableLayoutPanel2.ColumnCount = 2;
+            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
+            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
+            tableLayoutPanel2.Location = new Point(24, 80);
+            tableLayoutPanel2.Name = "tableLayoutPanel2";
+            tableLayoutPanel2.RowCount = 3;
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 33.3333321F));
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 33.3333321F));
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 33.3333321F));
+            tableLayoutPanel2.Size = new Size(1255, 584);
+            tableLayoutPanel2.TabIndex = 0;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Arial", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.Location = new Point(24, 28);
+            label2.Name = "label2";
+            label2.Size = new Size(222, 24);
+            label2.TabIndex = 1;
+            label2.Text = "Các đặc điểm nổi bật";
+            // 
             // ChiTiet
             // 
             AutoScaleMode = AutoScaleMode.None;
             AutoScroll = true;
             AutoValidate = AutoValidate.EnableAllowFocusChange;
             BackColor = Color.White;
-            ClientSize = new Size(1347, 1061);
+            ClientSize = new Size(1347, 862);
+            Controls.Add(panel3);
             Controls.Add(splitContainer1);
             Controls.Add(panel1);
             Icon = (Icon)resources.GetObject("$this.Icon");
@@ -446,6 +484,8 @@
             ((System.ComponentModel.ISupportInitialize)splitContainer1).EndInit();
             splitContainer1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox).EndInit();
+            panel3.ResumeLayout(false);
+            panel3.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -480,6 +520,9 @@
         private Panel panel16;
         private Panel panel17;
         private Label label6;
+        private Panel panel3;
+        private Label label2;
+        private TableLayoutPanel tableLayoutPanel2;
 
         public virtual string PlaceholderText { get; set; }
     }
