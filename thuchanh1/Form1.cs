@@ -92,5 +92,11 @@ namespace thuchanh1
                 }
             }
         }
+
+        private void pb_giohang_Click(object sender, EventArgs e)
+        {
+            GioHang gioHang = new GioHang();
+            gioHang.Show();
+        }
     }
 }

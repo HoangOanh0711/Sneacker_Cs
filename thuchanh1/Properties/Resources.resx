@@ -196,8 +196,8 @@
   <data name="4b" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\4b.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="15b" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\15b.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="sneaker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sneaker.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="13b" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\13b.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -216,6 +216,9 @@
   </data>
   <data name="6d" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\6d.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="15b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15b.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="1c" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1c.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -238,14 +241,20 @@
   <data name="16b" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\16b.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="7d" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\7d.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="line" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\line.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="16a" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\16a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="11a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\11a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="18b" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\18b.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="16a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\16a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="19a" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\19a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -274,9 +283,6 @@
   <data name="18a" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\18a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="sneaker" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sneaker.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="17b" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\17b.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -286,14 +292,17 @@
   <data name="20b" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\20b.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="11a" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\11a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="7d" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7d.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="1a" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="8a" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\8a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="themvaogiohang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\themvaogiohang.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="5c" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\5c.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -349,7 +358,7 @@
   <data name="14c" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\14c.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="themvaogiohang" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\themvaogiohang.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

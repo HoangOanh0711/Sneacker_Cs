@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             panel1 = new Panel();
-            pictureBox5 = new PictureBox();
+            pb_giohang = new PictureBox();
             panel2 = new Panel();
             tb_timkiem = new TextBox();
             pictureBox2 = new PictureBox();
@@ -72,7 +72,7 @@
             panel11 = new Panel();
             flowLayoutPanel1 = new FlowLayoutPanel();
             panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pb_giohang).BeginInit();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
@@ -87,7 +87,7 @@
             // panel1
             // 
             panel1.BackColor = Color.FromArgb(158, 200, 243);
-            panel1.Controls.Add(pictureBox5);
+            panel1.Controls.Add(pb_giohang);
             panel1.Controls.Add(panel2);
             panel1.Controls.Add(pictureBox4);
             panel1.Controls.Add(pictureBox1);
@@ -99,16 +99,17 @@
             panel1.Size = new Size(1347, 43);
             panel1.TabIndex = 0;
             // 
-            // pictureBox5
+            // pb_giohang
             // 
-            pictureBox5.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
-            pictureBox5.Location = new Point(1307, 10);
-            pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(25, 25);
-            pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox5.TabIndex = 7;
-            pictureBox5.TabStop = false;
+            pb_giohang.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            pb_giohang.Image = (Image)resources.GetObject("pb_giohang.Image");
+            pb_giohang.Location = new Point(1307, 10);
+            pb_giohang.Name = "pb_giohang";
+            pb_giohang.Size = new Size(25, 25);
+            pb_giohang.SizeMode = PictureBoxSizeMode.StretchImage;
+            pb_giohang.TabIndex = 7;
+            pb_giohang.TabStop = false;
+            pb_giohang.Click += pb_giohang_Click;
             // 
             // panel2
             // 
@@ -568,7 +569,7 @@
             Shown += Form1_Shown;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pb_giohang).EndInit();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
@@ -592,7 +593,7 @@
         private PictureBox pictureBox2;
         private PictureBox pictureBox1;
         private Panel panel2;
-        private PictureBox pictureBox5;
+        private PictureBox pb_giohang;
         private PictureBox pictureBox4;
         private PictureBox pictureBox3;
         private Panel panel3;
