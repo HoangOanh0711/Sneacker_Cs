@@ -98,5 +98,11 @@
             GioHang gioHang = new GioHang();
             gioHang.Show();
         }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            Login login = new Login();
+            login.Show();
+        }
     }
 }

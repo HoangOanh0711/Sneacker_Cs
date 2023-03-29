@@ -7,7 +7,6 @@ namespace thuchanh1
             InitializeComponent();
         }
 
-        ImageList imgList;
         private void button1_Click(object sender, EventArgs e)
         {
 
@@ -98,5 +97,17 @@ namespace thuchanh1
         {
 
         }
+
+        private void lb_dangnhap_Click(object sender, EventArgs e)
+        {
+            Login login = new Login();
+            login.Show();
+            this.Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Login login = new Login();
+            login.Show();      }
     }
 }

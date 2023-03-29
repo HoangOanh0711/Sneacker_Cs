@@ -28,33 +28,26 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Button button9;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Reg));
             tableLayoutPanel4 = new TableLayoutPanel();
-            p_dangnhap = new Panel();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            label3 = new Label();
-            label4 = new Label();
-            label6 = new Label();
-            lb_dangky = new Label();
-            checkBox1 = new CheckBox();
-            button1 = new Button();
-            label1 = new Label();
-            label2 = new Label();
-            panel1 = new Panel();
-            pictureBox1 = new PictureBox();
-            label5 = new Label();
-            panel2 = new Panel();
-            label13 = new Label();
-            pictureBox2 = new PictureBox();
-            pictureBox3 = new PictureBox();
             panel3 = new Panel();
+            label25 = new Label();
+            textBox11 = new TextBox();
+            label24 = new Label();
+            textBox10 = new TextBox();
+            label17 = new Label();
+            label23 = new Label();
+            textBox8 = new TextBox();
+            textBox9 = new TextBox();
             panel4 = new Panel();
+            label22 = new Label();
+            pictureBox8 = new PictureBox();
             pictureBox4 = new PictureBox();
             label7 = new Label();
             pictureBox5 = new PictureBox();
             panel5 = new Panel();
+            label21 = new Label();
+            pictureBox7 = new PictureBox();
             label14 = new Label();
             pictureBox6 = new PictureBox();
             label15 = new Label();
@@ -66,33 +59,14 @@
             label20 = new Label();
             textBox6 = new TextBox();
             textBox7 = new TextBox();
-            pictureBox7 = new PictureBox();
-            label21 = new Label();
-            pictureBox8 = new PictureBox();
-            label22 = new Label();
-            label17 = new Label();
-            label23 = new Label();
-            textBox8 = new TextBox();
-            textBox9 = new TextBox();
-            label24 = new Label();
-            textBox10 = new TextBox();
-            label25 = new Label();
-            textBox11 = new TextBox();
-            button9 = new Button();
-            p_dangnhap.SuspendLayout();
-            panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             panel3.SuspendLayout();
             panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             SuspendLayout();
             // 
             // tableLayoutPanel4
@@ -108,232 +82,6 @@
             tableLayoutPanel4.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
             tableLayoutPanel4.Size = new Size(200, 100);
             tableLayoutPanel4.TabIndex = 0;
-            // 
-            // p_dangnhap
-            // 
-            p_dangnhap.BackColor = Color.White;
-            p_dangnhap.Controls.Add(panel2);
-            p_dangnhap.Controls.Add(panel1);
-            p_dangnhap.Controls.Add(label2);
-            p_dangnhap.Controls.Add(label1);
-            p_dangnhap.Controls.Add(button1);
-            p_dangnhap.Controls.Add(checkBox1);
-            p_dangnhap.Controls.Add(button9);
-            p_dangnhap.Controls.Add(lb_dangky);
-            p_dangnhap.Controls.Add(label6);
-            p_dangnhap.Controls.Add(label4);
-            p_dangnhap.Controls.Add(label3);
-            p_dangnhap.Controls.Add(textBox2);
-            p_dangnhap.Controls.Add(textBox1);
-            p_dangnhap.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            p_dangnhap.Location = new Point(9, 0);
-            p_dangnhap.Margin = new Padding(0);
-            p_dangnhap.Name = "p_dangnhap";
-            p_dangnhap.Size = new Size(466, 595);
-            p_dangnhap.TabIndex = 0;
-            p_dangnhap.Paint += panel4_Paint_1;
-            // 
-            // textBox1
-            // 
-            textBox1.BorderStyle = BorderStyle.FixedSingle;
-            textBox1.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox1.Location = new Point(65, 118);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(342, 26);
-            textBox1.TabIndex = 1;
-            textBox1.Tag = "";
-            textBox1.WordWrap = false;
-            // 
-            // textBox2
-            // 
-            textBox2.BorderStyle = BorderStyle.FixedSingle;
-            textBox2.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox2.Location = new Point(65, 200);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(342, 26);
-            textBox2.TabIndex = 2;
-            textBox2.Tag = "";
-            textBox2.WordWrap = false;
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(19, 89);
-            label3.Name = "label3";
-            label3.Size = new Size(153, 18);
-            label3.TabIndex = 5;
-            label3.Text = "Email / Tên tài khoản";
-            label3.Click += label3_Click;
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label4.Location = new Point(19, 171);
-            label4.Name = "label4";
-            label4.Size = new Size(71, 18);
-            label4.TabIndex = 6;
-            label4.Text = "Mật khẩu";
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label6.Location = new Point(112, 369);
-            label6.Name = "label6";
-            label6.Size = new Size(177, 18);
-            label6.TabIndex = 8;
-            label6.Text = "Bạn chưa có tài khoản? ";
-            // 
-            // lb_dangky
-            // 
-            lb_dangky.AutoSize = true;
-            lb_dangky.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            lb_dangky.ForeColor = Color.FromArgb(92, 147, 184);
-            lb_dangky.Location = new Point(282, 369);
-            lb_dangky.Name = "lb_dangky";
-            lb_dangky.Size = new Size(72, 19);
-            lb_dangky.TabIndex = 9;
-            lb_dangky.Text = "Đăng ký";
-            // 
-            // button9
-            // 
-            button9.AutoSize = true;
-            button9.BackColor = Color.Transparent;
-            button9.BackgroundImageLayout = ImageLayout.None;
-            button9.Cursor = Cursors.Hand;
-            button9.FlatAppearance.BorderSize = 0;
-            button9.FlatStyle = FlatStyle.Flat;
-            button9.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button9.ForeColor = Color.FromArgb(92, 147, 184);
-            button9.Location = new Point(245, 230);
-            button9.Name = "button9";
-            button9.Size = new Size(162, 28);
-            button9.TabIndex = 2;
-            button9.Text = "Quên mật khẩu?";
-            button9.TextAlign = ContentAlignment.MiddleRight;
-            button9.UseVisualStyleBackColor = false;
-            // 
-            // checkBox1
-            // 
-            checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(39, 234);
-            checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(163, 22);
-            checkBox1.TabIndex = 11;
-            checkBox1.Text = "Tự động đăng nhập";
-            checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            button1.BackColor = Color.FromArgb(92, 147, 184);
-            button1.FlatAppearance.BorderSize = 0;
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.Font = new Font("Arial", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
-            button1.ForeColor = Color.White;
-            button1.Location = new Point(76, 307);
-            button1.Name = "button1";
-            button1.Size = new Size(307, 47);
-            button1.TabIndex = 12;
-            button1.Text = "ĐĂNG NHẬP";
-            button1.UseVisualStyleBackColor = false;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Location = new Point(18, 415);
-            label1.Name = "label1";
-            label1.Size = new Size(440, 18);
-            label1.TabIndex = 13;
-            label1.Text = "_____________________ HOẶC _____________________";
-            // 
-            // label2
-            // 
-            label2.BackColor = Color.Transparent;
-            label2.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
-            label2.Location = new Point(0, 25);
-            label2.Name = "label2";
-            label2.Size = new Size(460, 42);
-            label2.TabIndex = 14;
-            label2.Text = "ĐĂNG NHẬP";
-            label2.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // panel1
-            // 
-            panel1.BackColor = Color.FromArgb(17, 120, 241);
-            panel1.Controls.Add(label5);
-            panel1.Controls.Add(pictureBox1);
-            panel1.Location = new Point(76, 467);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(307, 41);
-            panel1.TabIndex = 15;
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
-            pictureBox1.Image = Properties.Resources.fb;
-            pictureBox1.Location = new Point(19, 6);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(30, 30);
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox1.TabIndex = 0;
-            pictureBox1.TabStop = false;
-            // 
-            // label5
-            // 
-            label5.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
-            label5.ForeColor = Color.White;
-            label5.Location = new Point(87, 0);
-            label5.Name = "label5";
-            label5.Size = new Size(209, 41);
-            label5.TabIndex = 1;
-            label5.Text = "Đăng nhập bằng Facebook";
-            label5.TextAlign = ContentAlignment.MiddleLeft;
-            // 
-            // panel2
-            // 
-            panel2.BackColor = Color.White;
-            panel2.Controls.Add(pictureBox3);
-            panel2.Controls.Add(label13);
-            panel2.Controls.Add(pictureBox2);
-            panel2.Location = new Point(76, 531);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(307, 41);
-            panel2.TabIndex = 16;
-            // 
-            // label13
-            // 
-            label13.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
-            label13.ForeColor = Color.Black;
-            label13.Location = new Point(87, 0);
-            label13.Name = "label13";
-            label13.Size = new Size(198, 41);
-            label13.TabIndex = 1;
-            label13.Text = "Đăng nhập bằng Google";
-            label13.TextAlign = ContentAlignment.MiddleLeft;
-            // 
-            // pictureBox2
-            // 
-            pictureBox2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
-            pictureBox2.Image = Properties.Resources.fb;
-            pictureBox2.Location = new Point(88, 8);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(30, 0);
-            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox2.TabIndex = 0;
-            pictureBox2.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            pictureBox3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
-            pictureBox3.Image = Properties.Resources.gg;
-            pictureBox3.Location = new Point(19, 5);
-            pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(30, 30);
-            pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox3.TabIndex = 2;
-            pictureBox3.TabStop = false;
             // 
             // panel3
             // 
@@ -358,11 +106,95 @@
             panel3.Controls.Add(textBox6);
             panel3.Controls.Add(textBox7);
             panel3.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            panel3.Location = new Point(489, 0);
+            panel3.Location = new Point(9, 9);
             panel3.Margin = new Padding(0);
             panel3.Name = "panel3";
             panel3.Size = new Size(466, 763);
             panel3.TabIndex = 11;
+            // 
+            // label25
+            // 
+            label25.AutoSize = true;
+            label25.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label25.Location = new Point(17, 403);
+            label25.Name = "label25";
+            label25.Size = new Size(71, 18);
+            label25.TabIndex = 24;
+            label25.Text = "Mật khẩu";
+            // 
+            // textBox11
+            // 
+            textBox11.BorderStyle = BorderStyle.FixedSingle;
+            textBox11.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox11.Location = new Point(63, 432);
+            textBox11.Name = "textBox11";
+            textBox11.Size = new Size(342, 26);
+            textBox11.TabIndex = 23;
+            textBox11.Tag = "";
+            textBox11.WordWrap = false;
+            // 
+            // label24
+            // 
+            label24.AutoSize = true;
+            label24.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label24.Location = new Point(231, 89);
+            label24.Name = "label24";
+            label24.Size = new Size(28, 18);
+            label24.TabIndex = 22;
+            label24.Text = "Họ";
+            // 
+            // textBox10
+            // 
+            textBox10.BorderStyle = BorderStyle.FixedSingle;
+            textBox10.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox10.Location = new Point(252, 118);
+            textBox10.Name = "textBox10";
+            textBox10.Size = new Size(155, 26);
+            textBox10.TabIndex = 21;
+            textBox10.Tag = "";
+            textBox10.WordWrap = false;
+            // 
+            // label17
+            // 
+            label17.AutoSize = true;
+            label17.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label17.Location = new Point(19, 326);
+            label17.Name = "label17";
+            label17.Size = new Size(100, 18);
+            label17.TabIndex = 20;
+            label17.Text = "Số điện thoại";
+            // 
+            // label23
+            // 
+            label23.AutoSize = true;
+            label23.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label23.Location = new Point(19, 245);
+            label23.Name = "label23";
+            label23.Size = new Size(48, 18);
+            label23.TabIndex = 19;
+            label23.Text = "Email";
+            // 
+            // textBox8
+            // 
+            textBox8.BorderStyle = BorderStyle.FixedSingle;
+            textBox8.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox8.Location = new Point(65, 355);
+            textBox8.Name = "textBox8";
+            textBox8.Size = new Size(342, 26);
+            textBox8.TabIndex = 18;
+            textBox8.Tag = "";
+            textBox8.WordWrap = false;
+            // 
+            // textBox9
+            // 
+            textBox9.BorderStyle = BorderStyle.FixedSingle;
+            textBox9.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox9.Location = new Point(65, 274);
+            textBox9.Name = "textBox9";
+            textBox9.Size = new Size(342, 26);
+            textBox9.TabIndex = 17;
+            textBox9.Tag = "";
+            textBox9.WordWrap = false;
             // 
             // panel4
             // 
@@ -376,6 +208,28 @@
             panel4.Name = "panel4";
             panel4.Size = new Size(307, 41);
             panel4.TabIndex = 16;
+            // 
+            // label22
+            // 
+            label22.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
+            label22.ForeColor = Color.Black;
+            label22.Location = new Point(82, 0);
+            label22.Name = "label22";
+            label22.Size = new Size(198, 41);
+            label22.TabIndex = 4;
+            label22.Text = "Đăng nhập bằng Google";
+            label22.TextAlign = ContentAlignment.MiddleLeft;
+            // 
+            // pictureBox8
+            // 
+            pictureBox8.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
+            pictureBox8.Image = Properties.Resources.gg;
+            pictureBox8.Location = new Point(23, 5);
+            pictureBox8.Name = "pictureBox8";
+            pictureBox8.Size = new Size(30, 30);
+            pictureBox8.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox8.TabIndex = 3;
+            pictureBox8.TabStop = false;
             // 
             // pictureBox4
             // 
@@ -421,6 +275,28 @@
             panel5.Name = "panel5";
             panel5.Size = new Size(307, 41);
             panel5.TabIndex = 15;
+            // 
+            // label21
+            // 
+            label21.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
+            label21.ForeColor = Color.White;
+            label21.Location = new Point(82, 0);
+            label21.Name = "label21";
+            label21.Size = new Size(209, 41);
+            label21.TabIndex = 3;
+            label21.Text = "Đăng nhập bằng Facebook";
+            label21.TextAlign = ContentAlignment.MiddleLeft;
+            // 
+            // pictureBox7
+            // 
+            pictureBox7.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
+            pictureBox7.Image = Properties.Resources.fb;
+            pictureBox7.Location = new Point(23, 6);
+            pictureBox7.Name = "pictureBox7";
+            pictureBox7.Size = new Size(30, 30);
+            pictureBox7.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox7.TabIndex = 2;
+            pictureBox7.TabStop = false;
             // 
             // label14
             // 
@@ -477,6 +353,7 @@
             button2.TabIndex = 12;
             button2.Text = "ĐĂNG KÝ";
             button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
             // lb_dangnhap
             // 
@@ -488,6 +365,7 @@
             lb_dangnhap.Size = new Size(93, 19);
             lb_dangnhap.TabIndex = 9;
             lb_dangnhap.Text = "Đăng nhập";
+            lb_dangnhap.Click += lb_dangnhap_Click;
             // 
             // label18
             // 
@@ -541,189 +419,35 @@
             textBox7.Tag = "";
             textBox7.WordWrap = false;
             // 
-            // pictureBox7
-            // 
-            pictureBox7.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
-            pictureBox7.Image = Properties.Resources.fb;
-            pictureBox7.Location = new Point(23, 6);
-            pictureBox7.Name = "pictureBox7";
-            pictureBox7.Size = new Size(30, 30);
-            pictureBox7.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox7.TabIndex = 2;
-            pictureBox7.TabStop = false;
-            // 
-            // label21
-            // 
-            label21.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
-            label21.ForeColor = Color.White;
-            label21.Location = new Point(82, 0);
-            label21.Name = "label21";
-            label21.Size = new Size(209, 41);
-            label21.TabIndex = 3;
-            label21.Text = "Đăng nhập bằng Facebook";
-            label21.TextAlign = ContentAlignment.MiddleLeft;
-            // 
-            // pictureBox8
-            // 
-            pictureBox8.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
-            pictureBox8.Image = Properties.Resources.gg;
-            pictureBox8.Location = new Point(23, 5);
-            pictureBox8.Name = "pictureBox8";
-            pictureBox8.Size = new Size(30, 30);
-            pictureBox8.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox8.TabIndex = 3;
-            pictureBox8.TabStop = false;
-            // 
-            // label22
-            // 
-            label22.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
-            label22.ForeColor = Color.Black;
-            label22.Location = new Point(82, 0);
-            label22.Name = "label22";
-            label22.Size = new Size(198, 41);
-            label22.TabIndex = 4;
-            label22.Text = "Đăng nhập bằng Google";
-            label22.TextAlign = ContentAlignment.MiddleLeft;
-            // 
-            // label17
-            // 
-            label17.AutoSize = true;
-            label17.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label17.Location = new Point(19, 326);
-            label17.Name = "label17";
-            label17.Size = new Size(100, 18);
-            label17.TabIndex = 20;
-            label17.Text = "Số điện thoại";
-            // 
-            // label23
-            // 
-            label23.AutoSize = true;
-            label23.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label23.Location = new Point(19, 245);
-            label23.Name = "label23";
-            label23.Size = new Size(48, 18);
-            label23.TabIndex = 19;
-            label23.Text = "Email";
-            // 
-            // textBox8
-            // 
-            textBox8.BorderStyle = BorderStyle.FixedSingle;
-            textBox8.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox8.Location = new Point(65, 355);
-            textBox8.Name = "textBox8";
-            textBox8.Size = new Size(342, 26);
-            textBox8.TabIndex = 18;
-            textBox8.Tag = "";
-            textBox8.WordWrap = false;
-            // 
-            // textBox9
-            // 
-            textBox9.BorderStyle = BorderStyle.FixedSingle;
-            textBox9.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox9.Location = new Point(65, 274);
-            textBox9.Name = "textBox9";
-            textBox9.Size = new Size(342, 26);
-            textBox9.TabIndex = 17;
-            textBox9.Tag = "";
-            textBox9.WordWrap = false;
-            // 
-            // label24
-            // 
-            label24.AutoSize = true;
-            label24.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label24.Location = new Point(231, 89);
-            label24.Name = "label24";
-            label24.Size = new Size(28, 18);
-            label24.TabIndex = 22;
-            label24.Text = "Họ";
-            // 
-            // textBox10
-            // 
-            textBox10.BorderStyle = BorderStyle.FixedSingle;
-            textBox10.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox10.Location = new Point(252, 118);
-            textBox10.Name = "textBox10";
-            textBox10.Size = new Size(155, 26);
-            textBox10.TabIndex = 21;
-            textBox10.Tag = "";
-            textBox10.WordWrap = false;
-            // 
-            // label25
-            // 
-            label25.AutoSize = true;
-            label25.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label25.Location = new Point(17, 403);
-            label25.Name = "label25";
-            label25.Size = new Size(71, 18);
-            label25.TabIndex = 24;
-            label25.Text = "Mật khẩu";
-            // 
-            // textBox11
-            // 
-            textBox11.BorderStyle = BorderStyle.FixedSingle;
-            textBox11.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox11.Location = new Point(63, 432);
-            textBox11.Name = "textBox11";
-            textBox11.Size = new Size(342, 26);
-            textBox11.TabIndex = 23;
-            textBox11.Tag = "";
-            textBox11.WordWrap = false;
-            // 
             // Reg
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoValidate = AutoValidate.EnableAllowFocusChange;
             BackColor = Color.White;
-            ClientSize = new Size(1273, 751);
+            ClientSize = new Size(496, 799);
             ControlBox = false;
             Controls.Add(panel3);
-            Controls.Add(p_dangnhap);
             Icon = (Icon)resources.GetObject("$this.Icon");
             Margin = new Padding(2);
             Name = "Reg";
             ShowIcon = false;
             StartPosition = FormStartPosition.CenterScreen;
             Load += Reg_Load;
-            p_dangnhap.ResumeLayout(false);
-            p_dangnhap.PerformLayout();
-            panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             panel3.ResumeLayout(false);
             panel3.PerformLayout();
             panel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
             panel5.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
         private TableLayoutPanel tableLayoutPanel4;
-        private Panel p_dangnhap;
-        private Label label1;
-        private Button button1;
-        private CheckBox checkBox1;
-        private Label lb_dangky;
-        private Label label6;
-        private Label label4;
-        private Label label3;
-        private TextBox textBox2;
-        private TextBox textBox1;
-        private Panel panel2;
-        private PictureBox pictureBox3;
-        private Label label13;
-        private PictureBox pictureBox2;
-        private Panel panel1;
-        private Label label5;
-        private PictureBox pictureBox1;
-        private Label label2;
         private Panel panel3;
         private Label label25;
         private TextBox textBox11;
