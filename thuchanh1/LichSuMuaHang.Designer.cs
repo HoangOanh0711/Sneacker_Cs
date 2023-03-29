@@ -562,7 +562,7 @@
             panel4.Controls.Add(label2);
             panel4.Location = new Point(325, -152);
             panel4.Name = "panel4";
-            panel4.Size = new Size(397, 63);
+            panel4.Size = new Size(380, 63);
             panel4.TabIndex = 4;
             panel4.Paint += panel4_Paint;
             // 
@@ -572,7 +572,7 @@
             comboBox2.Font = new Font("Arial", 15F, FontStyle.Regular, GraphicsUnit.Point);
             comboBox2.FormattingEnabled = true;
             comboBox2.Items.AddRange(new object[] { "Tất cả trạng thái", "Chờ thanh toán", "Vận chuyển", "Đang giao", "Hoàn thành", "Đã hủy", "Trả hàng/Hoàn tiền" });
-            comboBox2.Location = new Point(-126, 14);
+            comboBox2.Location = new Point(-143, 14);
             comboBox2.Margin = new Padding(3, 2, 3, 2);
             comboBox2.Name = "comboBox2";
             comboBox2.Size = new Size(201, 31);
@@ -585,7 +585,7 @@
             comboBox1.Font = new Font("Arial", 15F, FontStyle.Regular, GraphicsUnit.Point);
             comboBox1.FormattingEnabled = true;
             comboBox1.Items.AddRange(new object[] { "6/2022", "7/2022", "8/2022", "9/2022", "10/2022", "11/2022", "12/2022", "1/2023", "2/2023", "3/2023", "" });
-            comboBox1.Location = new Point(124, 14);
+            comboBox1.Location = new Point(107, 14);
             comboBox1.Margin = new Padding(3, 2, 3, 2);
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(201, 31);
@@ -1680,7 +1680,7 @@
             tableLayoutPanel19.RowStyles.Add(new RowStyle(SizeType.Percent, 15F));
             tableLayoutPanel19.RowStyles.Add(new RowStyle(SizeType.Percent, 70F));
             tableLayoutPanel19.RowStyles.Add(new RowStyle(SizeType.Percent, 15F));
-            tableLayoutPanel19.Size = new Size(688, 464);
+            tableLayoutPanel19.Size = new Size(671, 464);
             tableLayoutPanel19.TabIndex = 10;
             // 
             // tableLayoutPanel20
@@ -1698,7 +1698,7 @@
             tableLayoutPanel20.RowCount = 1;
             tableLayoutPanel20.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
             tableLayoutPanel20.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            tableLayoutPanel20.Size = new Size(680, 63);
+            tableLayoutPanel20.Size = new Size(663, 63);
             tableLayoutPanel20.TabIndex = 11;
             // 
             // panel45
@@ -1708,7 +1708,7 @@
             panel45.Controls.Add(label89);
             panel45.Location = new Point(3, 3);
             panel45.Name = "panel45";
-            panel45.Size = new Size(334, 57);
+            panel45.Size = new Size(325, 57);
             panel45.TabIndex = 0;
             // 
             // label88
@@ -1737,9 +1737,9 @@
             panel46.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             panel46.Controls.Add(label90);
             panel46.Controls.Add(label91);
-            panel46.Location = new Point(343, 3);
+            panel46.Location = new Point(334, 3);
             panel46.Name = "panel46";
-            panel46.Size = new Size(164, 57);
+            panel46.Size = new Size(159, 57);
             panel46.TabIndex = 1;
             // 
             // label90
@@ -1770,9 +1770,9 @@
             panel47.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             panel47.Controls.Add(label92);
             panel47.Controls.Add(label93);
-            panel47.Location = new Point(513, 3);
+            panel47.Location = new Point(499, 3);
             panel47.Name = "panel47";
-            panel47.Size = new Size(164, 57);
+            panel47.Size = new Size(161, 57);
             panel47.TabIndex = 2;
             // 
             // label92
@@ -1806,7 +1806,7 @@
             panel36.Controls.Add(button2);
             panel36.Location = new Point(4, 397);
             panel36.Name = "panel36";
-            panel36.Size = new Size(680, 63);
+            panel36.Size = new Size(663, 63);
             panel36.TabIndex = 2;
             // 
             // button14
@@ -1816,7 +1816,7 @@
             button14.FlatStyle = FlatStyle.Flat;
             button14.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
             button14.ForeColor = Color.FromArgb(92, 147, 184);
-            button14.Location = new Point(402, 11);
+            button14.Location = new Point(385, 11);
             button14.Name = "button14";
             button14.Size = new Size(111, 41);
             button14.TabIndex = 2;
@@ -1831,7 +1831,7 @@
             button3.FlatStyle = FlatStyle.Flat;
             button3.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
             button3.ForeColor = Color.White;
-            button3.Location = new Point(549, 11);
+            button3.Location = new Point(532, 11);
             button3.Name = "button3";
             button3.Size = new Size(111, 41);
             button3.TabIndex = 1;
@@ -1845,7 +1845,7 @@
             button2.FlatStyle = FlatStyle.Flat;
             button2.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
             button2.ForeColor = Color.FromArgb(92, 147, 184);
-            button2.Location = new Point(1330, 10);
+            button2.Location = new Point(1313, 10);
             button2.Name = "button2";
             button2.Size = new Size(111, 12);
             button2.TabIndex = 0;
@@ -1866,7 +1866,7 @@
             tableLayoutPanel21.Name = "tableLayoutPanel21";
             tableLayoutPanel21.RowCount = 1;
             tableLayoutPanel21.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel21.Size = new Size(680, 316);
+            tableLayoutPanel21.Size = new Size(663, 316);
             tableLayoutPanel21.TabIndex = 3;
             // 
             // panel37
@@ -1880,7 +1880,7 @@
             panel37.Controls.Add(pictureBox10);
             panel37.Location = new Point(3, 3);
             panel37.Name = "panel37";
-            panel37.Size = new Size(334, 310);
+            panel37.Size = new Size(325, 310);
             panel37.TabIndex = 0;
             // 
             // label104
@@ -1950,9 +1950,9 @@
             panel38.Controls.Add(label97);
             panel38.Controls.Add(label94);
             panel38.Controls.Add(label95);
-            panel38.Location = new Point(343, 3);
+            panel38.Location = new Point(334, 3);
             panel38.Name = "panel38";
-            panel38.Size = new Size(164, 310);
+            panel38.Size = new Size(159, 310);
             panel38.TabIndex = 1;
             // 
             // label96
@@ -2010,9 +2010,9 @@
             panel39.Controls.Add(label101);
             panel39.Controls.Add(label98);
             panel39.Controls.Add(label99);
-            panel39.Location = new Point(513, 3);
+            panel39.Location = new Point(499, 3);
             panel39.Name = "panel39";
-            panel39.Size = new Size(164, 310);
+            panel39.Size = new Size(161, 310);
             panel39.TabIndex = 2;
             // 
             // label102
@@ -2165,7 +2165,7 @@
             panel20.Controls.Add(label47);
             panel20.Location = new Point(326, 55);
             panel20.Name = "panel20";
-            panel20.Size = new Size(688, 63);
+            panel20.Size = new Size(671, 63);
             panel20.TabIndex = 12;
             // 
             // comboBox5
@@ -2174,7 +2174,7 @@
             comboBox5.Font = new Font("Arial", 15F, FontStyle.Regular, GraphicsUnit.Point);
             comboBox5.FormattingEnabled = true;
             comboBox5.Items.AddRange(new object[] { "Tất cả trạng thái", "Chờ thanh toán", "Vận chuyển", "Đang giao", "Hoàn thành", "Đã hủy", "Trả hàng/Hoàn tiền" });
-            comboBox5.Location = new Point(213, 15);
+            comboBox5.Location = new Point(196, 15);
             comboBox5.Margin = new Padding(3, 2, 3, 2);
             comboBox5.Name = "comboBox5";
             comboBox5.Size = new Size(201, 31);
@@ -2187,7 +2187,7 @@
             comboBox6.Font = new Font("Arial", 15F, FontStyle.Regular, GraphicsUnit.Point);
             comboBox6.FormattingEnabled = true;
             comboBox6.Items.AddRange(new object[] { "6/2022", "7/2022", "8/2022", "9/2022", "10/2022", "11/2022", "12/2022", "1/2023", "2/2023", "3/2023", "" });
-            comboBox6.Location = new Point(463, 15);
+            comboBox6.Location = new Point(446, 15);
             comboBox6.Margin = new Padding(3, 2, 3, 2);
             comboBox6.Name = "comboBox6";
             comboBox6.Size = new Size(201, 31);
@@ -2200,7 +2200,7 @@
             comboBox3.Font = new Font("Arial", 15F, FontStyle.Regular, GraphicsUnit.Point);
             comboBox3.FormattingEnabled = true;
             comboBox3.Items.AddRange(new object[] { "Tất cả trạng thái", "Chờ thanh toán", "Vận chuyển", "Đang giao", "Hoàn thành", "Đã hủy", "Trả hàng/Hoàn tiền" });
-            comboBox3.Location = new Point(938, 14);
+            comboBox3.Location = new Point(921, 14);
             comboBox3.Margin = new Padding(3, 2, 3, 2);
             comboBox3.Name = "comboBox3";
             comboBox3.Size = new Size(201, 31);
@@ -2213,7 +2213,7 @@
             comboBox4.Font = new Font("Arial", 15F, FontStyle.Regular, GraphicsUnit.Point);
             comboBox4.FormattingEnabled = true;
             comboBox4.Items.AddRange(new object[] { "6/2022", "7/2022", "8/2022", "9/2022", "10/2022", "11/2022", "12/2022", "1/2023", "2/2023", "3/2023", "" });
-            comboBox4.Location = new Point(1188, 14);
+            comboBox4.Location = new Point(1171, 14);
             comboBox4.Margin = new Padding(3, 2, 3, 2);
             comboBox4.Name = "comboBox4";
             comboBox4.Size = new Size(201, 31);
@@ -2246,7 +2246,7 @@
             tableLayoutPanel11.RowStyles.Add(new RowStyle(SizeType.Percent, 15F));
             tableLayoutPanel11.RowStyles.Add(new RowStyle(SizeType.Percent, 70F));
             tableLayoutPanel11.RowStyles.Add(new RowStyle(SizeType.Percent, 15F));
-            tableLayoutPanel11.Size = new Size(688, 464);
+            tableLayoutPanel11.Size = new Size(671, 464);
             tableLayoutPanel11.TabIndex = 13;
             // 
             // panel24
@@ -2259,7 +2259,7 @@
             panel24.Controls.Add(button5);
             panel24.Location = new Point(4, 397);
             panel24.Name = "panel24";
-            panel24.Size = new Size(680, 63);
+            panel24.Size = new Size(663, 63);
             panel24.TabIndex = 12;
             // 
             // button15
@@ -2269,7 +2269,7 @@
             button15.FlatStyle = FlatStyle.Flat;
             button15.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
             button15.ForeColor = Color.FromArgb(92, 147, 184);
-            button15.Location = new Point(402, 10);
+            button15.Location = new Point(385, 10);
             button15.Name = "button15";
             button15.Size = new Size(111, 41);
             button15.TabIndex = 4;
@@ -2284,7 +2284,7 @@
             button16.FlatStyle = FlatStyle.Flat;
             button16.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
             button16.ForeColor = Color.White;
-            button16.Location = new Point(549, 10);
+            button16.Location = new Point(532, 10);
             button16.Name = "button16";
             button16.Size = new Size(111, 41);
             button16.TabIndex = 3;
@@ -2298,7 +2298,7 @@
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
             button1.ForeColor = Color.FromArgb(92, 147, 184);
-            button1.Location = new Point(1171, 11);
+            button1.Location = new Point(1154, 11);
             button1.Name = "button1";
             button1.Size = new Size(111, 4);
             button1.TabIndex = 2;
@@ -2313,7 +2313,7 @@
             button4.FlatStyle = FlatStyle.Flat;
             button4.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
             button4.ForeColor = Color.White;
-            button4.Location = new Point(1318, 11);
+            button4.Location = new Point(1301, 11);
             button4.Name = "button4";
             button4.Size = new Size(111, 4);
             button4.TabIndex = 1;
@@ -2327,7 +2327,7 @@
             button5.FlatStyle = FlatStyle.Flat;
             button5.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
             button5.ForeColor = Color.FromArgb(92, 147, 184);
-            button5.Location = new Point(2099, 10);
+            button5.Location = new Point(2082, 10);
             button5.Name = "button5";
             button5.Size = new Size(111, 0);
             button5.TabIndex = 0;
@@ -2349,7 +2349,7 @@
             tableLayoutPanel12.RowCount = 1;
             tableLayoutPanel12.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
             tableLayoutPanel12.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            tableLayoutPanel12.Size = new Size(680, 63);
+            tableLayoutPanel12.Size = new Size(663, 63);
             tableLayoutPanel12.TabIndex = 11;
             // 
             // panel21
@@ -2359,7 +2359,7 @@
             panel21.Controls.Add(label49);
             panel21.Location = new Point(3, 3);
             panel21.Name = "panel21";
-            panel21.Size = new Size(334, 57);
+            panel21.Size = new Size(325, 57);
             panel21.TabIndex = 0;
             // 
             // label48
@@ -2388,9 +2388,9 @@
             panel22.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             panel22.Controls.Add(label50);
             panel22.Controls.Add(label51);
-            panel22.Location = new Point(343, 3);
+            panel22.Location = new Point(334, 3);
             panel22.Name = "panel22";
-            panel22.Size = new Size(164, 57);
+            panel22.Size = new Size(159, 57);
             panel22.TabIndex = 1;
             // 
             // label50
@@ -2421,9 +2421,9 @@
             panel23.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             panel23.Controls.Add(label52);
             panel23.Controls.Add(label53);
-            panel23.Location = new Point(513, 3);
+            panel23.Location = new Point(499, 3);
             panel23.Name = "panel23";
-            panel23.Size = new Size(164, 57);
+            panel23.Size = new Size(161, 57);
             panel23.TabIndex = 2;
             // 
             // label52
@@ -2463,7 +2463,7 @@
             tableLayoutPanel13.Name = "tableLayoutPanel13";
             tableLayoutPanel13.RowCount = 1;
             tableLayoutPanel13.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel13.Size = new Size(680, 316);
+            tableLayoutPanel13.Size = new Size(663, 316);
             tableLayoutPanel13.TabIndex = 3;
             // 
             // panel25
@@ -2478,7 +2478,7 @@
             panel25.Controls.Add(pictureBox8);
             panel25.Location = new Point(3, 3);
             panel25.Name = "panel25";
-            panel25.Size = new Size(334, 310);
+            panel25.Size = new Size(325, 310);
             panel25.TabIndex = 0;
             // 
             // label110
@@ -2559,9 +2559,9 @@
             panel26.Controls.Add(label60);
             panel26.Controls.Add(label61);
             panel26.Controls.Add(label62);
-            panel26.Location = new Point(343, 3);
+            panel26.Location = new Point(334, 3);
             panel26.Name = "panel26";
-            panel26.Size = new Size(164, 310);
+            panel26.Size = new Size(159, 310);
             panel26.TabIndex = 1;
             // 
             // label59
@@ -2619,9 +2619,9 @@
             panel27.Controls.Add(label66);
             panel27.Controls.Add(label87);
             panel27.Controls.Add(label109);
-            panel27.Location = new Point(513, 3);
+            panel27.Location = new Point(499, 3);
             panel27.Name = "panel27";
-            panel27.Size = new Size(164, 310);
+            panel27.Size = new Size(161, 310);
             panel27.TabIndex = 2;
             // 
             // label63
@@ -2709,7 +2709,7 @@
             tableLayoutPanel14.RowStyles.Add(new RowStyle(SizeType.Percent, 7.746479F));
             tableLayoutPanel14.RowStyles.Add(new RowStyle(SizeType.Percent, 83.80282F));
             tableLayoutPanel14.RowStyles.Add(new RowStyle(SizeType.Percent, 8.190709F));
-            tableLayoutPanel14.Size = new Size(688, 853);
+            tableLayoutPanel14.Size = new Size(671, 853);
             tableLayoutPanel14.TabIndex = 14;
             // 
             // tableLayoutPanel22
@@ -2727,7 +2727,7 @@
             tableLayoutPanel22.RowCount = 1;
             tableLayoutPanel22.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
             tableLayoutPanel22.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            tableLayoutPanel22.Size = new Size(680, 59);
+            tableLayoutPanel22.Size = new Size(663, 59);
             tableLayoutPanel22.TabIndex = 11;
             // 
             // panel40
@@ -2737,7 +2737,7 @@
             panel40.Controls.Add(label112);
             panel40.Location = new Point(3, 3);
             panel40.Name = "panel40";
-            panel40.Size = new Size(334, 53);
+            panel40.Size = new Size(325, 53);
             panel40.TabIndex = 0;
             // 
             // label111
@@ -2766,9 +2766,9 @@
             panel41.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             panel41.Controls.Add(label113);
             panel41.Controls.Add(label114);
-            panel41.Location = new Point(343, 3);
+            panel41.Location = new Point(334, 3);
             panel41.Name = "panel41";
-            panel41.Size = new Size(164, 53);
+            panel41.Size = new Size(159, 53);
             panel41.TabIndex = 1;
             // 
             // label113
@@ -2799,9 +2799,9 @@
             panel42.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             panel42.Controls.Add(label115);
             panel42.Controls.Add(label116);
-            panel42.Location = new Point(513, 3);
+            panel42.Location = new Point(499, 3);
             panel42.Name = "panel42";
-            panel42.Size = new Size(164, 53);
+            panel42.Size = new Size(161, 53);
             panel42.TabIndex = 2;
             // 
             // label115
@@ -2837,7 +2837,7 @@
             panel43.Controls.Add(button8);
             panel43.Location = new Point(4, 784);
             panel43.Name = "panel43";
-            panel43.Size = new Size(680, 65);
+            panel43.Size = new Size(663, 65);
             panel43.TabIndex = 2;
             // 
             // button9
@@ -2847,7 +2847,7 @@
             button9.FlatStyle = FlatStyle.Flat;
             button9.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
             button9.ForeColor = Color.FromArgb(92, 147, 184);
-            button9.Location = new Point(402, 12);
+            button9.Location = new Point(385, 12);
             button9.Name = "button9";
             button9.Size = new Size(111, 41);
             button9.TabIndex = 4;
@@ -2862,7 +2862,7 @@
             button17.FlatStyle = FlatStyle.Flat;
             button17.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
             button17.ForeColor = Color.White;
-            button17.Location = new Point(549, 12);
+            button17.Location = new Point(532, 12);
             button17.Name = "button17";
             button17.Size = new Size(111, 41);
             button17.TabIndex = 3;
@@ -2876,7 +2876,7 @@
             button6.FlatStyle = FlatStyle.Flat;
             button6.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
             button6.ForeColor = Color.FromArgb(92, 147, 184);
-            button6.Location = new Point(1329, 12);
+            button6.Location = new Point(1312, 12);
             button6.Name = "button6";
             button6.Size = new Size(111, 44);
             button6.TabIndex = 2;
@@ -2890,7 +2890,7 @@
             button7.FlatStyle = FlatStyle.Flat;
             button7.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
             button7.ForeColor = Color.FromArgb(92, 147, 184);
-            button7.Location = new Point(2127, 12);
+            button7.Location = new Point(2110, 12);
             button7.Name = "button7";
             button7.Size = new Size(111, 16);
             button7.TabIndex = 1;
@@ -2904,7 +2904,7 @@
             button8.FlatStyle = FlatStyle.Flat;
             button8.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
             button8.ForeColor = Color.FromArgb(92, 147, 184);
-            button8.Location = new Point(2909, 10);
+            button8.Location = new Point(2892, 10);
             button8.Name = "button8";
             button8.Size = new Size(111, 16);
             button8.TabIndex = 0;
@@ -2925,7 +2925,7 @@
             tableLayoutPanel23.Name = "tableLayoutPanel23";
             tableLayoutPanel23.RowCount = 1;
             tableLayoutPanel23.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel23.Size = new Size(680, 707);
+            tableLayoutPanel23.Size = new Size(663, 707);
             tableLayoutPanel23.TabIndex = 3;
             // 
             // panel44
@@ -2952,7 +2952,7 @@
             panel44.Controls.Add(pictureBox11);
             panel44.Location = new Point(3, 3);
             panel44.Name = "panel44";
-            panel44.Size = new Size(334, 701);
+            panel44.Size = new Size(325, 701);
             panel44.TabIndex = 0;
             // 
             // label142
@@ -3153,9 +3153,9 @@
             panel48.Controls.Add(label124);
             panel48.Controls.Add(label125);
             panel48.Controls.Add(label126);
-            panel48.Location = new Point(343, 3);
+            panel48.Location = new Point(334, 3);
             panel48.Name = "panel48";
-            panel48.Size = new Size(164, 701);
+            panel48.Size = new Size(159, 701);
             panel48.TabIndex = 1;
             // 
             // label123
@@ -3213,9 +3213,9 @@
             panel49.Controls.Add(label130);
             panel49.Controls.Add(label131);
             panel49.Controls.Add(label132);
-            panel49.Location = new Point(513, 3);
+            panel49.Location = new Point(499, 3);
             panel49.Name = "panel49";
-            panel49.Size = new Size(164, 701);
+            panel49.Size = new Size(161, 701);
             panel49.TabIndex = 2;
             // 
             // label127
@@ -3303,7 +3303,7 @@
             tableLayoutPanel24.RowStyles.Add(new RowStyle(SizeType.Percent, 15F));
             tableLayoutPanel24.RowStyles.Add(new RowStyle(SizeType.Percent, 70F));
             tableLayoutPanel24.RowStyles.Add(new RowStyle(SizeType.Percent, 15F));
-            tableLayoutPanel24.Size = new Size(688, 464);
+            tableLayoutPanel24.Size = new Size(671, 464);
             tableLayoutPanel24.TabIndex = 15;
             // 
             // tableLayoutPanel25
@@ -3321,7 +3321,7 @@
             tableLayoutPanel25.RowCount = 1;
             tableLayoutPanel25.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
             tableLayoutPanel25.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            tableLayoutPanel25.Size = new Size(680, 63);
+            tableLayoutPanel25.Size = new Size(663, 63);
             tableLayoutPanel25.TabIndex = 11;
             // 
             // panel50
@@ -3331,7 +3331,7 @@
             panel50.Controls.Add(label144);
             panel50.Location = new Point(3, 3);
             panel50.Name = "panel50";
-            panel50.Size = new Size(334, 57);
+            panel50.Size = new Size(325, 57);
             panel50.TabIndex = 0;
             // 
             // label143
@@ -3360,9 +3360,9 @@
             panel51.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             panel51.Controls.Add(label145);
             panel51.Controls.Add(label146);
-            panel51.Location = new Point(343, 3);
+            panel51.Location = new Point(334, 3);
             panel51.Name = "panel51";
-            panel51.Size = new Size(164, 57);
+            panel51.Size = new Size(159, 57);
             panel51.TabIndex = 1;
             // 
             // label145
@@ -3393,9 +3393,9 @@
             panel52.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             panel52.Controls.Add(label147);
             panel52.Controls.Add(label148);
-            panel52.Location = new Point(513, 3);
+            panel52.Location = new Point(499, 3);
             panel52.Name = "panel52";
-            panel52.Size = new Size(164, 57);
+            panel52.Size = new Size(161, 57);
             panel52.TabIndex = 2;
             // 
             // label147
@@ -3430,7 +3430,7 @@
             panel53.Controls.Add(button11);
             panel53.Location = new Point(4, 397);
             panel53.Name = "panel53";
-            panel53.Size = new Size(680, 63);
+            panel53.Size = new Size(663, 63);
             panel53.TabIndex = 2;
             // 
             // button18
@@ -3440,7 +3440,7 @@
             button18.FlatStyle = FlatStyle.Flat;
             button18.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
             button18.ForeColor = Color.FromArgb(92, 147, 184);
-            button18.Location = new Point(402, 12);
+            button18.Location = new Point(385, 12);
             button18.Name = "button18";
             button18.Size = new Size(111, 41);
             button18.TabIndex = 4;
@@ -3455,7 +3455,7 @@
             button19.FlatStyle = FlatStyle.Flat;
             button19.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
             button19.ForeColor = Color.White;
-            button19.Location = new Point(549, 12);
+            button19.Location = new Point(532, 12);
             button19.Name = "button19";
             button19.Size = new Size(111, 41);
             button19.TabIndex = 3;
@@ -3469,7 +3469,7 @@
             button10.FlatStyle = FlatStyle.Flat;
             button10.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
             button10.ForeColor = Color.FromArgb(92, 147, 184);
-            button10.Location = new Point(1278, 12);
+            button10.Location = new Point(1261, 12);
             button10.Name = "button10";
             button10.Size = new Size(111, 4);
             button10.TabIndex = 1;
@@ -3483,7 +3483,7 @@
             button11.FlatStyle = FlatStyle.Flat;
             button11.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
             button11.ForeColor = Color.FromArgb(92, 147, 184);
-            button11.Location = new Point(2060, 10);
+            button11.Location = new Point(2043, 10);
             button11.Name = "button11";
             button11.Size = new Size(111, 0);
             button11.TabIndex = 0;
@@ -3504,7 +3504,7 @@
             tableLayoutPanel26.Name = "tableLayoutPanel26";
             tableLayoutPanel26.RowCount = 1;
             tableLayoutPanel26.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel26.Size = new Size(680, 316);
+            tableLayoutPanel26.Size = new Size(663, 316);
             tableLayoutPanel26.TabIndex = 3;
             // 
             // panel54
@@ -3518,7 +3518,7 @@
             panel54.Controls.Add(pictureBox14);
             panel54.Location = new Point(3, 3);
             panel54.Name = "panel54";
-            panel54.Size = new Size(334, 310);
+            panel54.Size = new Size(325, 310);
             panel54.TabIndex = 0;
             // 
             // label149
@@ -3588,9 +3588,9 @@
             panel55.Controls.Add(label155);
             panel55.Controls.Add(label156);
             panel55.Controls.Add(label157);
-            panel55.Location = new Point(343, 3);
+            panel55.Location = new Point(334, 3);
             panel55.Name = "panel55";
-            panel55.Size = new Size(164, 310);
+            panel55.Size = new Size(159, 310);
             panel55.TabIndex = 1;
             // 
             // label154
@@ -3648,9 +3648,9 @@
             panel56.Controls.Add(label161);
             panel56.Controls.Add(label162);
             panel56.Controls.Add(label163);
-            panel56.Location = new Point(513, 3);
+            panel56.Location = new Point(499, 3);
             panel56.Name = "panel56";
-            panel56.Size = new Size(164, 310);
+            panel56.Size = new Size(161, 310);
             panel56.TabIndex = 2;
             // 
             // label158
@@ -3738,7 +3738,7 @@
             tableLayoutPanel27.RowStyles.Add(new RowStyle(SizeType.Percent, 15F));
             tableLayoutPanel27.RowStyles.Add(new RowStyle(SizeType.Percent, 70F));
             tableLayoutPanel27.RowStyles.Add(new RowStyle(SizeType.Percent, 15F));
-            tableLayoutPanel27.Size = new Size(688, 464);
+            tableLayoutPanel27.Size = new Size(671, 464);
             tableLayoutPanel27.TabIndex = 16;
             // 
             // tableLayoutPanel28
@@ -3756,7 +3756,7 @@
             tableLayoutPanel28.RowCount = 1;
             tableLayoutPanel28.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
             tableLayoutPanel28.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            tableLayoutPanel28.Size = new Size(680, 63);
+            tableLayoutPanel28.Size = new Size(663, 63);
             tableLayoutPanel28.TabIndex = 11;
             // 
             // panel57
@@ -3766,7 +3766,7 @@
             panel57.Controls.Add(label165);
             panel57.Location = new Point(3, 3);
             panel57.Name = "panel57";
-            panel57.Size = new Size(334, 57);
+            panel57.Size = new Size(325, 57);
             panel57.TabIndex = 0;
             // 
             // label164
@@ -3795,9 +3795,9 @@
             panel58.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             panel58.Controls.Add(label166);
             panel58.Controls.Add(label167);
-            panel58.Location = new Point(343, 3);
+            panel58.Location = new Point(334, 3);
             panel58.Name = "panel58";
-            panel58.Size = new Size(164, 57);
+            panel58.Size = new Size(159, 57);
             panel58.TabIndex = 1;
             // 
             // label166
@@ -3828,9 +3828,9 @@
             panel59.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             panel59.Controls.Add(label168);
             panel59.Controls.Add(label169);
-            panel59.Location = new Point(513, 3);
+            panel59.Location = new Point(499, 3);
             panel59.Name = "panel59";
-            panel59.Size = new Size(164, 57);
+            panel59.Size = new Size(161, 57);
             panel59.TabIndex = 2;
             // 
             // label168
@@ -3865,7 +3865,7 @@
             panel60.Controls.Add(button13);
             panel60.Location = new Point(4, 397);
             panel60.Name = "panel60";
-            panel60.Size = new Size(680, 63);
+            panel60.Size = new Size(663, 63);
             panel60.TabIndex = 2;
             // 
             // button20
@@ -3875,7 +3875,7 @@
             button20.FlatStyle = FlatStyle.Flat;
             button20.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
             button20.ForeColor = Color.FromArgb(92, 147, 184);
-            button20.Location = new Point(402, 11);
+            button20.Location = new Point(385, 11);
             button20.Name = "button20";
             button20.Size = new Size(111, 41);
             button20.TabIndex = 4;
@@ -3890,7 +3890,7 @@
             button21.FlatStyle = FlatStyle.Flat;
             button21.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
             button21.ForeColor = Color.White;
-            button21.Location = new Point(549, 11);
+            button21.Location = new Point(532, 11);
             button21.Name = "button21";
             button21.Size = new Size(111, 41);
             button21.TabIndex = 3;
@@ -3904,7 +3904,7 @@
             button12.FlatStyle = FlatStyle.Flat;
             button12.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
             button12.ForeColor = Color.FromArgb(92, 147, 184);
-            button12.Location = new Point(1278, 12);
+            button12.Location = new Point(1261, 12);
             button12.Name = "button12";
             button12.Size = new Size(111, 4);
             button12.TabIndex = 1;
@@ -3918,7 +3918,7 @@
             button13.FlatStyle = FlatStyle.Flat;
             button13.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
             button13.ForeColor = Color.FromArgb(92, 147, 184);
-            button13.Location = new Point(2060, 10);
+            button13.Location = new Point(2043, 10);
             button13.Name = "button13";
             button13.Size = new Size(111, 0);
             button13.TabIndex = 0;
@@ -3939,7 +3939,7 @@
             tableLayoutPanel29.Name = "tableLayoutPanel29";
             tableLayoutPanel29.RowCount = 1;
             tableLayoutPanel29.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel29.Size = new Size(680, 316);
+            tableLayoutPanel29.Size = new Size(663, 316);
             tableLayoutPanel29.TabIndex = 3;
             // 
             // panel61
@@ -3953,7 +3953,7 @@
             panel61.Controls.Add(pictureBox15);
             panel61.Location = new Point(3, 3);
             panel61.Name = "panel61";
-            panel61.Size = new Size(334, 310);
+            panel61.Size = new Size(325, 310);
             panel61.TabIndex = 0;
             // 
             // label170
@@ -4023,9 +4023,9 @@
             panel62.Controls.Add(label176);
             panel62.Controls.Add(label177);
             panel62.Controls.Add(label178);
-            panel62.Location = new Point(343, 3);
+            panel62.Location = new Point(334, 3);
             panel62.Name = "panel62";
-            panel62.Size = new Size(164, 310);
+            panel62.Size = new Size(159, 310);
             panel62.TabIndex = 1;
             // 
             // label175
@@ -4083,9 +4083,9 @@
             panel63.Controls.Add(label182);
             panel63.Controls.Add(label183);
             panel63.Controls.Add(label184);
-            panel63.Location = new Point(513, 3);
+            panel63.Location = new Point(499, 3);
             panel63.Name = "panel63";
-            panel63.Size = new Size(164, 310);
+            panel63.Size = new Size(161, 310);
             panel63.TabIndex = 2;
             // 
             // label179
