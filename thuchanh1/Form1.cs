@@ -1,4 +1,4 @@
-namespace thuchanh1
+﻿namespace thuchanh1
 {
     public partial class Form1 : Form
     {
@@ -48,27 +48,27 @@ namespace thuchanh1
         }
         private void Form1_Shown(object sender, EventArgs e)
         {
-            AddItem("Adidas1", "Ori", "Trang", "10", "1");
-            AddItem("Adidas2", "Ori", "Trang", "10", "2");
-            AddItem("Adidas3", "Ori", "Trang", "10", "3");
-            AddItem("Adidas4", "Ori", "Trang", "10", "4");
-            AddItem("Adidas5", "Ori", "Trang", "10", "5");
-            AddItem("Adidas6", "Ori", "Trang", "10", "6");
-            AddItem("Adidas7", "Ori", "Trang", "10", "7");
-            AddItem("Adidas8", "Ori", "Trang", "10", "8");
-            AddItem("Adida9", "Ori", "Trang", "10", "9");
-            AddItem("Adidas10", "Ori", "Trang", "10", "10");
+            AddItem("DÉP SANDAL ADIDAS ASTIR", "Originals", "Wonder Taupe / Off White / Shadow Red", "2.000.000₫", "1");
+            AddItem("GIÀY SUPERSTAR", "Originals", "Cloud White / Core Black / Cloud White", "2.600.000₫", "2");
+            AddItem("GIÀY FORUM 84 LOW", "Ori", "Off White / Off White / Cloud White", "2.800.000₫", "3");
+            AddItem("DÉP SANDAL ADIDAS ASTIR", "Originals", "Wonder Taupe / Off White / Shadow Red", "2.000.000₫", "4");
+            AddItem("GIÀY FORUM LOW", "Originals", "Cloud White / Core Black / Cloud White", "2.500.000", "5");
+            AddItem("DÉP SANDAL ADIDAS ASTIR", "Originals", "Wonder Taupe / Off White / Shadow Red", "2.000.000₫", "6");
+            AddItem("GIÀY FORUM 84 LOW", "Ori", "Off White / Off White / Cloud White", "2.800.000₫", "7");
+            AddItem("GIÀY SUPERSTAR", "Originals", "Cloud White / Clear Pink / Pulse Magenta", "2.600.000₫", "8");
+            AddItem("GIÀY FORUM 84 LOW", "Ori", "Off White / Off White / Cloud White", "2.800.000₫", "9");
+            AddItem("GIÀY FORUM 84 LOW", "Ori", "Off White / Off White / Cloud White", "2.800.000₫", "10");
 
-            AddItem("Adidas11", "Ori", "Trang", "10", "11");
-            AddItem("Adidas12", "Ori", "Trang", "10", "12");
-            AddItem("Adidas13", "Ori", "Trang", "10", "13");
-            AddItem("Adidas14", "Ori", "Trang", "10", "14");
-            AddItem("Adidas15", "Ori", "Trang", "10", "15");
-            AddItem("Adidas16", "Ori", "Trang", "10", "16");
-            AddItem("Adidas17", "Ori", "Trang", "10", "17");
-            AddItem("Adidas18", "Ori", "Trang", "10", "18");
-            AddItem("Adidas19", "Ori", "Trang", "10", "19");
-            AddItem("Adidas20", "Ori", "Trang", "10", "20");
+            AddItem("GIÀY SUPERSTAR", "Originals", "Cloud White / Clear Pink / Pulse Magenta", "2.600.000₫", "11");
+            AddItem("GIÀY SUPERSTAR", "Originals", "Cloud White / Clear Pink / Pulse Magenta", "2.600.000₫", "12");
+            AddItem("DÉP ADILETTE AYOON", "Originals", "Solar Green / Core Black / Solar Green", "1.400.000₫", "13");
+            AddItem("GIÀY FORUM LOW", "Originals", "Cloud White / Core Black / Cloud White", "2.500.000", "14");
+            AddItem("GIÀY SUPERSTAR", "Originals", "Cloud White / Core Black / Cloud White", "2.600.000₫", "15");
+            AddItem("DÉP ADILETTE AYOON", "Originals", "Solar Green / Core Black / Solar Green", "1.400.000₫", "16");
+            AddItem("DÉP ADILETTE AYOON", "Originals", "Solar Green / Core Black / Solar Green", "1.400.000₫", "17");
+            AddItem("DÉP ADILETTE AYOON", "Originals", "Solar Green / Core Black / Solar Green", "1.400.000₫", "18");
+            AddItem("DÉP SANDAL ADIDAS ASTIR", "Originals", "Wonder Taupe / Off White / Shadow Red", "2.000.000₫", "19");
+            AddItem("GIÀY SUPERSTAR", "Originals", "Cloud White / Core Black / Cloud White", "2.600.000₫", "20");
         }
 
         private void tb_timkiem_TextChanged(object sender, EventArgs e)
