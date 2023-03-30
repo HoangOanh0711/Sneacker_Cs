@@ -80,22 +80,22 @@
             pictureBox7 = new PictureBox();
             pictureBox11 = new PictureBox();
             label15 = new Label();
+            pictureBox12 = new PictureBox();
+            tableLayoutPanel3 = new TableLayoutPanel();
             label9 = new Label();
             label10 = new Label();
             label11 = new Label();
-            pictureBox12 = new PictureBox();
             label12 = new Label();
-            label14 = new Label();
-            tableLayoutPanel3 = new TableLayoutPanel();
             label13 = new Label();
+            label14 = new Label();
             pictureBox13 = new PictureBox();
+            tableLayoutPanel1 = new TableLayoutPanel();
             label17 = new Label();
             label18 = new Label();
             label19 = new Label();
             label20 = new Label();
             label21 = new Label();
             label22 = new Label();
-            tableLayoutPanel1 = new TableLayoutPanel();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pb_giohang).BeginInit();
             panel2.SuspendLayout();
@@ -588,6 +588,7 @@
             // 
             // panel12
             // 
+            panel12.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             panel12.BackColor = Color.FromArgb(158, 200, 243);
             panel12.Controls.Add(pictureBox5);
             panel12.Controls.Add(pictureBox8);
@@ -689,6 +690,39 @@
             label15.Text = "THEO DÕI SNEAKERS";
             label15.TextAlign = ContentAlignment.MiddleLeft;
             // 
+            // pictureBox12
+            // 
+            pictureBox12.Image = Properties.Resources.gg;
+            pictureBox12.Location = new Point(976, 67);
+            pictureBox12.Name = "pictureBox12";
+            pictureBox12.Size = new Size(40, 40);
+            pictureBox12.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox12.TabIndex = 42;
+            pictureBox12.TabStop = false;
+            // 
+            // tableLayoutPanel3
+            // 
+            tableLayoutPanel3.ColumnCount = 1;
+            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
+            tableLayoutPanel3.Controls.Add(label9, 0, 5);
+            tableLayoutPanel3.Controls.Add(label10, 0, 4);
+            tableLayoutPanel3.Controls.Add(label11, 0, 3);
+            tableLayoutPanel3.Controls.Add(label12, 0, 2);
+            tableLayoutPanel3.Controls.Add(label13, 0, 1);
+            tableLayoutPanel3.Controls.Add(label14, 0, 0);
+            tableLayoutPanel3.Location = new Point(297, 18);
+            tableLayoutPanel3.Name = "tableLayoutPanel3";
+            tableLayoutPanel3.RowCount = 6;
+            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
+            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
+            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
+            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
+            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
+            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
+            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            tableLayoutPanel3.Size = new Size(294, 213);
+            tableLayoutPanel3.TabIndex = 39;
+            // 
             // label9
             // 
             label9.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
@@ -725,16 +759,6 @@
             label11.Text = "Chính sách vận chuyển - hoàn tiền";
             label11.TextAlign = ContentAlignment.MiddleLeft;
             // 
-            // pictureBox12
-            // 
-            pictureBox12.Image = Properties.Resources.gg;
-            pictureBox12.Location = new Point(976, 67);
-            pictureBox12.Name = "pictureBox12";
-            pictureBox12.Size = new Size(40, 40);
-            pictureBox12.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox12.TabIndex = 42;
-            pictureBox12.TabStop = false;
-            // 
             // label12
             // 
             label12.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
@@ -746,41 +770,6 @@
             label12.TabIndex = 2;
             label12.Text = "Điều khoản và điều kiện";
             label12.TextAlign = ContentAlignment.MiddleLeft;
-            // 
-            // label14
-            // 
-            label14.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label14.AutoSize = true;
-            label14.Font = new Font("Arial", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            label14.Location = new Point(3, 0);
-            label14.Name = "label14";
-            label14.Size = new Size(126, 35);
-            label14.TabIndex = 0;
-            label14.Text = "CHÍNH SÁCH";
-            label14.TextAlign = ContentAlignment.MiddleLeft;
-            // 
-            // tableLayoutPanel3
-            // 
-            tableLayoutPanel3.ColumnCount = 1;
-            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tableLayoutPanel3.Controls.Add(label9, 0, 5);
-            tableLayoutPanel3.Controls.Add(label10, 0, 4);
-            tableLayoutPanel3.Controls.Add(label11, 0, 3);
-            tableLayoutPanel3.Controls.Add(label12, 0, 2);
-            tableLayoutPanel3.Controls.Add(label13, 0, 1);
-            tableLayoutPanel3.Controls.Add(label14, 0, 0);
-            tableLayoutPanel3.Location = new Point(297, 18);
-            tableLayoutPanel3.Name = "tableLayoutPanel3";
-            tableLayoutPanel3.RowCount = 6;
-            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
-            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
-            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
-            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
-            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
-            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
-            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            tableLayoutPanel3.Size = new Size(294, 213);
-            tableLayoutPanel3.TabIndex = 39;
             // 
             // label13
             // 
@@ -794,6 +783,18 @@
             label13.Text = "Chính sách bảo mật";
             label13.TextAlign = ContentAlignment.MiddleLeft;
             // 
+            // label14
+            // 
+            label14.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label14.AutoSize = true;
+            label14.Font = new Font("Arial", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label14.Location = new Point(3, 0);
+            label14.Name = "label14";
+            label14.Size = new Size(126, 35);
+            label14.TabIndex = 0;
+            label14.Text = "CHÍNH SÁCH";
+            label14.TextAlign = ContentAlignment.MiddleLeft;
+            // 
             // pictureBox13
             // 
             pictureBox13.Image = Properties.Resources.gg;
@@ -803,6 +804,29 @@
             pictureBox13.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox13.TabIndex = 43;
             pictureBox13.TabStop = false;
+            // 
+            // tableLayoutPanel1
+            // 
+            tableLayoutPanel1.ColumnCount = 1;
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
+            tableLayoutPanel1.Controls.Add(label17, 0, 5);
+            tableLayoutPanel1.Controls.Add(label18, 0, 4);
+            tableLayoutPanel1.Controls.Add(label19, 0, 3);
+            tableLayoutPanel1.Controls.Add(label20, 0, 2);
+            tableLayoutPanel1.Controls.Add(label21, 0, 1);
+            tableLayoutPanel1.Controls.Add(label22, 0, 0);
+            tableLayoutPanel1.Location = new Point(56, 18);
+            tableLayoutPanel1.Name = "tableLayoutPanel1";
+            tableLayoutPanel1.RowCount = 6;
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            tableLayoutPanel1.Size = new Size(200, 213);
+            tableLayoutPanel1.TabIndex = 38;
             // 
             // label17
             // 
@@ -875,29 +899,6 @@
             label22.TabIndex = 0;
             label22.Text = "VỀ SNEAKERS";
             label22.TextAlign = ContentAlignment.MiddleLeft;
-            // 
-            // tableLayoutPanel1
-            // 
-            tableLayoutPanel1.ColumnCount = 1;
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tableLayoutPanel1.Controls.Add(label17, 0, 5);
-            tableLayoutPanel1.Controls.Add(label18, 0, 4);
-            tableLayoutPanel1.Controls.Add(label19, 0, 3);
-            tableLayoutPanel1.Controls.Add(label20, 0, 2);
-            tableLayoutPanel1.Controls.Add(label21, 0, 1);
-            tableLayoutPanel1.Controls.Add(label22, 0, 0);
-            tableLayoutPanel1.Location = new Point(56, 18);
-            tableLayoutPanel1.Name = "tableLayoutPanel1";
-            tableLayoutPanel1.RowCount = 6;
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            tableLayoutPanel1.Size = new Size(200, 213);
-            tableLayoutPanel1.TabIndex = 38;
             // 
             // Form1
             // 
