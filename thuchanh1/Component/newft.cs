@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace thuchanh1.Component
 {
-    public partial class footer : UserControl
+    public partial class newft : UserControl
     {
-        public footer()
+        public newft()
         {
             InitializeComponent();
         }

@@ -326,6 +326,12 @@
     <Compile Update="ChiTiet.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="footer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Reg.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Login.cs">
       <SubType>Form</SubType>
     </Compile>

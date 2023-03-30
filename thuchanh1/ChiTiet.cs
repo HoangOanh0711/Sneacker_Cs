@@ -27,9 +27,6 @@ namespace thuchanh1
 
             pictureBox.BackgroundImage = img_a.BackgroundImage;
 
-            /*List<in4chitiet> in4chitiets = new List<in4chitiet>();*/
-
-            /*int i = int.Parse(ten)-1;*/
 
             List<in4chitiet> in4Chitiets = new List<in4chitiet>();
             in4Chitiets.Add(new in4chitiet("1", "PHONG CÁCH NHỮNG NĂM 2000", "Quay trở lại thập niên thời trang nổi loạn.", "LỚP ĐỆM SIÊU NHẸ", "Đế giữa EVA hấp thụ lực tác động cho cảm giác bền chắc mà thoải mái.", "QUAI SAU CÓ THỂ THÁO RỜI", "Quai dép có thể nới lỏng, kéo chặt hoặc tháo rời.", "PHIÊN BẢN DÉP SANDAL CỦA ĐÔI GIÀY ASTIR RẤT ĐƯỢC YÊU THÍCH.", "Nếu bạn có sở thích cắm trại thời những năm 2000 thì đôi dép dưới chân bạn có lẽ trông hơi giống đôi này. Vô cùng thoải mái và đậm chất Y2K, đôi dép sandal adidas Astir này kết hợp các đường nét uyển chuyển với hệ thống dây buộc thông minh và lớp đệm êm ái. Bạn có thể phối đôi dép này với mọi outfit. Tận hưởng từng sải bước dễ chịu nhờ lòng dép bằng mút nhớ hình siêu mềm mại.", "Quai dán có thể tháo rời", "Thân dép bằng da lộn và da tổng hợp", "Lớp lót bằng vải dệt", "Lòng dép bằng mút nhớ hình"));
@@ -59,37 +56,6 @@ namespace thuchanh1
 
         }
 
-        /*
-                public void AddItem(string tenanh, string lbnb1, string txnb1, string lbnb2, string txnb2, string lbnb3, string txnb3, string lbmt1, string txmt1, string txct1, string txct2, string txct3, string txct4, string txct5, string txct6)
-                {
-                    flowLayoutPanel1.Controls.Add(new in4chitiet()
-                    {
-                        in4_lbnb1 = lbnb1,
-                        in4_txnb1 = txnb1,
-                        in4_imgnb1 = Image.FromFile("Resources/" + tenanh + "a.jpg"),
-
-                        in4_lbnb2 = lbnb2,
-                        in4_txnb2 = txnb2,
-                        in4_imgnb2 = Image.FromFile("Resources/" + tenanh + "b.jpg"),
-
-                        in4_lbnb3 = lbnb3,
-                        in4_txnb3 = txnb3,
-                        in4_imgnb3 = Image.FromFile("Resources/" + tenanh + "c.jpg"),
-
-                        in4_lbmt1 = lbmt1,
-                        in4_txmt1 = txmt1,
-                        in4_imgmt1 = Image.FromFile("Resources/" + tenanh + "d.jpg"),
-
-                        in4_txct1 = txct1,
-                        in4_txct2 = txct2,
-                        in4_txct3 = txct3,
-                        in4_txct4 = txct4,
-                        in4_txct5 = txct5,
-                        in4_txct6 = txct6,
-                    });
-                }
-        */
-
         private string tenanh;
         public string tenAnh { get => tenanh; set => tenanh = value; }
         public string ctTien { get => lb_giatien.Text; set => lb_giatien.Text = value; }
@@ -100,8 +66,6 @@ namespace thuchanh1
         public Image ctAnh_b { get => img_b.BackgroundImage; set => img_b.BackgroundImage = value; }
         public Image ctAnh_c { get => img_c.BackgroundImage; set => img_c.BackgroundImage = value; }
         public Image ctAnh_d { get => img_d.BackgroundImage; set => img_d.BackgroundImage = value; }
-
-
 
 
         private void button1_Click(object sender, EventArgs e)

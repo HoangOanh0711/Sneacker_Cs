@@ -71,6 +71,31 @@
             label2 = new Label();
             panel11 = new Panel();
             flowLayoutPanel1 = new FlowLayoutPanel();
+            panel12 = new Panel();
+            pictureBox5 = new PictureBox();
+            pictureBox8 = new PictureBox();
+            pictureBox9 = new PictureBox();
+            pictureBox10 = new PictureBox();
+            label16 = new Label();
+            pictureBox7 = new PictureBox();
+            pictureBox11 = new PictureBox();
+            label15 = new Label();
+            label9 = new Label();
+            label10 = new Label();
+            label11 = new Label();
+            pictureBox12 = new PictureBox();
+            label12 = new Label();
+            label14 = new Label();
+            tableLayoutPanel3 = new TableLayoutPanel();
+            label13 = new Label();
+            pictureBox13 = new PictureBox();
+            label17 = new Label();
+            label18 = new Label();
+            label19 = new Label();
+            label20 = new Label();
+            label21 = new Label();
+            label22 = new Label();
+            tableLayoutPanel1 = new TableLayoutPanel();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pb_giohang).BeginInit();
             panel2.SuspendLayout();
@@ -82,6 +107,17 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             panel4.SuspendLayout();
             panel11.SuspendLayout();
+            panel12.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox11).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox12).BeginInit();
+            tableLayoutPanel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox13).BeginInit();
+            tableLayoutPanel1.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
@@ -221,7 +257,7 @@
             panel3.Controls.Add(label3);
             panel3.Location = new Point(5, 49);
             panel3.Name = "panel3";
-            panel3.Size = new Size(314, 1331);
+            panel3.Size = new Size(314, 811);
             panel3.TabIndex = 1;
             // 
             // size1
@@ -550,13 +586,327 @@
             flowLayoutPanel1.Size = new Size(1007, 757);
             flowLayoutPanel1.TabIndex = 0;
             // 
+            // panel12
+            // 
+            panel12.BackColor = Color.FromArgb(158, 200, 243);
+            panel12.Controls.Add(pictureBox5);
+            panel12.Controls.Add(pictureBox8);
+            panel12.Controls.Add(pictureBox9);
+            panel12.Controls.Add(pictureBox10);
+            panel12.Controls.Add(label16);
+            panel12.Controls.Add(pictureBox7);
+            panel12.Controls.Add(pictureBox11);
+            panel12.Controls.Add(label15);
+            panel12.Controls.Add(pictureBox12);
+            panel12.Controls.Add(tableLayoutPanel3);
+            panel12.Controls.Add(pictureBox13);
+            panel12.Controls.Add(tableLayoutPanel1);
+            panel12.Location = new Point(5, 878);
+            panel12.Name = "panel12";
+            panel12.Size = new Size(1327, 249);
+            panel12.TabIndex = 6;
+            // 
+            // pictureBox5
+            // 
+            pictureBox5.Image = Properties.Resources.fb;
+            pictureBox5.Location = new Point(914, 67);
+            pictureBox5.Name = "pictureBox5";
+            pictureBox5.Size = new Size(40, 40);
+            pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox5.TabIndex = 41;
+            pictureBox5.TabStop = false;
+            // 
+            // pictureBox8
+            // 
+            pictureBox8.Image = Properties.Resources.cash_on_delivery;
+            pictureBox8.Location = new Point(787, 88);
+            pictureBox8.Name = "pictureBox8";
+            pictureBox8.Size = new Size(40, 40);
+            pictureBox8.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox8.TabIndex = 49;
+            pictureBox8.TabStop = false;
+            // 
+            // pictureBox9
+            // 
+            pictureBox9.Image = Properties.Resources.Mastercard1;
+            pictureBox9.Location = new Point(693, 88);
+            pictureBox9.Name = "pictureBox9";
+            pictureBox9.Size = new Size(67, 40);
+            pictureBox9.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox9.TabIndex = 48;
+            pictureBox9.TabStop = false;
+            // 
+            // pictureBox10
+            // 
+            pictureBox10.Image = Properties.Resources.visa_logo_800x450;
+            pictureBox10.Location = new Point(609, 88);
+            pictureBox10.Name = "pictureBox10";
+            pictureBox10.Size = new Size(60, 40);
+            pictureBox10.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox10.TabIndex = 47;
+            pictureBox10.TabStop = false;
+            // 
+            // label16
+            // 
+            label16.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label16.Font = new Font("Arial", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label16.Location = new Point(609, 18);
+            label16.Name = "label16";
+            label16.Size = new Size(190, 61);
+            label16.TabIndex = 46;
+            label16.Text = "PHƯƠNG THỨC THANH TOÁN";
+            label16.TextAlign = ContentAlignment.MiddleLeft;
+            // 
+            // pictureBox7
+            // 
+            pictureBox7.Image = Properties.Resources.gg;
+            pictureBox7.Location = new Point(1164, 67);
+            pictureBox7.Name = "pictureBox7";
+            pictureBox7.Size = new Size(40, 40);
+            pictureBox7.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox7.TabIndex = 45;
+            pictureBox7.TabStop = false;
+            // 
+            // pictureBox11
+            // 
+            pictureBox11.Image = Properties.Resources.gg;
+            pictureBox11.Location = new Point(1100, 67);
+            pictureBox11.Name = "pictureBox11";
+            pictureBox11.Size = new Size(40, 40);
+            pictureBox11.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox11.TabIndex = 44;
+            pictureBox11.TabStop = false;
+            // 
+            // label15
+            // 
+            label15.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label15.AutoSize = true;
+            label15.Font = new Font("Arial", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label15.Location = new Point(909, 24);
+            label15.Name = "label15";
+            label15.Size = new Size(213, 22);
+            label15.TabIndex = 40;
+            label15.Text = "THEO DÕI SNEAKERS";
+            label15.TextAlign = ContentAlignment.MiddleLeft;
+            // 
+            // label9
+            // 
+            label9.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label9.AutoSize = true;
+            label9.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label9.Location = new Point(3, 175);
+            label9.Name = "label9";
+            label9.Size = new Size(197, 38);
+            label9.TabIndex = 5;
+            label9.Text = "Chính sách giao dịch chung";
+            label9.TextAlign = ContentAlignment.MiddleLeft;
+            // 
+            // label10
+            // 
+            label10.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label10.AutoSize = true;
+            label10.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label10.Location = new Point(3, 140);
+            label10.Name = "label10";
+            label10.Size = new Size(159, 35);
+            label10.TabIndex = 4;
+            label10.Text = "Chính sách thanh toán";
+            label10.TextAlign = ContentAlignment.MiddleLeft;
+            // 
+            // label11
+            // 
+            label11.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label11.AutoSize = true;
+            label11.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label11.Location = new Point(3, 105);
+            label11.Name = "label11";
+            label11.Size = new Size(240, 35);
+            label11.TabIndex = 3;
+            label11.Text = "Chính sách vận chuyển - hoàn tiền";
+            label11.TextAlign = ContentAlignment.MiddleLeft;
+            // 
+            // pictureBox12
+            // 
+            pictureBox12.Image = Properties.Resources.gg;
+            pictureBox12.Location = new Point(976, 67);
+            pictureBox12.Name = "pictureBox12";
+            pictureBox12.Size = new Size(40, 40);
+            pictureBox12.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox12.TabIndex = 42;
+            pictureBox12.TabStop = false;
+            // 
+            // label12
+            // 
+            label12.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label12.AutoSize = true;
+            label12.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label12.Location = new Point(3, 70);
+            label12.Name = "label12";
+            label12.Size = new Size(174, 35);
+            label12.TabIndex = 2;
+            label12.Text = "Điều khoản và điều kiện";
+            label12.TextAlign = ContentAlignment.MiddleLeft;
+            // 
+            // label14
+            // 
+            label14.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label14.AutoSize = true;
+            label14.Font = new Font("Arial", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label14.Location = new Point(3, 0);
+            label14.Name = "label14";
+            label14.Size = new Size(126, 35);
+            label14.TabIndex = 0;
+            label14.Text = "CHÍNH SÁCH";
+            label14.TextAlign = ContentAlignment.MiddleLeft;
+            // 
+            // tableLayoutPanel3
+            // 
+            tableLayoutPanel3.ColumnCount = 1;
+            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
+            tableLayoutPanel3.Controls.Add(label9, 0, 5);
+            tableLayoutPanel3.Controls.Add(label10, 0, 4);
+            tableLayoutPanel3.Controls.Add(label11, 0, 3);
+            tableLayoutPanel3.Controls.Add(label12, 0, 2);
+            tableLayoutPanel3.Controls.Add(label13, 0, 1);
+            tableLayoutPanel3.Controls.Add(label14, 0, 0);
+            tableLayoutPanel3.Location = new Point(297, 18);
+            tableLayoutPanel3.Name = "tableLayoutPanel3";
+            tableLayoutPanel3.RowCount = 6;
+            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
+            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
+            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
+            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
+            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
+            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
+            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            tableLayoutPanel3.Size = new Size(294, 213);
+            tableLayoutPanel3.TabIndex = 39;
+            // 
+            // label13
+            // 
+            label13.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label13.AutoSize = true;
+            label13.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label13.Location = new Point(3, 35);
+            label13.Name = "label13";
+            label13.Size = new Size(145, 35);
+            label13.TabIndex = 1;
+            label13.Text = "Chính sách bảo mật";
+            label13.TextAlign = ContentAlignment.MiddleLeft;
+            // 
+            // pictureBox13
+            // 
+            pictureBox13.Image = Properties.Resources.gg;
+            pictureBox13.Location = new Point(1038, 67);
+            pictureBox13.Name = "pictureBox13";
+            pictureBox13.Size = new Size(40, 40);
+            pictureBox13.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox13.TabIndex = 43;
+            pictureBox13.TabStop = false;
+            // 
+            // label17
+            // 
+            label17.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label17.AutoSize = true;
+            label17.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label17.Location = new Point(3, 175);
+            label17.Name = "label17";
+            label17.Size = new Size(55, 38);
+            label17.TabIndex = 5;
+            label17.Text = "Tin tức";
+            label17.TextAlign = ContentAlignment.MiddleLeft;
+            // 
+            // label18
+            // 
+            label18.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label18.AutoSize = true;
+            label18.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label18.Location = new Point(3, 140);
+            label18.Name = "label18";
+            label18.Size = new Size(86, 35);
+            label18.TabIndex = 4;
+            label18.Text = "Tuyển dụng";
+            label18.TextAlign = ContentAlignment.MiddleLeft;
+            // 
+            // label19
+            // 
+            label19.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label19.AutoSize = true;
+            label19.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label19.Location = new Point(3, 105);
+            label19.Name = "label19";
+            label19.Size = new Size(59, 35);
+            label19.TabIndex = 3;
+            label19.Text = "Liên hệ";
+            label19.TextAlign = ContentAlignment.MiddleLeft;
+            // 
+            // label20
+            // 
+            label20.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label20.AutoSize = true;
+            label20.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label20.Location = new Point(3, 70);
+            label20.Name = "label20";
+            label20.Size = new Size(149, 35);
+            label20.TabIndex = 2;
+            label20.Text = "Cửa hàng Sneakers";
+            label20.TextAlign = ContentAlignment.MiddleLeft;
+            // 
+            // label21
+            // 
+            label21.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label21.AutoSize = true;
+            label21.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label21.Location = new Point(3, 35);
+            label21.Name = "label21";
+            label21.Size = new Size(147, 35);
+            label21.TabIndex = 1;
+            label21.Text = "Giới thiệu Sneakers";
+            label21.TextAlign = ContentAlignment.MiddleLeft;
+            // 
+            // label22
+            // 
+            label22.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label22.AutoSize = true;
+            label22.Font = new Font("Arial", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label22.Location = new Point(3, 0);
+            label22.Name = "label22";
+            label22.Size = new Size(146, 35);
+            label22.TabIndex = 0;
+            label22.Text = "VỀ SNEAKERS";
+            label22.TextAlign = ContentAlignment.MiddleLeft;
+            // 
+            // tableLayoutPanel1
+            // 
+            tableLayoutPanel1.ColumnCount = 1;
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
+            tableLayoutPanel1.Controls.Add(label17, 0, 5);
+            tableLayoutPanel1.Controls.Add(label18, 0, 4);
+            tableLayoutPanel1.Controls.Add(label19, 0, 3);
+            tableLayoutPanel1.Controls.Add(label20, 0, 2);
+            tableLayoutPanel1.Controls.Add(label21, 0, 1);
+            tableLayoutPanel1.Controls.Add(label22, 0, 0);
+            tableLayoutPanel1.Location = new Point(56, 18);
+            tableLayoutPanel1.Name = "tableLayoutPanel1";
+            tableLayoutPanel1.RowCount = 6;
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            tableLayoutPanel1.Size = new Size(200, 213);
+            tableLayoutPanel1.TabIndex = 38;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoValidate = AutoValidate.EnableAllowFocusChange;
             BackColor = Color.White;
-            ClientSize = new Size(1347, 872);
+            ClientSize = new Size(1347, 1061);
+            Controls.Add(panel12);
             Controls.Add(panel11);
             Controls.Add(panel4);
             Controls.Add(panel3);
@@ -583,6 +933,20 @@
             panel4.ResumeLayout(false);
             panel4.PerformLayout();
             panel11.ResumeLayout(false);
+            panel12.ResumeLayout(false);
+            panel12.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox10).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox11).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox12).EndInit();
+            tableLayoutPanel3.ResumeLayout(false);
+            tableLayoutPanel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox13).EndInit();
+            tableLayoutPanel1.ResumeLayout(false);
+            tableLayoutPanel1.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -630,6 +994,31 @@
         private Panel panel11;
         private FlowLayoutPanel flowLayoutPanel1;
         private Component.size size1;
+        private Panel panel12;
+        private PictureBox pictureBox5;
+        private PictureBox pictureBox8;
+        private PictureBox pictureBox9;
+        private PictureBox pictureBox10;
+        private Label label16;
+        private PictureBox pictureBox7;
+        private PictureBox pictureBox11;
+        private Label label15;
+        private PictureBox pictureBox12;
+        private TableLayoutPanel tableLayoutPanel3;
+        private Label label9;
+        private Label label10;
+        private Label label11;
+        private Label label12;
+        private Label label13;
+        private Label label14;
+        private PictureBox pictureBox13;
+        private TableLayoutPanel tableLayoutPanel1;
+        private Label label17;
+        private Label label18;
+        private Label label19;
+        private Label label20;
+        private Label label21;
+        private Label label22;
 
         public virtual string PlaceholderText { get; set; }
     }

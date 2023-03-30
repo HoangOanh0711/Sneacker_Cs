@@ -177,9 +177,9 @@
             // 
             img_d.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             img_d.BackgroundImageLayout = ImageLayout.Stretch;
-            img_d.Location = new Point(471, 3);
+            img_d.Location = new Point(435, 3);
             img_d.Name = "img_d";
-            img_d.Size = new Size(151, 246);
+            img_d.Size = new Size(139, 246);
             img_d.TabIndex = 3;
             img_d.TabStop = false;
             img_d.Click += img_d_Click;
@@ -188,9 +188,9 @@
             // 
             img_c.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             img_c.BackgroundImageLayout = ImageLayout.Stretch;
-            img_c.Location = new Point(315, 3);
+            img_c.Location = new Point(291, 3);
             img_c.Name = "img_c";
-            img_c.Size = new Size(150, 246);
+            img_c.Size = new Size(138, 246);
             img_c.TabIndex = 2;
             img_c.TabStop = false;
             img_c.Click += img_c_Click;
@@ -199,9 +199,9 @@
             // 
             img_b.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             img_b.BackgroundImageLayout = ImageLayout.Stretch;
-            img_b.Location = new Point(159, 3);
+            img_b.Location = new Point(147, 3);
             img_b.Name = "img_b";
-            img_b.Size = new Size(150, 246);
+            img_b.Size = new Size(138, 246);
             img_b.TabIndex = 1;
             img_b.TabStop = false;
             img_b.Click += img_b_Click;
@@ -212,7 +212,7 @@
             img_a.BackgroundImageLayout = ImageLayout.Stretch;
             img_a.Location = new Point(3, 3);
             img_a.Name = "img_a";
-            img_a.Size = new Size(150, 246);
+            img_a.Size = new Size(138, 246);
             img_a.TabIndex = 0;
             img_a.TabStop = false;
             img_a.Click += img_a_Click;
@@ -234,7 +234,7 @@
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 1;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel1.Size = new Size(625, 252);
+            tableLayoutPanel1.Size = new Size(577, 252);
             tableLayoutPanel1.TabIndex = 4;
             // 
             // splitContainer1
@@ -257,8 +257,8 @@
             splitContainer1.Panel2.Controls.Add(lb_giatien);
             splitContainer1.Panel2.Controls.Add(lb_ten);
             splitContainer1.Panel2.Controls.Add(label5);
-            splitContainer1.Size = new Size(897, 1086);
-            splitContainer1.SplitterDistance = 631;
+            splitContainer1.Size = new Size(829, 1086);
+            splitContainer1.SplitterDistance = 583;
             splitContainer1.TabIndex = 5;
             // 
             // pictureBox
@@ -267,7 +267,7 @@
             pictureBox.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox.Location = new Point(129, 13);
             pictureBox.Name = "pictureBox";
-            pictureBox.Size = new Size(399, 700);
+            pictureBox.Size = new Size(351, 700);
             pictureBox.TabIndex = 5;
             pictureBox.TabStop = false;
             // 
@@ -291,7 +291,7 @@
             button2.ForeColor = SystemColors.Control;
             button2.Location = new Point(41, 541);
             button2.Name = "button2";
-            button2.Size = new Size(182, 61);
+            button2.Size = new Size(162, 61);
             button2.TabIndex = 55;
             button2.Text = "Thêm vào giỏ hàng";
             button2.UseVisualStyleBackColor = false;
