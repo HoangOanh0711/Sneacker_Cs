@@ -29,10 +29,7 @@
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            var newForm = new LichSuMuaHang();
-            newForm.ShowDialog();
-            this.Close();
+            
         }
 
         public void AddItem(string ten, string loai, string mau, string tien, string anh)
@@ -106,8 +103,10 @@
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-            Login login = new Login();
-            login.Show();
+            this.Hide();
+            TaiKhoan login = new TaiKhoan();
+            login.ShowDialog();
+            this.Close();
         }
     }
 }

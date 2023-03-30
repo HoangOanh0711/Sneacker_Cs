@@ -82,5 +82,14 @@ namespace thuchanh1
         {
 
         }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            LichSuMuaHang lichSuMuaHang = new LichSuMuaHang();
+            lichSuMuaHang.ShowDialog();
+            this.Close();
+
+        }
     }
 }

@@ -277,7 +277,7 @@
             // pictureBox3
             // 
             pictureBox3.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
+            pictureBox3.Image = Properties.Resources.Ej3xyJLXkAEYwEZ;
             pictureBox3.Location = new Point(1211, 10);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(25, 25);
@@ -1475,6 +1475,7 @@
             label5.TabIndex = 2;
             label5.Text = "Đơn mua";
             label5.TextAlign = ContentAlignment.MiddleCenter;
+            label5.Click += label5_Click;
             // 
             // TaiKhoan
             // 
@@ -1488,7 +1489,7 @@
             Controls.Add(panel4);
             Controls.Add(panel1);
             Icon = (Icon)resources.GetObject("$this.Icon");
-            Margin = new Padding(2, 2, 2, 2);
+            Margin = new Padding(2);
             Name = "TaiKhoan";
             ShowIcon = false;
             StartPosition = FormStartPosition.CenterScreen;

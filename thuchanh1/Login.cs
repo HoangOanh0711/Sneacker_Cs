@@ -100,18 +100,23 @@ namespace thuchanh1
 
         private void lb_dangky_Click(object sender, EventArgs e)
         {
+            this.Hide();
             Reg reg = new Reg();
-            reg.Show();
+            reg.ShowDialog();
             this.Close();
         }
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-
+            this.Hide();
+            trangchu_dadangnhap trangchu_Dadangnhap = new trangchu_dadangnhap();
+            trangchu_Dadangnhap.ShowDialog();
+            this.Close();
         }
 
         private void label7_Click_1(object sender, EventArgs e)
         {
+            this.Hide();
             this.Close();
         }
     }

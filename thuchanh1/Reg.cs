@@ -100,15 +100,18 @@ namespace thuchanh1
 
         private void lb_dangnhap_Click(object sender, EventArgs e)
         {
+            this.Hide();
             Login login = new Login();
-            login.Show();
+            login.ShowDialog();
             this.Close();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
+            this.Hide();
             Login login = new Login();
-            login.Show();
+            login.ShowDialog();
+            this.Close();
         }
 
         private void panel3_Paint_1(object sender, PaintEventArgs e)
@@ -118,6 +121,7 @@ namespace thuchanh1
 
         private void label1_Click(object sender, EventArgs e)
         {
+            this.Hide();
             this.Close();
 
         }
