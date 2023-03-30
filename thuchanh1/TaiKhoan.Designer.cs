@@ -384,7 +384,7 @@
             panel4.Controls.Add(label2);
             panel4.Location = new Point(325, -152);
             panel4.Name = "panel4";
-            panel4.Size = new Size(515, 63);
+            panel4.Size = new Size(498, 63);
             panel4.TabIndex = 4;
             panel4.Paint += panel4_Paint;
             // 
@@ -394,7 +394,7 @@
             comboBox2.Font = new Font("Arial", 15F, FontStyle.Regular, GraphicsUnit.Point);
             comboBox2.FormattingEnabled = true;
             comboBox2.Items.AddRange(new object[] { "Tất cả trạng thái", "Chờ thanh toán", "Vận chuyển", "Đang giao", "Hoàn thành", "Đã hủy", "Trả hàng/Hoàn tiền" });
-            comboBox2.Location = new Point(-8, 14);
+            comboBox2.Location = new Point(-25, 14);
             comboBox2.Margin = new Padding(3, 2, 3, 2);
             comboBox2.Name = "comboBox2";
             comboBox2.Size = new Size(201, 31);
@@ -407,7 +407,7 @@
             comboBox1.Font = new Font("Arial", 15F, FontStyle.Regular, GraphicsUnit.Point);
             comboBox1.FormattingEnabled = true;
             comboBox1.Items.AddRange(new object[] { "6/2022", "7/2022", "8/2022", "9/2022", "10/2022", "11/2022", "12/2022", "1/2023", "2/2023", "3/2023", "" });
-            comboBox1.Location = new Point(242, 14);
+            comboBox1.Location = new Point(225, 14);
             comboBox1.Margin = new Padding(3, 2, 3, 2);
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(201, 31);
@@ -1560,7 +1560,6 @@
             // 
             // pictureBox8
             // 
-            pictureBox8.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             pictureBox8.Image = Properties.Resources.Ej3xyJLXkAEYwEZ;
             pictureBox8.Location = new Point(21, 97);
             pictureBox8.Name = "pictureBox8";
@@ -1599,18 +1598,17 @@
             panel20.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
             panel20.Location = new Point(371, 59);
             panel20.Name = "panel20";
-            panel20.Size = new Size(796, 920);
+            panel20.Size = new Size(928, 920);
             panel20.TabIndex = 16;
             // 
             // button1
             // 
-            button1.Anchor = AnchorStyles.Left;
             button1.BackColor = Color.FromArgb(92, 147, 184);
             button1.BackgroundImageLayout = ImageLayout.Stretch;
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Arial", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             button1.ForeColor = SystemColors.Control;
-            button1.Location = new Point(262, 451);
+            button1.Location = new Point(375, 503);
             button1.Name = "button1";
             button1.Size = new Size(134, 47);
             button1.TabIndex = 59;
@@ -1619,21 +1617,20 @@
             // 
             // panel22
             // 
-            panel22.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             panel22.Controls.Add(pictureBox21);
             panel22.Controls.Add(label90);
             panel22.Controls.Add(button2);
             panel22.Controls.Add(label66);
-            panel22.Location = new Point(677, 67);
+            panel22.Location = new Point(680, 89);
             panel22.Name = "panel22";
-            panel22.Size = new Size(116, 219);
+            panel22.Size = new Size(207, 219);
             panel22.TabIndex = 59;
             // 
             // pictureBox21
             // 
             pictureBox21.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             pictureBox21.Image = Properties.Resources.Ej3xyJLXkAEYwEZ;
-            pictureBox21.Location = new Point(-44, 3);
+            pictureBox21.Location = new Point(47, 3);
             pictureBox21.Name = "pictureBox21";
             pictureBox21.Size = new Size(125, 125);
             pictureBox21.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -1645,7 +1642,7 @@
             label90.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             label90.AutoSize = true;
             label90.ForeColor = Color.DarkGray;
-            label90.Location = new Point(-65, 194);
+            label90.Location = new Point(26, 194);
             label90.Name = "label90";
             label90.Size = new Size(155, 18);
             label90.TabIndex = 58;
@@ -1659,7 +1656,7 @@
             button2.FlatStyle = FlatStyle.Flat;
             button2.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
             button2.ForeColor = SystemColors.ActiveCaptionText;
-            button2.Location = new Point(-57, 134);
+            button2.Location = new Point(34, 134);
             button2.Name = "button2";
             button2.Size = new Size(147, 30);
             button2.TabIndex = 56;
@@ -1671,7 +1668,7 @@
             label66.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             label66.AutoSize = true;
             label66.ForeColor = Color.DarkGray;
-            label66.Location = new Point(-70, 176);
+            label66.Location = new Point(21, 176);
             label66.Name = "label66";
             label66.Size = new Size(175, 18);
             label66.TabIndex = 57;
@@ -1694,7 +1691,7 @@
             tableLayoutPanel13.Controls.Add(tableLayoutPanel14, 1, 4);
             tableLayoutPanel13.Controls.Add(label96, 0, 5);
             tableLayoutPanel13.Controls.Add(tableLayoutPanel19, 1, 5);
-            tableLayoutPanel13.Location = new Point(38, 67);
+            tableLayoutPanel13.Location = new Point(2, 67);
             tableLayoutPanel13.Name = "tableLayoutPanel13";
             tableLayoutPanel13.RowCount = 6;
             tableLayoutPanel13.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
@@ -1938,14 +1935,14 @@
             panel21.Controls.Add(label48);
             panel21.Location = new Point(2, 1109);
             panel21.Name = "panel21";
-            panel21.Size = new Size(1194, 249);
+            panel21.Size = new Size(1325, 249);
             panel21.TabIndex = 17;
             // 
             // pictureBox13
             // 
             pictureBox13.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             pictureBox13.Image = Properties.Resources.Youtube_logo;
-            pictureBox13.Location = new Point(1172, 64);
+            pictureBox13.Location = new Point(1237, 64);
             pictureBox13.Name = "pictureBox13";
             pictureBox13.Size = new Size(39, 30);
             pictureBox13.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -1956,7 +1953,7 @@
             // 
             pictureBox18.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             pictureBox18.Image = Properties.Resources.insta_logo;
-            pictureBox18.Location = new Point(1126, 64);
+            pictureBox18.Location = new Point(1191, 64);
             pictureBox18.Name = "pictureBox18";
             pictureBox18.Size = new Size(30, 30);
             pictureBox18.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -1967,7 +1964,7 @@
             // 
             pictureBox19.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             pictureBox19.Image = Properties.Resources.twittter;
-            pictureBox19.Location = new Point(1075, 64);
+            pictureBox19.Location = new Point(1140, 64);
             pictureBox19.Name = "pictureBox19";
             pictureBox19.Size = new Size(35, 30);
             pictureBox19.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -1978,7 +1975,7 @@
             // 
             pictureBox20.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             pictureBox20.Image = Properties.Resources.fb;
-            pictureBox20.Location = new Point(1029, 64);
+            pictureBox20.Location = new Point(1094, 64);
             pictureBox20.Name = "pictureBox20";
             pictureBox20.Size = new Size(30, 30);
             pictureBox20.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -1990,7 +1987,7 @@
             label63.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             label63.AutoSize = true;
             label63.Font = new Font("Arial", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            label63.Location = new Point(1022, 30);
+            label63.Location = new Point(1087, 30);
             label63.Name = "label63";
             label63.Size = new Size(213, 22);
             label63.TabIndex = 61;
@@ -2001,7 +1998,7 @@
             // 
             pictureBox10.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             pictureBox10.Image = Properties.Resources.cash_on_delivery;
-            pictureBox10.Location = new Point(898, 94);
+            pictureBox10.Location = new Point(963, 94);
             pictureBox10.Name = "pictureBox10";
             pictureBox10.Size = new Size(40, 40);
             pictureBox10.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -2012,7 +2009,7 @@
             // 
             pictureBox11.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             pictureBox11.Image = Properties.Resources.Mastercard1;
-            pictureBox11.Location = new Point(804, 94);
+            pictureBox11.Location = new Point(869, 94);
             pictureBox11.Name = "pictureBox11";
             pictureBox11.Size = new Size(67, 40);
             pictureBox11.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -2023,7 +2020,7 @@
             // 
             pictureBox12.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             pictureBox12.Image = Properties.Resources.visa_logo_800x450;
-            pictureBox12.Location = new Point(720, 94);
+            pictureBox12.Location = new Point(785, 94);
             pictureBox12.Name = "pictureBox12";
             pictureBox12.Size = new Size(60, 40);
             pictureBox12.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -2034,7 +2031,7 @@
             // 
             label62.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             label62.Font = new Font("Arial", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            label62.Location = new Point(720, 24);
+            label62.Location = new Point(785, 24);
             label62.Name = "label62";
             label62.Size = new Size(190, 61);
             label62.TabIndex = 57;
@@ -2052,7 +2049,7 @@
             tableLayoutPanel12.Controls.Add(label59, 0, 2);
             tableLayoutPanel12.Controls.Add(label60, 0, 1);
             tableLayoutPanel12.Controls.Add(label61, 0, 0);
-            tableLayoutPanel12.Location = new Point(357, 24);
+            tableLayoutPanel12.Location = new Point(422, 24);
             tableLayoutPanel12.Name = "tableLayoutPanel12";
             tableLayoutPanel12.RowCount = 6;
             tableLayoutPanel12.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
@@ -2148,7 +2145,7 @@
             tableLayoutPanel11.Controls.Add(label53, 0, 2);
             tableLayoutPanel11.Controls.Add(label54, 0, 1);
             tableLayoutPanel11.Controls.Add(label55, 0, 0);
-            tableLayoutPanel11.Location = new Point(68, 24);
+            tableLayoutPanel11.Location = new Point(133, 24);
             tableLayoutPanel11.Name = "tableLayoutPanel11";
             tableLayoutPanel11.RowCount = 6;
             tableLayoutPanel11.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
@@ -2237,7 +2234,7 @@
             // 
             pictureBox14.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             pictureBox14.Image = Properties.Resources.Youtube_logo;
-            pictureBox14.Location = new Point(1669, 64);
+            pictureBox14.Location = new Point(1734, 64);
             pictureBox14.Name = "pictureBox14";
             pictureBox14.Size = new Size(39, 179);
             pictureBox14.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -2248,7 +2245,7 @@
             // 
             pictureBox15.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             pictureBox15.Image = Properties.Resources.insta_logo;
-            pictureBox15.Location = new Point(1623, 64);
+            pictureBox15.Location = new Point(1688, 64);
             pictureBox15.Name = "pictureBox15";
             pictureBox15.Size = new Size(30, 179);
             pictureBox15.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -2259,7 +2256,7 @@
             // 
             pictureBox16.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             pictureBox16.Image = Properties.Resources.twittter;
-            pictureBox16.Location = new Point(1572, 64);
+            pictureBox16.Location = new Point(1637, 64);
             pictureBox16.Name = "pictureBox16";
             pictureBox16.Size = new Size(35, 179);
             pictureBox16.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -2270,7 +2267,7 @@
             // 
             pictureBox17.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             pictureBox17.Image = Properties.Resources.fb;
-            pictureBox17.Location = new Point(1526, 64);
+            pictureBox17.Location = new Point(1591, 64);
             pictureBox17.Name = "pictureBox17";
             pictureBox17.Size = new Size(30, 179);
             pictureBox17.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -2282,7 +2279,7 @@
             label48.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             label48.AutoSize = true;
             label48.Font = new Font("Arial", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            label48.Location = new Point(1519, 30);
+            label48.Location = new Point(1584, 30);
             label48.Name = "label48";
             label48.Size = new Size(213, 22);
             label48.TabIndex = 50;
