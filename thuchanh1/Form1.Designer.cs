@@ -39,7 +39,6 @@
             pictureBox3 = new PictureBox();
             label1 = new Label();
             panel3 = new Panel();
-            size1 = new Component.size();
             label8 = new Label();
             panel8 = new Panel();
             panel9 = new Panel();
@@ -227,7 +226,6 @@
             // panel3
             // 
             panel3.BackColor = Color.Transparent;
-            panel3.Controls.Add(size1);
             panel3.Controls.Add(label8);
             panel3.Controls.Add(panel8);
             panel3.Controls.Add(panel9);
@@ -256,13 +254,6 @@
             panel3.Name = "panel3";
             panel3.Size = new Size(314, 811);
             panel3.TabIndex = 1;
-            // 
-            // size1
-            // 
-            size1.Location = new Point(7, 664);
-            size1.Name = "size1";
-            size1.Size = new Size(298, 106);
-            size1.TabIndex = 25;
             // 
             // label8
             // 
@@ -571,15 +562,16 @@
             panel11.Controls.Add(flowLayoutPanel1);
             panel11.Location = new Point(325, 103);
             panel11.Name = "panel11";
-            panel11.Size = new Size(854, 757);
+            panel11.Size = new Size(1026, 757);
             panel11.TabIndex = 5;
             // 
             // flowLayoutPanel1
             // 
-            flowLayoutPanel1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            flowLayoutPanel1.AutoScroll = true;
+            flowLayoutPanel1.Dock = DockStyle.Fill;
             flowLayoutPanel1.Location = new Point(0, 0);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new Size(993, 1044);
+            flowLayoutPanel1.Size = new Size(1026, 757);
             flowLayoutPanel1.TabIndex = 0;
             // 
             // panel12
@@ -597,16 +589,16 @@
             panel12.Controls.Add(label16);
             panel12.Controls.Add(tableLayoutPanel3);
             panel12.Controls.Add(tableLayoutPanel1);
-            panel12.Location = new Point(-8, 1165);
+            panel12.Location = new Point(5, 866);
             panel12.Name = "panel12";
-            panel12.Size = new Size(1336, 249);
+            panel12.Size = new Size(1302, 249);
             panel12.TabIndex = 6;
             // 
             // pictureBox14
             // 
             pictureBox14.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             pictureBox14.Image = Properties.Resources.Youtube_logo;
-            pictureBox14.Location = new Point(1144, 64);
+            pictureBox14.Location = new Point(1127, 64);
             pictureBox14.Name = "pictureBox14";
             pictureBox14.Size = new Size(39, 30);
             pictureBox14.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -617,7 +609,7 @@
             // 
             pictureBox15.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             pictureBox15.Image = Properties.Resources.insta_logo;
-            pictureBox15.Location = new Point(1098, 64);
+            pictureBox15.Location = new Point(1081, 64);
             pictureBox15.Name = "pictureBox15";
             pictureBox15.Size = new Size(30, 30);
             pictureBox15.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -628,7 +620,7 @@
             // 
             pictureBox16.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             pictureBox16.Image = Properties.Resources.twittter;
-            pictureBox16.Location = new Point(1047, 64);
+            pictureBox16.Location = new Point(1030, 64);
             pictureBox16.Name = "pictureBox16";
             pictureBox16.Size = new Size(35, 30);
             pictureBox16.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -639,7 +631,7 @@
             // 
             pictureBox17.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             pictureBox17.Image = Properties.Resources.fb;
-            pictureBox17.Location = new Point(1001, 64);
+            pictureBox17.Location = new Point(984, 64);
             pictureBox17.Name = "pictureBox17";
             pictureBox17.Size = new Size(30, 30);
             pictureBox17.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -651,7 +643,7 @@
             label23.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             label23.AutoSize = true;
             label23.Font = new Font("Arial", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            label23.Location = new Point(994, 30);
+            label23.Location = new Point(977, 30);
             label23.Name = "label23";
             label23.Size = new Size(213, 22);
             label23.TabIndex = 50;
@@ -662,7 +654,7 @@
             // 
             pictureBox8.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             pictureBox8.Image = Properties.Resources.cash_on_delivery;
-            pictureBox8.Location = new Point(867, 94);
+            pictureBox8.Location = new Point(850, 94);
             pictureBox8.Name = "pictureBox8";
             pictureBox8.Size = new Size(40, 40);
             pictureBox8.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -673,7 +665,7 @@
             // 
             pictureBox9.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             pictureBox9.Image = Properties.Resources.Mastercard1;
-            pictureBox9.Location = new Point(773, 94);
+            pictureBox9.Location = new Point(756, 94);
             pictureBox9.Name = "pictureBox9";
             pictureBox9.Size = new Size(67, 40);
             pictureBox9.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -684,7 +676,7 @@
             // 
             pictureBox10.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             pictureBox10.Image = Properties.Resources.visa_logo_800x450;
-            pictureBox10.Location = new Point(689, 94);
+            pictureBox10.Location = new Point(672, 94);
             pictureBox10.Name = "pictureBox10";
             pictureBox10.Size = new Size(60, 40);
             pictureBox10.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -695,7 +687,7 @@
             // 
             label16.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             label16.Font = new Font("Arial", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            label16.Location = new Point(689, 24);
+            label16.Location = new Point(672, 24);
             label16.Name = "label16";
             label16.Size = new Size(190, 61);
             label16.TabIndex = 46;
@@ -713,7 +705,7 @@
             tableLayoutPanel3.Controls.Add(label12, 0, 2);
             tableLayoutPanel3.Controls.Add(label13, 0, 1);
             tableLayoutPanel3.Controls.Add(label14, 0, 0);
-            tableLayoutPanel3.Location = new Point(329, 24);
+            tableLayoutPanel3.Location = new Point(312, 24);
             tableLayoutPanel3.Name = "tableLayoutPanel3";
             tableLayoutPanel3.RowCount = 6;
             tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
@@ -809,7 +801,7 @@
             tableLayoutPanel1.Controls.Add(label20, 0, 2);
             tableLayoutPanel1.Controls.Add(label21, 0, 1);
             tableLayoutPanel1.Controls.Add(label22, 0, 0);
-            tableLayoutPanel1.Location = new Point(64, 24);
+            tableLayoutPanel1.Location = new Point(47, 24);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 6;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
