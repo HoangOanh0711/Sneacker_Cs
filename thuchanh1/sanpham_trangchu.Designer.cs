@@ -49,38 +49,38 @@
             panel1.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
             panel1.Location = new Point(9, 3);
             panel1.Name = "panel1";
-            panel1.Size = new Size(227, 324);
+            panel1.Size = new Size(227, 334);
             panel1.TabIndex = 0;
             // 
             // sp_mau
             // 
-            sp_mau.AutoSize = true;
+            sp_mau.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             sp_mau.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
             sp_mau.ForeColor = SystemColors.ControlDarkDark;
             sp_mau.Location = new Point(10, 290);
             sp_mau.Name = "sp_mau";
-            sp_mau.Size = new Size(51, 18);
+            sp_mau.Size = new Size(213, 45);
             sp_mau.TabIndex = 4;
-            sp_mau.Text = "4 màu";
+            sp_mau.Text = "Wonder Taupe / Off White / Shadow Red";
             // 
             // sp_loai
             // 
-            sp_loai.AutoSize = true;
+            sp_loai.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             sp_loai.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
             sp_loai.ForeColor = SystemColors.ControlDarkDark;
             sp_loai.Location = new Point(10, 263);
             sp_loai.Name = "sp_loai";
-            sp_loai.Size = new Size(96, 18);
+            sp_loai.Size = new Size(213, 18);
             sp_loai.TabIndex = 3;
             sp_loai.Text = "Nữ Originals";
             // 
             // sp_ten
             // 
-            sp_ten.AutoSize = true;
+            sp_ten.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             sp_ten.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
             sp_ten.Location = new Point(10, 236);
             sp_ten.Name = "sp_ten";
-            sp_ten.Size = new Size(178, 18);
+            sp_ten.Size = new Size(213, 18);
             sp_ten.TabIndex = 2;
             sp_ten.Text = "Dép Sandal adidas Astir";
             // 
@@ -113,7 +113,7 @@
             Controls.Add(panel1);
             Cursor = Cursors.Hand;
             Name = "sanpham_trangchu";
-            Size = new Size(248, 338);
+            Size = new Size(248, 350);
             Click += sanpham_trangchu_Click;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();

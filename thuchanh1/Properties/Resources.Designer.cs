@@ -873,6 +873,16 @@ namespace thuchanh1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap insta_logo {
+            get {
+                object obj = ResourceManager.GetObject("insta_logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap line {
             get {
                 object obj = ResourceManager.GetObject("line", resourceCulture);
@@ -923,9 +933,29 @@ namespace thuchanh1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap twittter {
+            get {
+                object obj = ResourceManager.GetObject("twittter", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap visa_logo_800x450 {
             get {
                 object obj = ResourceManager.GetObject("visa-logo-800x450", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Youtube_logo {
+            get {
+                object obj = ResourceManager.GetObject("Youtube_logo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

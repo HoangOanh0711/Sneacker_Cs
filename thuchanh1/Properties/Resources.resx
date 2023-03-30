@@ -124,6 +124,9 @@
   <data name="9b" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\9b.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="2a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -163,11 +166,14 @@
   <data name="4a" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\4a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="8a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="15d" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\15d.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="10b" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\10b.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="fb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="3b" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\3b.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -205,14 +211,11 @@
   <data name="sneaker" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sneaker.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="13b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\13b.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="12c" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\12c.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="11c" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\11c.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="10d" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\10d.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="14b" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\14b.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -228,6 +231,9 @@
   </data>
   <data name="15b" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\15b.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="1c" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1c.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -310,8 +316,8 @@
   <data name="1a" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="8a" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\8a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="10b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10b.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="themvaogiohang" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\themvaogiohang.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -361,11 +367,11 @@
   <data name="8b" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\8b.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="2a" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\2a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="11c" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\11c.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="13b" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\13b.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="10d" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10d.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="13d" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\13d.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -373,10 +379,13 @@
   <data name="14c" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\14c.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="fb" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\fb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="insta_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\insta_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="gg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\gg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="twittter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\twittter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Youtube_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Youtube_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

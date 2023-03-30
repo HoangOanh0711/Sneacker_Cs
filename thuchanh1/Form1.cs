@@ -29,8 +29,10 @@
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
+            this.Hide();
             var newForm = new LichSuMuaHang();
-            newForm.Show();
+            newForm.ShowDialog();
+            this.Close();
         }
 
         public void AddItem(string ten, string loai, string mau, string tien, string anh)
@@ -95,8 +97,11 @@
 
         private void pb_giohang_Click(object sender, EventArgs e)
         {
+            this.Hide();
             GioHang gioHang = new GioHang();
-            gioHang.Show();
+            gioHang.ShowDialog();
+            this.Close();
+
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)

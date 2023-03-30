@@ -12,7 +12,7 @@ namespace thuchanh1
 {
     public partial class sanpham_trangchu : UserControl
     {
-        
+
         public sanpham_trangchu()
         {
             InitializeComponent();
@@ -26,7 +26,7 @@ namespace thuchanh1
 
         private void sanpham_trangchu_Click(object sender, EventArgs e)
         {
-            
+
         }
         private string tenanh;
         public string tenAnh { get => tenanh; set => tenanh = value; }

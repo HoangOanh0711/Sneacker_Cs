@@ -72,15 +72,15 @@
             panel11 = new Panel();
             flowLayoutPanel1 = new FlowLayoutPanel();
             panel12 = new Panel();
-            pictureBox5 = new PictureBox();
+            pictureBox14 = new PictureBox();
+            pictureBox15 = new PictureBox();
+            pictureBox16 = new PictureBox();
+            pictureBox17 = new PictureBox();
+            label23 = new Label();
             pictureBox8 = new PictureBox();
             pictureBox9 = new PictureBox();
             pictureBox10 = new PictureBox();
             label16 = new Label();
-            pictureBox7 = new PictureBox();
-            pictureBox11 = new PictureBox();
-            label15 = new Label();
-            pictureBox12 = new PictureBox();
             tableLayoutPanel3 = new TableLayoutPanel();
             label9 = new Label();
             label10 = new Label();
@@ -88,7 +88,6 @@
             label12 = new Label();
             label13 = new Label();
             label14 = new Label();
-            pictureBox13 = new PictureBox();
             tableLayoutPanel1 = new TableLayoutPanel();
             label17 = new Label();
             label18 = new Label();
@@ -108,15 +107,14 @@
             panel4.SuspendLayout();
             panel11.SuspendLayout();
             panel12.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox14).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox15).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox16).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox17).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox11).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox12).BeginInit();
             tableLayoutPanel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox13).BeginInit();
             tableLayoutPanel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -132,14 +130,14 @@
             panel1.Dock = DockStyle.Top;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1347, 43);
+            panel1.Size = new Size(1330, 43);
             panel1.TabIndex = 0;
             // 
             // pb_giohang
             // 
             pb_giohang.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             pb_giohang.Image = (Image)resources.GetObject("pb_giohang.Image");
-            pb_giohang.Location = new Point(1307, 10);
+            pb_giohang.Location = new Point(1290, 10);
             pb_giohang.Name = "pb_giohang";
             pb_giohang.Size = new Size(25, 25);
             pb_giohang.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -155,7 +153,7 @@
             panel2.Controls.Add(pictureBox2);
             panel2.Location = new Point(527, 5);
             panel2.Name = "panel2";
-            panel2.Size = new Size(469, 35);
+            panel2.Size = new Size(452, 35);
             panel2.TabIndex = 4;
             // 
             // tb_timkiem
@@ -186,7 +184,7 @@
             // 
             pictureBox4.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
-            pictureBox4.Location = new Point(1267, 10);
+            pictureBox4.Location = new Point(1250, 10);
             pictureBox4.Name = "pictureBox4";
             pictureBox4.Size = new Size(25, 25);
             pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -208,7 +206,7 @@
             // 
             pictureBox3.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
-            pictureBox3.Location = new Point(1226, 10);
+            pictureBox3.Location = new Point(1209, 10);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(25, 25);
             pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -228,7 +226,6 @@
             // 
             // panel3
             // 
-            panel3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             panel3.BackColor = Color.Transparent;
             panel3.Controls.Add(size1);
             panel3.Controls.Add(label8);
@@ -574,53 +571,98 @@
             panel11.Controls.Add(flowLayoutPanel1);
             panel11.Location = new Point(325, 103);
             panel11.Name = "panel11";
-            panel11.Size = new Size(1007, 757);
+            panel11.Size = new Size(888, 757);
             panel11.TabIndex = 5;
             // 
             // flowLayoutPanel1
             // 
-            flowLayoutPanel1.AutoScroll = true;
-            flowLayoutPanel1.Dock = DockStyle.Fill;
+            flowLayoutPanel1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             flowLayoutPanel1.Location = new Point(0, 0);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new Size(1007, 757);
+            flowLayoutPanel1.Size = new Size(993, 1044);
             flowLayoutPanel1.TabIndex = 0;
             // 
             // panel12
             // 
-            panel12.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            panel12.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             panel12.BackColor = Color.FromArgb(158, 200, 243);
-            panel12.Controls.Add(pictureBox5);
+            panel12.Controls.Add(pictureBox14);
+            panel12.Controls.Add(pictureBox15);
+            panel12.Controls.Add(pictureBox16);
+            panel12.Controls.Add(pictureBox17);
+            panel12.Controls.Add(label23);
             panel12.Controls.Add(pictureBox8);
             panel12.Controls.Add(pictureBox9);
             panel12.Controls.Add(pictureBox10);
             panel12.Controls.Add(label16);
-            panel12.Controls.Add(pictureBox7);
-            panel12.Controls.Add(pictureBox11);
-            panel12.Controls.Add(label15);
-            panel12.Controls.Add(pictureBox12);
             panel12.Controls.Add(tableLayoutPanel3);
-            panel12.Controls.Add(pictureBox13);
             panel12.Controls.Add(tableLayoutPanel1);
-            panel12.Location = new Point(5, 878);
+            panel12.Location = new Point(-8, 1165);
             panel12.Name = "panel12";
-            panel12.Size = new Size(1327, 249);
+            panel12.Size = new Size(1348, 249);
             panel12.TabIndex = 6;
             // 
-            // pictureBox5
+            // pictureBox14
             // 
-            pictureBox5.Image = Properties.Resources.fb;
-            pictureBox5.Location = new Point(914, 67);
-            pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(40, 40);
-            pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox5.TabIndex = 41;
-            pictureBox5.TabStop = false;
+            pictureBox14.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
+            pictureBox14.Image = Properties.Resources.Youtube_logo;
+            pictureBox14.Location = new Point(1150, 64);
+            pictureBox14.Name = "pictureBox14";
+            pictureBox14.Size = new Size(39, 30);
+            pictureBox14.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox14.TabIndex = 54;
+            pictureBox14.TabStop = false;
+            // 
+            // pictureBox15
+            // 
+            pictureBox15.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
+            pictureBox15.Image = Properties.Resources.insta_logo;
+            pictureBox15.Location = new Point(1104, 64);
+            pictureBox15.Name = "pictureBox15";
+            pictureBox15.Size = new Size(30, 30);
+            pictureBox15.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox15.TabIndex = 53;
+            pictureBox15.TabStop = false;
+            // 
+            // pictureBox16
+            // 
+            pictureBox16.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
+            pictureBox16.Image = Properties.Resources.twittter;
+            pictureBox16.Location = new Point(1053, 64);
+            pictureBox16.Name = "pictureBox16";
+            pictureBox16.Size = new Size(35, 30);
+            pictureBox16.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox16.TabIndex = 52;
+            pictureBox16.TabStop = false;
+            // 
+            // pictureBox17
+            // 
+            pictureBox17.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
+            pictureBox17.Image = Properties.Resources.fb;
+            pictureBox17.Location = new Point(1007, 64);
+            pictureBox17.Name = "pictureBox17";
+            pictureBox17.Size = new Size(30, 30);
+            pictureBox17.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox17.TabIndex = 51;
+            pictureBox17.TabStop = false;
+            // 
+            // label23
+            // 
+            label23.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
+            label23.AutoSize = true;
+            label23.Font = new Font("Arial", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label23.Location = new Point(1000, 30);
+            label23.Name = "label23";
+            label23.Size = new Size(213, 22);
+            label23.TabIndex = 50;
+            label23.Text = "THEO DÕI SNEAKERS";
+            label23.TextAlign = ContentAlignment.MiddleLeft;
             // 
             // pictureBox8
             // 
+            pictureBox8.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             pictureBox8.Image = Properties.Resources.cash_on_delivery;
-            pictureBox8.Location = new Point(787, 88);
+            pictureBox8.Location = new Point(873, 94);
             pictureBox8.Name = "pictureBox8";
             pictureBox8.Size = new Size(40, 40);
             pictureBox8.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -629,8 +671,9 @@
             // 
             // pictureBox9
             // 
+            pictureBox9.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             pictureBox9.Image = Properties.Resources.Mastercard1;
-            pictureBox9.Location = new Point(693, 88);
+            pictureBox9.Location = new Point(779, 94);
             pictureBox9.Name = "pictureBox9";
             pictureBox9.Size = new Size(67, 40);
             pictureBox9.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -639,8 +682,9 @@
             // 
             // pictureBox10
             // 
+            pictureBox10.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             pictureBox10.Image = Properties.Resources.visa_logo_800x450;
-            pictureBox10.Location = new Point(609, 88);
+            pictureBox10.Location = new Point(695, 94);
             pictureBox10.Name = "pictureBox10";
             pictureBox10.Size = new Size(60, 40);
             pictureBox10.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -649,59 +693,18 @@
             // 
             // label16
             // 
-            label16.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label16.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             label16.Font = new Font("Arial", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            label16.Location = new Point(609, 18);
+            label16.Location = new Point(695, 24);
             label16.Name = "label16";
             label16.Size = new Size(190, 61);
             label16.TabIndex = 46;
             label16.Text = "PHƯƠNG THỨC THANH TOÁN";
             label16.TextAlign = ContentAlignment.MiddleLeft;
             // 
-            // pictureBox7
-            // 
-            pictureBox7.Image = Properties.Resources.gg;
-            pictureBox7.Location = new Point(1164, 67);
-            pictureBox7.Name = "pictureBox7";
-            pictureBox7.Size = new Size(40, 40);
-            pictureBox7.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox7.TabIndex = 45;
-            pictureBox7.TabStop = false;
-            // 
-            // pictureBox11
-            // 
-            pictureBox11.Image = Properties.Resources.gg;
-            pictureBox11.Location = new Point(1100, 67);
-            pictureBox11.Name = "pictureBox11";
-            pictureBox11.Size = new Size(40, 40);
-            pictureBox11.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox11.TabIndex = 44;
-            pictureBox11.TabStop = false;
-            // 
-            // label15
-            // 
-            label15.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label15.AutoSize = true;
-            label15.Font = new Font("Arial", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            label15.Location = new Point(909, 24);
-            label15.Name = "label15";
-            label15.Size = new Size(213, 22);
-            label15.TabIndex = 40;
-            label15.Text = "THEO DÕI SNEAKERS";
-            label15.TextAlign = ContentAlignment.MiddleLeft;
-            // 
-            // pictureBox12
-            // 
-            pictureBox12.Image = Properties.Resources.gg;
-            pictureBox12.Location = new Point(976, 67);
-            pictureBox12.Name = "pictureBox12";
-            pictureBox12.Size = new Size(40, 40);
-            pictureBox12.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox12.TabIndex = 42;
-            pictureBox12.TabStop = false;
-            // 
             // tableLayoutPanel3
             // 
+            tableLayoutPanel3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             tableLayoutPanel3.ColumnCount = 1;
             tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
             tableLayoutPanel3.Controls.Add(label9, 0, 5);
@@ -710,7 +713,7 @@
             tableLayoutPanel3.Controls.Add(label12, 0, 2);
             tableLayoutPanel3.Controls.Add(label13, 0, 1);
             tableLayoutPanel3.Controls.Add(label14, 0, 0);
-            tableLayoutPanel3.Location = new Point(297, 18);
+            tableLayoutPanel3.Location = new Point(335, 24);
             tableLayoutPanel3.Name = "tableLayoutPanel3";
             tableLayoutPanel3.RowCount = 6;
             tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
@@ -795,18 +798,9 @@
             label14.Text = "CHÍNH SÁCH";
             label14.TextAlign = ContentAlignment.MiddleLeft;
             // 
-            // pictureBox13
-            // 
-            pictureBox13.Image = Properties.Resources.gg;
-            pictureBox13.Location = new Point(1038, 67);
-            pictureBox13.Name = "pictureBox13";
-            pictureBox13.Size = new Size(40, 40);
-            pictureBox13.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox13.TabIndex = 43;
-            pictureBox13.TabStop = false;
-            // 
             // tableLayoutPanel1
             // 
+            tableLayoutPanel1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             tableLayoutPanel1.ColumnCount = 1;
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
             tableLayoutPanel1.Controls.Add(label17, 0, 5);
@@ -815,7 +809,7 @@
             tableLayoutPanel1.Controls.Add(label20, 0, 2);
             tableLayoutPanel1.Controls.Add(label21, 0, 1);
             tableLayoutPanel1.Controls.Add(label22, 0, 0);
-            tableLayoutPanel1.Location = new Point(56, 18);
+            tableLayoutPanel1.Location = new Point(70, 24);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 6;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
@@ -904,9 +898,11 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            AutoScroll = true;
+            AutoSize = true;
             AutoValidate = AutoValidate.EnableAllowFocusChange;
             BackColor = Color.White;
-            ClientSize = new Size(1347, 1061);
+            ClientSize = new Size(1347, 809);
             Controls.Add(panel12);
             Controls.Add(panel11);
             Controls.Add(panel4);
@@ -936,16 +932,15 @@
             panel11.ResumeLayout(false);
             panel12.ResumeLayout(false);
             panel12.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox14).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox15).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox16).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox17).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox11).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox12).EndInit();
             tableLayoutPanel3.ResumeLayout(false);
             tableLayoutPanel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox13).EndInit();
             tableLayoutPanel1.ResumeLayout(false);
             tableLayoutPanel1.PerformLayout();
             ResumeLayout(false);
@@ -996,15 +991,10 @@
         private FlowLayoutPanel flowLayoutPanel1;
         private Component.size size1;
         private Panel panel12;
-        private PictureBox pictureBox5;
         private PictureBox pictureBox8;
         private PictureBox pictureBox9;
         private PictureBox pictureBox10;
         private Label label16;
-        private PictureBox pictureBox7;
-        private PictureBox pictureBox11;
-        private Label label15;
-        private PictureBox pictureBox12;
         private TableLayoutPanel tableLayoutPanel3;
         private Label label9;
         private Label label10;
@@ -1012,7 +1002,6 @@
         private Label label12;
         private Label label13;
         private Label label14;
-        private PictureBox pictureBox13;
         private TableLayoutPanel tableLayoutPanel1;
         private Label label17;
         private Label label18;
@@ -1020,6 +1009,11 @@
         private Label label20;
         private Label label21;
         private Label label22;
+        private PictureBox pictureBox14;
+        private PictureBox pictureBox15;
+        private PictureBox pictureBox16;
+        private PictureBox pictureBox17;
+        private Label label23;
 
         public virtual string PlaceholderText { get; set; }
     }

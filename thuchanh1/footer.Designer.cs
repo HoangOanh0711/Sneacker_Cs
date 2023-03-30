@@ -32,7 +32,6 @@
             pictureBox9 = new PictureBox();
             pictureBox10 = new PictureBox();
             label16 = new Label();
-            pictureBox5 = new PictureBox();
             pictureBox4 = new PictureBox();
             pictureBox3 = new PictureBox();
             pictureBox2 = new PictureBox();
@@ -55,7 +54,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -105,42 +103,32 @@
             label16.Text = "PHƯƠNG THỨC THANH TOÁN";
             label16.TextAlign = ContentAlignment.MiddleLeft;
             // 
-            // pictureBox5
-            // 
-            pictureBox5.Image = Properties.Resources.gg;
-            pictureBox5.Location = new Point(1202, 74);
-            pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(40, 40);
-            pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox5.TabIndex = 21;
-            pictureBox5.TabStop = false;
-            // 
             // pictureBox4
             // 
-            pictureBox4.Image = Properties.Resources.gg;
-            pictureBox4.Location = new Point(1138, 74);
+            pictureBox4.Image = Properties.Resources.Youtube_logo;
+            pictureBox4.Location = new Point(1102, 65);
             pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(40, 40);
+            pictureBox4.Size = new Size(39, 30);
             pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox4.TabIndex = 20;
             pictureBox4.TabStop = false;
             // 
             // pictureBox3
             // 
-            pictureBox3.Image = Properties.Resources.gg;
-            pictureBox3.Location = new Point(1076, 74);
+            pictureBox3.Image = Properties.Resources.insta_logo;
+            pictureBox3.Location = new Point(1056, 65);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(40, 40);
+            pictureBox3.Size = new Size(30, 30);
             pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox3.TabIndex = 19;
             pictureBox3.TabStop = false;
             // 
             // pictureBox2
             // 
-            pictureBox2.Image = Properties.Resources.gg;
-            pictureBox2.Location = new Point(1014, 74);
+            pictureBox2.Image = Properties.Resources.twittter;
+            pictureBox2.Location = new Point(1005, 65);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(40, 40);
+            pictureBox2.Size = new Size(35, 30);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 17;
             pictureBox2.TabStop = false;
@@ -148,9 +136,9 @@
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.fb;
-            pictureBox1.Location = new Point(952, 74);
+            pictureBox1.Location = new Point(959, 65);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(40, 40);
+            pictureBox1.Size = new Size(30, 30);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 16;
             pictureBox1.TabStop = false;
@@ -366,7 +354,6 @@
             Controls.Add(pictureBox9);
             Controls.Add(pictureBox10);
             Controls.Add(label16);
-            Controls.Add(pictureBox5);
             Controls.Add(pictureBox4);
             Controls.Add(pictureBox3);
             Controls.Add(pictureBox2);
@@ -379,7 +366,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
@@ -398,7 +384,6 @@
         private PictureBox pictureBox9;
         private PictureBox pictureBox10;
         private Label label16;
-        private PictureBox pictureBox5;
         private PictureBox pictureBox4;
         private PictureBox pictureBox3;
         private PictureBox pictureBox2;
