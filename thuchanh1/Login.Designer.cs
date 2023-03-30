@@ -32,6 +32,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             tableLayoutPanel4 = new TableLayoutPanel();
             p_dangnhap = new Panel();
+            label7 = new Label();
             panel2 = new Panel();
             pictureBox3 = new PictureBox();
             label13 = new Label();
@@ -68,7 +69,7 @@
             button9.FlatStyle = FlatStyle.Flat;
             button9.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
             button9.ForeColor = Color.FromArgb(92, 147, 184);
-            button9.Location = new Point(245, 230);
+            button9.Location = new Point(248, 259);
             button9.Name = "button9";
             button9.Size = new Size(162, 28);
             button9.TabIndex = 2;
@@ -93,6 +94,7 @@
             // p_dangnhap
             // 
             p_dangnhap.BackColor = Color.White;
+            p_dangnhap.Controls.Add(label7);
             p_dangnhap.Controls.Add(panel2);
             p_dangnhap.Controls.Add(panel1);
             p_dangnhap.Controls.Add(label2);
@@ -110,17 +112,31 @@
             p_dangnhap.Location = new Point(9, 0);
             p_dangnhap.Margin = new Padding(0);
             p_dangnhap.Name = "p_dangnhap";
-            p_dangnhap.Size = new Size(466, 595);
+            p_dangnhap.Size = new Size(466, 647);
             p_dangnhap.TabIndex = 0;
             p_dangnhap.Paint += panel4_Paint_1;
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Font = new Font("Arial", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label7.ForeColor = Color.FromArgb(92, 147, 184);
+            label7.Location = new Point(426, 14);
+            label7.Name = "label7";
+            label7.Size = new Size(23, 22);
+            label7.TabIndex = 17;
+            label7.Text = "X";
+            label7.TextAlign = ContentAlignment.MiddleCenter;
+            label7.Click += label7_Click_1;
             // 
             // panel2
             // 
             panel2.BackColor = Color.White;
+            panel2.BorderStyle = BorderStyle.FixedSingle;
             panel2.Controls.Add(pictureBox3);
             panel2.Controls.Add(label13);
             panel2.Controls.Add(pictureBox2);
-            panel2.Location = new Point(76, 531);
+            panel2.Location = new Point(79, 560);
             panel2.Name = "panel2";
             panel2.Size = new Size(307, 41);
             panel2.TabIndex = 16;
@@ -129,9 +145,9 @@
             // 
             pictureBox3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             pictureBox3.Image = Properties.Resources.gg;
-            pictureBox3.Location = new Point(19, 5);
+            pictureBox3.Location = new Point(18, 5);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(30, 30);
+            pictureBox3.Size = new Size(30, 28);
             pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox3.TabIndex = 2;
             pictureBox3.TabStop = false;
@@ -140,9 +156,9 @@
             // 
             label13.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             label13.ForeColor = Color.Black;
-            label13.Location = new Point(87, 0);
+            label13.Location = new Point(86, 0);
             label13.Name = "label13";
-            label13.Size = new Size(198, 41);
+            label13.Size = new Size(198, 39);
             label13.TabIndex = 1;
             label13.Text = "Đăng nhập bằng Google";
             label13.TextAlign = ContentAlignment.MiddleLeft;
@@ -151,7 +167,7 @@
             // 
             pictureBox2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             pictureBox2.Image = Properties.Resources.fb;
-            pictureBox2.Location = new Point(88, 8);
+            pictureBox2.Location = new Point(87, 8);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(30, 0);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -163,7 +179,7 @@
             panel1.BackColor = Color.FromArgb(17, 120, 241);
             panel1.Controls.Add(label5);
             panel1.Controls.Add(pictureBox1);
-            panel1.Location = new Point(76, 467);
+            panel1.Location = new Point(79, 496);
             panel1.Name = "panel1";
             panel1.Size = new Size(307, 41);
             panel1.TabIndex = 15;
@@ -194,7 +210,7 @@
             // 
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
-            label2.Location = new Point(0, 25);
+            label2.Location = new Point(3, 54);
             label2.Name = "label2";
             label2.Size = new Size(460, 42);
             label2.TabIndex = 14;
@@ -204,7 +220,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(18, 415);
+            label1.Location = new Point(13, 444);
             label1.Name = "label1";
             label1.Size = new Size(440, 18);
             label1.TabIndex = 13;
@@ -217,7 +233,7 @@
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Arial", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             button1.ForeColor = Color.White;
-            button1.Location = new Point(76, 307);
+            button1.Location = new Point(79, 336);
             button1.Name = "button1";
             button1.Size = new Size(307, 47);
             button1.TabIndex = 12;
@@ -228,7 +244,7 @@
             // checkBox1
             // 
             checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(39, 234);
+            checkBox1.Location = new Point(42, 263);
             checkBox1.Name = "checkBox1";
             checkBox1.Size = new Size(163, 22);
             checkBox1.TabIndex = 11;
@@ -240,7 +256,7 @@
             lb_dangky.AutoSize = true;
             lb_dangky.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
             lb_dangky.ForeColor = Color.FromArgb(92, 147, 184);
-            lb_dangky.Location = new Point(282, 369);
+            lb_dangky.Location = new Point(285, 398);
             lb_dangky.Name = "lb_dangky";
             lb_dangky.Size = new Size(72, 19);
             lb_dangky.TabIndex = 9;
@@ -251,7 +267,7 @@
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label6.Location = new Point(112, 369);
+            label6.Location = new Point(115, 398);
             label6.Name = "label6";
             label6.Size = new Size(177, 18);
             label6.TabIndex = 8;
@@ -261,7 +277,7 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label4.Location = new Point(19, 171);
+            label4.Location = new Point(19, 211);
             label4.Name = "label4";
             label4.Size = new Size(71, 18);
             label4.TabIndex = 6;
@@ -271,7 +287,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(19, 89);
+            label3.Location = new Point(22, 118);
             label3.Name = "label3";
             label3.Size = new Size(153, 18);
             label3.TabIndex = 5;
@@ -282,7 +298,7 @@
             // 
             textBox2.BorderStyle = BorderStyle.FixedSingle;
             textBox2.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox2.Location = new Point(65, 200);
+            textBox2.Location = new Point(68, 229);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(342, 26);
             textBox2.TabIndex = 2;
@@ -293,7 +309,7 @@
             // 
             textBox1.BorderStyle = BorderStyle.FixedSingle;
             textBox1.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox1.Location = new Point(65, 118);
+            textBox1.Location = new Point(68, 147);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(342, 26);
             textBox1.TabIndex = 1;
@@ -306,7 +322,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             AutoValidate = AutoValidate.EnableAllowFocusChange;
             BackColor = Color.White;
-            ClientSize = new Size(485, 603);
+            ClientSize = new Size(485, 656);
             ControlBox = false;
             Controls.Add(p_dangnhap);
             Icon = (Icon)resources.GetObject("$this.Icon");
@@ -345,6 +361,7 @@
         private Label label5;
         private PictureBox pictureBox1;
         private Label label2;
+        private Label label7;
 
         public virtual string PlaceholderText { get; set; }
     }

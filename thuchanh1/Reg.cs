@@ -108,6 +108,18 @@ namespace thuchanh1
         private void button2_Click(object sender, EventArgs e)
         {
             Login login = new Login();
-            login.Show();      }
+            login.Show();
+        }
+
+        private void panel3_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+
+        }
     }
 }
