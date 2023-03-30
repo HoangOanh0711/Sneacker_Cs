@@ -52,14 +52,14 @@
         {
             AddItem("DÉP SANDAL ADIDAS ASTIR", "Originals", "Wonder Taupe / Off White / Shadow Red", "2.000.000₫", "1");
             AddItem("GIÀY SUPERSTAR", "Originals", "Cloud White / Core Black / Cloud White", "2.600.000₫", "2");
-            AddItem("GIÀY FORUM 84 LOW", "Ori", "Off White / Off White / Cloud White", "2.800.000₫", "3");
+            AddItem("GIÀY FORUM 84 LOW", "Originals", "Off White / Off White / Cloud White", "2.800.000₫", "3");
             AddItem("DÉP SANDAL ADIDAS ASTIR", "Originals", "Wonder Taupe / Off White / Shadow Red", "2.000.000₫", "4");
             AddItem("GIÀY FORUM LOW", "Originals", "Cloud White / Core Black / Cloud White", "2.500.000", "5");
             AddItem("DÉP SANDAL ADIDAS ASTIR", "Originals", "Wonder Taupe / Off White / Shadow Red", "2.000.000₫", "6");
-            AddItem("GIÀY FORUM 84 LOW", "Ori", "Off White / Off White / Cloud White", "2.800.000₫", "7");
+            AddItem("GIÀY FORUM 84 LOW", "Originals", "Off White / Off White / Cloud White", "2.800.000₫", "7");
             AddItem("GIÀY SUPERSTAR", "Originals", "Cloud White / Clear Pink / Pulse Magenta", "2.600.000₫", "8");
-            AddItem("GIÀY FORUM 84 LOW", "Ori", "Off White / Off White / Cloud White", "2.800.000₫", "9");
-            AddItem("GIÀY FORUM 84 LOW", "Ori", "Off White / Off White / Cloud White", "2.800.000₫", "10");
+            AddItem("GIÀY FORUM 84 LOW", "Originals", "Off White / Off White / Cloud White", "2.800.000₫", "9");
+            AddItem("GIÀY FORUM 84 LOW", "Originals", "Off White / Off White / Cloud White", "2.800.000₫", "10");
 
             AddItem("GIÀY SUPERSTAR", "Originals", "Cloud White / Clear Pink / Pulse Magenta", "2.600.000₫", "11");
             AddItem("GIÀY SUPERSTAR", "Originals", "Cloud White / Clear Pink / Pulse Magenta", "2.600.000₫", "12");
@@ -71,6 +71,10 @@
             AddItem("DÉP ADILETTE AYOON", "Originals", "Solar Green / Core Black / Solar Green", "1.400.000₫", "18");
             AddItem("DÉP SANDAL ADIDAS ASTIR", "Originals", "Wonder Taupe / Off White / Shadow Red", "2.000.000₫", "19");
             AddItem("GIÀY SUPERSTAR", "Originals", "Cloud White / Core Black / Cloud White", "2.600.000₫", "20");
+            AddItem("GIÀY SUPERSTAR", "Originals", "Cloud White / Core Black / Cloud White", "2.600.000₫", "15");
+            AddItem("DÉP ADILETTE AYOON", "Originals", "Solar Green / Core Black / Solar Green", "1.400.000₫", "16");
+            AddItem("GIÀY FORUM LOW", "Originals", "Cloud White / Core Black / Cloud White", "2.500.000", "5");
+            AddItem("DÉP SANDAL ADIDAS ASTIR", "Originals", "Wonder Taupe / Off White / Shadow Red", "2.000.000₫", "6");
         }
 
         private void tb_timkiem_TextChanged(object sender, EventArgs e)
