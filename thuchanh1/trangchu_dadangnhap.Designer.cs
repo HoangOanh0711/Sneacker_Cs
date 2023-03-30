@@ -562,7 +562,7 @@
             panel11.Controls.Add(flowLayoutPanel1);
             panel11.Location = new Point(325, 103);
             panel11.Name = "panel11";
-            panel11.Size = new Size(965, 1407);
+            panel11.Size = new Size(948, 1407);
             panel11.TabIndex = 5;
             // 
             // flowLayoutPanel1
@@ -570,7 +570,7 @@
             flowLayoutPanel1.Dock = DockStyle.Fill;
             flowLayoutPanel1.Location = new Point(0, 0);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new Size(965, 1407);
+            flowLayoutPanel1.Size = new Size(948, 1407);
             flowLayoutPanel1.TabIndex = 0;
             // 
             // panel12
@@ -590,14 +590,14 @@
             panel12.Controls.Add(tableLayoutPanel1);
             panel12.Location = new Point(-3, 1625);
             panel12.Name = "panel12";
-            panel12.Size = new Size(1314, 249);
+            panel12.Size = new Size(1347, 249);
             panel12.TabIndex = 6;
             // 
             // pictureBox14
             // 
             pictureBox14.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             pictureBox14.Image = Properties.Resources.Youtube_logo;
-            pictureBox14.Location = new Point(1156, 64);
+            pictureBox14.Location = new Point(1172, 64);
             pictureBox14.Name = "pictureBox14";
             pictureBox14.Size = new Size(39, 30);
             pictureBox14.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -608,7 +608,7 @@
             // 
             pictureBox15.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             pictureBox15.Image = Properties.Resources.insta_logo;
-            pictureBox15.Location = new Point(1110, 64);
+            pictureBox15.Location = new Point(1126, 64);
             pictureBox15.Name = "pictureBox15";
             pictureBox15.Size = new Size(30, 30);
             pictureBox15.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -619,7 +619,7 @@
             // 
             pictureBox16.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             pictureBox16.Image = Properties.Resources.twittter;
-            pictureBox16.Location = new Point(1059, 64);
+            pictureBox16.Location = new Point(1075, 64);
             pictureBox16.Name = "pictureBox16";
             pictureBox16.Size = new Size(35, 30);
             pictureBox16.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -630,7 +630,7 @@
             // 
             pictureBox17.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             pictureBox17.Image = Properties.Resources.fb;
-            pictureBox17.Location = new Point(1013, 64);
+            pictureBox17.Location = new Point(1029, 64);
             pictureBox17.Name = "pictureBox17";
             pictureBox17.Size = new Size(30, 30);
             pictureBox17.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -642,7 +642,7 @@
             label23.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             label23.AutoSize = true;
             label23.Font = new Font("Arial", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            label23.Location = new Point(1006, 30);
+            label23.Location = new Point(1022, 30);
             label23.Name = "label23";
             label23.Size = new Size(213, 22);
             label23.TabIndex = 50;
@@ -653,7 +653,7 @@
             // 
             pictureBox8.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             pictureBox8.Image = Properties.Resources.cash_on_delivery;
-            pictureBox8.Location = new Point(879, 94);
+            pictureBox8.Location = new Point(895, 94);
             pictureBox8.Name = "pictureBox8";
             pictureBox8.Size = new Size(40, 40);
             pictureBox8.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -664,7 +664,7 @@
             // 
             pictureBox9.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             pictureBox9.Image = Properties.Resources.Mastercard1;
-            pictureBox9.Location = new Point(785, 94);
+            pictureBox9.Location = new Point(801, 94);
             pictureBox9.Name = "pictureBox9";
             pictureBox9.Size = new Size(67, 40);
             pictureBox9.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -675,7 +675,7 @@
             // 
             pictureBox10.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             pictureBox10.Image = Properties.Resources.visa_logo_800x450;
-            pictureBox10.Location = new Point(701, 94);
+            pictureBox10.Location = new Point(717, 94);
             pictureBox10.Name = "pictureBox10";
             pictureBox10.Size = new Size(60, 40);
             pictureBox10.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -686,7 +686,7 @@
             // 
             label16.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             label16.Font = new Font("Arial", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            label16.Location = new Point(701, 24);
+            label16.Location = new Point(717, 24);
             label16.Name = "label16";
             label16.Size = new Size(190, 61);
             label16.TabIndex = 46;
@@ -704,7 +704,7 @@
             tableLayoutPanel3.Controls.Add(label12, 0, 2);
             tableLayoutPanel3.Controls.Add(label13, 0, 1);
             tableLayoutPanel3.Controls.Add(label14, 0, 0);
-            tableLayoutPanel3.Location = new Point(341, 24);
+            tableLayoutPanel3.Location = new Point(357, 24);
             tableLayoutPanel3.Name = "tableLayoutPanel3";
             tableLayoutPanel3.RowCount = 6;
             tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
@@ -800,7 +800,7 @@
             tableLayoutPanel1.Controls.Add(label20, 0, 2);
             tableLayoutPanel1.Controls.Add(label21, 0, 1);
             tableLayoutPanel1.Controls.Add(label22, 0, 0);
-            tableLayoutPanel1.Location = new Point(76, 24);
+            tableLayoutPanel1.Location = new Point(92, 24);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 6;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
