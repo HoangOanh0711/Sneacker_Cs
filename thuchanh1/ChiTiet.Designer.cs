@@ -31,9 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ChiTiet));
             panel1 = new Panel();
             pictureBox5 = new PictureBox();
-            panel2 = new Panel();
-            tb_timkiem = new TextBox();
-            pictureBox2 = new PictureBox();
             pictureBox4 = new PictureBox();
             pictureBox1 = new PictureBox();
             pictureBox3 = new PictureBox();
@@ -52,10 +49,11 @@
             lb_ten = new Label();
             label5 = new Label();
             flowLayoutPanel1 = new FlowLayoutPanel();
+            panel2 = new Panel();
+            tb_timkiem = new TextBox();
+            pictureBox2 = new PictureBox();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
-            panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -69,13 +67,15 @@
             splitContainer1.Panel2.SuspendLayout();
             splitContainer1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox).BeginInit();
+            panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
             // panel1
             // 
             panel1.BackColor = Color.FromArgb(158, 200, 243);
-            panel1.Controls.Add(pictureBox5);
             panel1.Controls.Add(panel2);
+            panel1.Controls.Add(pictureBox5);
             panel1.Controls.Add(pictureBox4);
             panel1.Controls.Add(pictureBox1);
             panel1.Controls.Add(pictureBox3);
@@ -96,39 +96,6 @@
             pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox5.TabIndex = 7;
             pictureBox5.TabStop = false;
-            // 
-            // panel2
-            // 
-            panel2.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            panel2.AutoScroll = true;
-            panel2.Controls.Add(tb_timkiem);
-            panel2.Controls.Add(pictureBox2);
-            panel2.Location = new Point(527, 5);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(203, 35);
-            panel2.TabIndex = 4;
-            // 
-            // tb_timkiem
-            // 
-            tb_timkiem.BorderStyle = BorderStyle.FixedSingle;
-            tb_timkiem.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            tb_timkiem.Location = new Point(18, 4);
-            tb_timkiem.Name = "tb_timkiem";
-            tb_timkiem.PlaceholderText = " Tìm kiếm";
-            tb_timkiem.Size = new Size(279, 26);
-            tb_timkiem.TabIndex = 0;
-            // 
-            // pictureBox2
-            // 
-            pictureBox2.BackColor = Color.Transparent;
-            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(303, 4);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(25, 25);
-            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox2.TabIndex = 4;
-            pictureBox2.TabStop = false;
-            pictureBox2.Click += pictureBox2_Click;
             // 
             // pictureBox4
             // 
@@ -177,9 +144,9 @@
             // 
             img_d.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             img_d.BackgroundImageLayout = ImageLayout.Stretch;
-            img_d.Location = new Point(435, 3);
+            img_d.Location = new Point(426, 3);
             img_d.Name = "img_d";
-            img_d.Size = new Size(139, 246);
+            img_d.Size = new Size(136, 246);
             img_d.TabIndex = 3;
             img_d.TabStop = false;
             img_d.Click += img_d_Click;
@@ -188,9 +155,9 @@
             // 
             img_c.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             img_c.BackgroundImageLayout = ImageLayout.Stretch;
-            img_c.Location = new Point(291, 3);
+            img_c.Location = new Point(285, 3);
             img_c.Name = "img_c";
-            img_c.Size = new Size(138, 246);
+            img_c.Size = new Size(135, 246);
             img_c.TabIndex = 2;
             img_c.TabStop = false;
             img_c.Click += img_c_Click;
@@ -199,9 +166,9 @@
             // 
             img_b.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             img_b.BackgroundImageLayout = ImageLayout.Stretch;
-            img_b.Location = new Point(147, 3);
+            img_b.Location = new Point(144, 3);
             img_b.Name = "img_b";
-            img_b.Size = new Size(138, 246);
+            img_b.Size = new Size(135, 246);
             img_b.TabIndex = 1;
             img_b.TabStop = false;
             img_b.Click += img_b_Click;
@@ -212,7 +179,7 @@
             img_a.BackgroundImageLayout = ImageLayout.Stretch;
             img_a.Location = new Point(3, 3);
             img_a.Name = "img_a";
-            img_a.Size = new Size(138, 246);
+            img_a.Size = new Size(135, 246);
             img_a.TabIndex = 0;
             img_a.TabStop = false;
             img_a.Click += img_a_Click;
@@ -234,7 +201,7 @@
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 1;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel1.Size = new Size(577, 252);
+            tableLayoutPanel1.Size = new Size(565, 252);
             tableLayoutPanel1.TabIndex = 4;
             // 
             // splitContainer1
@@ -257,8 +224,8 @@
             splitContainer1.Panel2.Controls.Add(lb_giatien);
             splitContainer1.Panel2.Controls.Add(lb_ten);
             splitContainer1.Panel2.Controls.Add(label5);
-            splitContainer1.Size = new Size(829, 1086);
-            splitContainer1.SplitterDistance = 583;
+            splitContainer1.Size = new Size(812, 1086);
+            splitContainer1.SplitterDistance = 571;
             splitContainer1.TabIndex = 5;
             // 
             // pictureBox
@@ -267,7 +234,7 @@
             pictureBox.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox.Location = new Point(129, 13);
             pictureBox.Name = "pictureBox";
-            pictureBox.Size = new Size(351, 700);
+            pictureBox.Size = new Size(339, 700);
             pictureBox.TabIndex = 5;
             pictureBox.TabStop = false;
             // 
@@ -291,7 +258,7 @@
             button2.ForeColor = SystemColors.Control;
             button2.Location = new Point(41, 541);
             button2.Name = "button2";
-            button2.Size = new Size(162, 61);
+            button2.Size = new Size(157, 61);
             button2.TabIndex = 55;
             button2.Text = "Thêm vào giỏ hàng";
             button2.UseVisualStyleBackColor = false;
@@ -351,6 +318,38 @@
             flowLayoutPanel1.Size = new Size(1212, 1884);
             flowLayoutPanel1.TabIndex = 9;
             // 
+            // panel2
+            // 
+            panel2.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            panel2.AutoScroll = true;
+            panel2.Controls.Add(tb_timkiem);
+            panel2.Controls.Add(pictureBox2);
+            panel2.Location = new Point(399, 4);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(469, 35);
+            panel2.TabIndex = 8;
+            // 
+            // tb_timkiem
+            // 
+            tb_timkiem.BorderStyle = BorderStyle.FixedSingle;
+            tb_timkiem.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tb_timkiem.Location = new Point(18, 4);
+            tb_timkiem.Name = "tb_timkiem";
+            tb_timkiem.PlaceholderText = " Tìm kiếm";
+            tb_timkiem.Size = new Size(279, 26);
+            tb_timkiem.TabIndex = 0;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.BackColor = Color.Transparent;
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Location = new Point(303, 4);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(25, 25);
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox2.TabIndex = 4;
+            pictureBox2.TabStop = false;
+            // 
             // ChiTiet
             // 
             AutoScaleMode = AutoScaleMode.None;
@@ -371,9 +370,6 @@
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
-            panel2.ResumeLayout(false);
-            panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
@@ -388,6 +384,9 @@
             ((System.ComponentModel.ISupportInitialize)splitContainer1).EndInit();
             splitContainer1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox).EndInit();
+            panel2.ResumeLayout(false);
+            panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
         }
 
@@ -395,10 +394,7 @@
 
         private Panel panel1;
         private Label label1;
-        private TextBox tb_timkiem;
-        private PictureBox pictureBox2;
         private PictureBox pictureBox1;
-        private Panel panel2;
         private PictureBox pictureBox5;
         private PictureBox pictureBox4;
         private PictureBox pictureBox3;
@@ -417,6 +413,9 @@
         private Label label5;
         private Label lb_mau;
         private FlowLayoutPanel flowLayoutPanel1;
+        private Panel panel2;
+        private TextBox tb_timkiem;
+        private PictureBox pictureBox2;
 
         public virtual string PlaceholderText { get; set; }
     }
